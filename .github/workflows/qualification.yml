@@ -1,0 +1,69 @@
+name: Qualification
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: qualification-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  library:
+    name: Library and installed-package qualification
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 25.8.1
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm build
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: pnpm test:timezone
+      - run: pnpm release:test
+      - run: pnpm verify:source
+      - name: Prepare isolated consumer workspace
+        run: node --input-type=module -e "import fs from 'node:fs'; import os from 'node:os'; import path from 'node:path'; fs.mkdirSync(path.join(os.tmpdir(), 'opencode'), {recursive:true});"
+      - run: pnpm verify:react
+      - run: pnpm verify:packed
+
+  documentation:
+    name: Documentation build and production-browser checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 25.8.1
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm docs:build
+      - run: pnpm docs:types
+      - run: pnpm docs:check
+      - run: pnpm docs:test:browser
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: documentation-browser-evidence
+          path: |
+            tracking/docs-*.png
+            tracking/docs-browser-verification.json
+          if-no-files-found: ignore
