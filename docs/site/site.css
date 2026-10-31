@@ -1,0 +1,29 @@
+@layer infima, website;
+@import 'infima/dist/css/default/default.css' layer(infima);
+
+/* Prism's default theme is unlayered and adds a white text shadow. */
+#docs pre, #docs code { text-shadow:none; }
+
+@layer website {
+  .example-block { margin:1.5rem 0; }
+  .example-source { margin-top:.5rem; font-size:.8rem; }
+  .example-source summary { cursor:pointer; color:var(--ifm-color-primary); }
+  .example-source code { overflow-wrap:anywhere; }
+  .example-source pre { overflow:auto; }
+  .docusaurus-mt-lg { margin-top:3rem; }
+  .theme-doc-footer { margin-top:1rem; }
+  .docs-mobile-toc { display:none; }
+  .DocSearch-Button { display:flex; align-items:center; padding:.25rem .5rem; border:1px solid var(--ifm-color-emphasis-300); border-radius:4px; height:32px; color:var(--ifm-font-color-base); background:transparent; cursor:pointer; }
+  .DocSearch-Button-Container { display:flex; align-items:center; gap:8px; }
+  .DocSearch-Button-Placeholder { font-size:small; }
+  .navbarSearchContainer { padding-left:1rem; }
+  .docs-search { width:min(90vw,560px); max-height:80vh; overflow:auto; border:1px solid var(--ifm-color-emphasis-300); border-radius:var(--ifm-pre-border-radius); background:var(--ifm-background-color); color:var(--ifm-font-color-base); }
+  .docs-search::backdrop { background:rgba(0,0,0,.5); }
+  .docs-search form { float:right; }
+  .docs-search input { width:90%; padding:.75rem; }
+  @media(max-width:996px){
+    .docs-mobile-toc { display:block; margin-bottom:1rem; }
+    .docs-desktop-toc { display:none; }
+    .DocSearch-Button-Placeholder { display:none; }
+  }
+}

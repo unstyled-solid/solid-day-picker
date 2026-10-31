@@ -1,0 +1,52 @@
+---
+title: Ethiopic Calendar
+---
+
+DayPicker supports the [Ethiopic calendar](https://en.wikipedia.org/wiki/Ethiopian_calendar) via a dedicated build.
+
+The Ethiopic calendar is included in DayPicker. Install the package and its Solid peers:
+
+```bash npm2yarn
+npm install @solid-unstyled/daypicker solid-js@2.0.0-rc.13 @solidjs/web@2.0.0-rc.13
+```
+
+Import `DayPicker` from `@solid-unstyled/daypicker/ethiopic` to display Ethiopic months, weekdays, and numerals while keeping the usual DayPicker API.
+
+```tsx
+import { DayPicker } from "@solid-unstyled/daypicker/ethiopic";
+```
+
+### Basic usage
+
+By default, the locale is `amET` with Ge'ez numerals.
+
+```tsx
+import { DayPicker } from "@solid-unstyled/daypicker/ethiopic";
+
+<DayPicker />;
+```
+
+<BrowserWindow sourceUrl="https://github.com/unstyled-solid/daypicker/blob/main/docs/examples/Ethiopic.tsx">
+  <Examples.Ethiopic />
+</BrowserWindow>
+
+If you need the locale object directly, import `amET` from
+`@solid-unstyled/daypicker/ethiopic`:
+
+```tsx
+import { amET } from "@solid-unstyled/daypicker/ethiopic";
+```
+
+### Latin numerals
+
+Switch to Latin numerals:
+
+```tsx
+import { DayPicker } from "@solid-unstyled/daypicker/ethiopic";
+
+<DayPicker numerals="latn" />;
+```
+
+<BrowserWindow sourceUrl="https://github.com/unstyled-solid/daypicker/blob/main/docs/examples/EthiopicLatin.tsx">
+  <Examples.EthiopicLatin />
+</BrowserWindow>

@@ -1,0 +1,22 @@
+{
+  "sourceSha": "1bfd4f0776d66f2242b6b32a1f084ab94e2702da",
+  "fixtures": 16,
+  "calendarSubpaths": [
+    "buddhist",
+    "ethiopic",
+    "hebrew",
+    "hijri",
+    "persian"
+  ],
+  "checks": [
+    "exact-SHA pristine React oracle",
+    "static calendar",
+    "single/multiple/range selection",
+    "dropdowns and two months",
+    "week numbers",
+    "disabled/hidden/outside dates",
+    "RTL",
+    "five calendar wrappers: defaults and selected dropdowns",
+    "SSR DOM/attributes/CSS parity"
+  ]
+}

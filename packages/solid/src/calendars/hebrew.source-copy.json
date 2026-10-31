@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/daypicker/upstream/react-day-picker/packages/hebrew/src",
+  "target": "/Users/avi/avir-oss/daypicker/packages/solid/src/calendars/hebrew",
+  "sourceSha": "1bfd4f0776d66f2242b6b32a1f084ab94e2702da",
+  "files": [
+    {
+      "path": "classes/DateLib.ts",
+      "bytes": 100,
+      "sha256": "3950779541424b664bfaab4e5a6c202bc6cb73ae89204511d74539df9945ccab",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/index.test.tsx",
+      "bytes": 1092,
+      "sha256": "9ec1eb3e208cdac148125da6e6f323fc5946981f6c42d26e0b417350481e2666",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/index.tsx",
+      "bytes": 1853,
+      "sha256": "fd75aaf9838ce2e95bcb6a3aece042198f25a58d3412c8c7d1bedd2a954f21be",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/addMonths.sequence.test.ts",
+      "bytes": 693,
+      "sha256": "d83803c83aeb7ca064eda069731cd65d9997b81ba62d4b7b4d7d6915f6380a5d",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/addMonths.test.ts",
+      "bytes": 509,
+      "sha256": "111e667f4efc75789043d67b77cf882fa3ecb6b2d9455e1997ea1eab340580c0",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/addMonths.ts",
+      "bytes": 586,
+      "sha256": "d0ff6b73e592e92f3a67491e6b1c0037f052fdffda14f0829e8c00d0fe436251",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/addYears.test.ts",
+      "bytes": 509,
+      "sha256": "4356fb4ffa603f265a79b177d589772d2bf659f4267e990abb592eb3b4e43e22",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/addYears.ts",
+      "bytes": 310,
+      "sha256": "03ba780a9b925475c997bd5aa89de687c7214af3ace96e768480fe02080eaa72",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/differenceInCalendarMonths.test.ts",
+      "bytes": 419,
+      "sha256": "55509cc7ebebf43b9702f69eb873a4ee2210cc72efb33f15fba077c5c7f8789a",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/differenceInCalendarMonths.ts",
+      "bytes": 349,
+      "sha256": "4142f46331a648ee3ecad6cb64e6c868b5a8dabb4dcc74787f2a73d300ccfd12",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/eachMonthOfInterval.test.ts",
+      "bytes": 566,
+      "sha256": "0a232c052c5b95ce6e4fb35970eed031d8921bf2308d10e5eefb1c1de0a3b279",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/eachMonthOfInterval.ts",
+      "bytes": 860,
+      "sha256": "a53839295cfa1ce41aa7a0cf2c574e25b2909cc2cd78cf1dede7b654eb691e4c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/eachYearOfInterval.test.ts",
+      "bytes": 852,
+      "sha256": "45fca8e22749a03de581ad20e1984ceeadc2c6fa0a6eee335206fb9e75d1376c",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/eachYearOfInterval.ts",
+      "bytes": 629,
+      "sha256": "c9a64274b282a2e998e5dadce5df78dc050732f60a9839d31303e3174484bcb0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/endOfMonth.test.ts",
+      "bytes": 469,
+      "sha256": "263b01d7a6172eb0be9770d993261fe20c3a1631f2297415c98105d60f4b68de",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/endOfMonth.ts",
+      "bytes": 336,
+      "sha256": "44c292a8517b40926b84ae70287dc6f9a7c2ecc8381cc6d81d6420fb762bb12d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/endOfYear.test.ts",
+      "bytes": 585,
+      "sha256": "ce866c52c4fbba2673135d07abae734a490b39d19c681764c09249bd416f5e32",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/endOfYear.ts",
+      "bytes": 440,
+      "sha256": "3ec930e3774c1679cae7ef61418032c53f9a33023e6aa7cc0eac863c16ecb723",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/findMonthIndexByCode.ts",
+      "bytes": 374,
+      "sha256": "b10add539dd746c86232d89df26166bba5fb993ac7b296d1aa033e7b60e8b95b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/format.test.ts",
+      "bytes": 944,
+      "sha256": "644fb78932b6502bee9d42ecd2724b9c4fc872c3b552298984ba2ff5c5cd6f5f",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/format.ts",
+      "bytes": 5143,
+      "sha256": "12dd5c72b080c66c79d31e62eea8e20106594a0c969042f703469e5a8b6f33a5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/getMonth.test.ts",
+      "bytes": 220,
+      "sha256": "5f1c816910f8a6a2da6a5c4f35d7ad9472e5084d98d304a353101fdfae46632f",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/getMonth.ts",
+      "bytes": 149,
+      "sha256": "34fe00fb9279d7802978c3a2b5631770707a755843d1b1d4a6bb74a8c6748e68",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/getYear.test.ts",
+      "bytes": 219,
+      "sha256": "0478f4fa6a1ec45964f61d37d928dee632df9fa21dfc89871008b9087e7d3c95",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/getYear.ts",
+      "bytes": 142,
+      "sha256": "71df5ed025a6d596c090128241b3ae842c8382971ed4555e844cf9258bbea3ae",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/index.ts",
+      "bytes": 577,
+      "sha256": "6a340fd219bbfcd1d06b298905dbcabf37ca3479648ce290c193df80cf47730b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/isSameMonth.test.ts",
+      "bytes": 391,
+      "sha256": "b09db2953b3dcce19a94a9887435714a9c6ca8ef36aeccef682721b28469233d",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/isSameMonth.ts",
+      "bytes": 289,
+      "sha256": "bf5adef51158b9ea31e8b65c94fd5dea104aa7e3d73304e6469ba1314be7311d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/isSameYear.test.ts",
+      "bytes": 394,
+      "sha256": "19192c67cc3027d87d9f2431a247e75ff9a484e364270a7471eff33c6ea9728d",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/isSameYear.ts",
+      "bytes": 204,
+      "sha256": "a923979963875142ab999fbd85ead31cd9b8c89bb316ade65355f6ea59dabf4c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/newDate.test.ts",
+      "bytes": 332,
+      "sha256": "8d1d8753518c310009c332591d89f8e7bf4416e66bf32b4f898d95761b8f2765",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/newDate.ts",
+      "bytes": 197,
+      "sha256": "686ac2e9dd5005f6b93e9163f6a2f0b99fc720a9ae8796db8d4e71283d3dd3c6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/setMonth.test.ts",
+      "bytes": 502,
+      "sha256": "acf53ee29a36a51e4721367259cf806fb54ba705c10f094763384e6c567a4754",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/setMonth.ts",
+      "bytes": 472,
+      "sha256": "2be4be1e0a282a01042c0545d769d516786f96e325f7eb1d3abfeb1b3f11423e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/setYear.test.ts",
+      "bytes": 508,
+      "sha256": "f1c69f5b157cd4e06e7e9052c8bae641c76338d6a82bb570ece11f2267bcfdff",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/setYear.ts",
+      "bytes": 1167,
+      "sha256": "e60559c90b46333f2696c7ccdf3857b0ffe20370cff133f55a4e2ba7fb5fc3f5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/startOfMonth.test.ts",
+      "bytes": 439,
+      "sha256": "2abc558049f1fcc549b186216badb114fb629fcc6dc037f14ca3f952e2e252d0",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/startOfMonth.ts",
+      "bytes": 214,
+      "sha256": "5fabc772719a7f9f4647b5db9da0ad2b620db15ff2427ddd93b1c86e85d287b8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/lib/startOfYear.test.ts",
+      "bytes": 406,
+      "sha256": "155d9a61bd1c042eb1a18d852d4a812dbeedb32bff8379a1d5d3c1fdeb280efe",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/lib/startOfYear.ts",
+      "bytes": 236,
+      "sha256": "121f889c90b1034300266061978d022046671df4626c6f6fecc692672a5e0e2a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/utils/calendarMath.test.ts",
+      "bytes": 1328,
+      "sha256": "7c82b46277f949e9eb82bedf88bd0a7dae773e07d3fa6f19ef2f15f29f8f1be7",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/utils/calendarMath.ts",
+      "bytes": 4415,
+      "sha256": "e994b051e2f8699795490578bbed8c1596276dcbeea2dfb72ddf13dd7d811df9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/utils/constants.ts",
+      "bytes": 767,
+      "sha256": "5b6409648af9f99e6aa035db50fbe738f9bdadb85d4f770323b33a3c1923f1d0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/utils/dateConversion.test.ts",
+      "bytes": 3689,
+      "sha256": "ddb9ec4dd86f0856951321a54a30531ec687cf556b7a17d740f2e49224233432",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/utils/dateConversion.ts",
+      "bytes": 2748,
+      "sha256": "6d90f130b1493fa0b50a224091d29583bdade49b855b24e9bd887e5ef73045d1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hebrew/utils/serial.test.ts",
+      "bytes": 1820,
+      "sha256": "efff0216b2e688df77e5c491c260c5c4fae12c092d891a70108337cc7e35c1bc",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hebrew/utils/serial.ts",
+      "bytes": 2402,
+      "sha256": "e61887aa814cfa83e6e01af2810f3b08bc0ea84ddd6fc83fcacf0fab2ac58ec2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "index.tsx",
+      "bytes": 35,
+      "sha256": "73218c542dbeeb8502b803c9542ba454e3e9d46320540ea08bd79703b80d40de",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/en-US.ts",
+      "bytes": 54,
+      "sha256": "a06d5ad47d9bfc6cb6f859f65065b9595bc1286394e62374539f18fa4c8a78b0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/he.ts",
+      "bytes": 49,
+      "sha256": "450cedfb30e301590ef1b211cb6110cbcf865b83ef420903edf658335fa97e7c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "types/props.ts",
+      "bytes": 56,
+      "sha256": "fd4ab34a15003a4cdb95fe97e85e9e308a31d1bdfea60a8067552bc081d68390",
+      "category": "source-or-helper"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution"
+}

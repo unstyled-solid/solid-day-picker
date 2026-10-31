@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/daypicker/upstream/react-day-picker/packages/ethiopic/src",
+  "target": "/Users/avi/avir-oss/daypicker/packages/solid/src/calendars/ethiopic",
+  "sourceSha": "1bfd4f0776d66f2242b6b32a1f084ab94e2702da",
+  "files": [
+    {
+      "path": "classes/DateLib.ts",
+      "bytes": 100,
+      "sha256": "3950779541424b664bfaab4e5a6c202bc6cb73ae89204511d74539df9945ccab",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/index.test.tsx",
+      "bytes": 2270,
+      "sha256": "42b0c98c0b3ec377e2e1d674511cd4bb9a75c5d8ec997a991452dc70dbc5c400",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/index.tsx",
+      "bytes": 2220,
+      "sha256": "a1f5d2a9bfa6f2b7c90db8ff59e1db91c189364736451f9d08243228fd996c2c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/addMonths.test.ts",
+      "bytes": 2320,
+      "sha256": "fcb9e90ec9eae7d5c76de45464bdc3a8b41ace5ef98c9d441f679dbe42d18409",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/addMonths.ts",
+      "bytes": 986,
+      "sha256": "0b360f754579dc55f453d1445b2c7173df70d329b4d5af6522fbdfc0d3fb4784",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/addYears.test.ts",
+      "bytes": 1337,
+      "sha256": "c55d258974ad95680dc6f7655817b57fa344868f40e1999e139ed9e18c73c680",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/addYears.ts",
+      "bytes": 750,
+      "sha256": "2b084143459b82523e038474901b33ffd73ae60cd3f82ff8be003c75c935c740",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/differenceInCalendarMonths.test.ts",
+      "bytes": 1173,
+      "sha256": "a599fd72a142e76e29a2d2295a6b3b14fe7389f595a0d3fe8574041000fe3272",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/differenceInCalendarMonths.ts",
+      "bytes": 569,
+      "sha256": "0939abbbce77504998e3f3c15ebd4e3ba892d6c0d467c25bd2c1a76dc15de88e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/eachMonthOfInterval.test.ts",
+      "bytes": 2631,
+      "sha256": "de98db104df36c8e897de140371d0ed6807d897954efcb8ec2a812764ccd4b3e",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/eachMonthOfInterval.ts",
+      "bytes": 1028,
+      "sha256": "67e1d236b4b123e2c3d0173a5677ad4dae2185c2e40b262663e2c1a995a7e560",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/eachYearOfInterval.test.ts",
+      "bytes": 859,
+      "sha256": "21b29aa7e49e52d8ada5bf5d1ebee59a8f59517865abc6d734a468f25a02d03b",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/eachYearOfInterval.ts",
+      "bytes": 664,
+      "sha256": "29aa063a211dbdce81990a1064d8a739f636f31fdef7223bcc9fc494b5c07aa9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/endOfMonth.test.ts",
+      "bytes": 1359,
+      "sha256": "e68968b6cd94628b8baa63e1e1251ba72c1ed4854d1d293c259850d044b073ee",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/endOfMonth.ts",
+      "bytes": 544,
+      "sha256": "c355ded2c9b0fdcf753d592ea6372313070f810e6709fc20e56ec51c3d257670",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/endOfWeek.test.ts",
+      "bytes": 78,
+      "sha256": "b80d7359f817aed79321e760eb48638099ef64c77953ace11d00dfa7e669214a",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/endOfWeek.ts",
+      "bytes": 490,
+      "sha256": "120db067c1f8f10f7511708591736bf6fb48c0a92e550a60708ee8ce432a4f01",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/endOfYear.test.ts",
+      "bytes": 932,
+      "sha256": "c7ed73626441742c67a402fe20c422b5b2c6b0e7e39e7c338ee013cc76ab5e9d",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/endOfYear.ts",
+      "bytes": 393,
+      "sha256": "3c0c1983a7e2b03e861f114fee7613c7ea65627d2d02775c4e25d33cb3cf22d8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/format.test.ts",
+      "bytes": 3215,
+      "sha256": "6e025bf60068a7e2e5b587e45015337b106995918af17561561959ad18d719f6",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/format.ts",
+      "bytes": 4953,
+      "sha256": "0650cc8aada7e24b860832ef78647cfe7704b0500da72eb0c5849a67b9c3e68a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/formatNumber.test.ts",
+      "bytes": 1300,
+      "sha256": "a4cc3842c90d25d038a1c1e3a5352806e057bc8548720571f26ba3b96da4e534",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/formatNumber.ts",
+      "bytes": 861,
+      "sha256": "5cca9c5a3108a11c6121af7cd793549894368c69193f1c63ae85ce950d8daaa6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/getMonth.test.ts",
+      "bytes": 558,
+      "sha256": "2331a1fac36b2466794fc5ed33c7edbe878d798d7da3d8b09148e10a76d179e6",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/getMonth.ts",
+      "bytes": 311,
+      "sha256": "9e4979edc76732cafe05ea6cb0f32f235a6353c4f88a599a3f75189dbbf83432",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/getWeek.test.ts",
+      "bytes": 1444,
+      "sha256": "b753e9035acbc92332e6f529f9b158d15eb901735e83f189857f0bb7bc51e8cb",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/getWeek.ts",
+      "bytes": 1594,
+      "sha256": "f660d8c7d2bd4d0f758403d910bd98886781e281edb6abbf5339e294eff7a2d4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/getYear.test.ts",
+      "bytes": 814,
+      "sha256": "f822bfe93930beea42dd30020153d851c25d9368d1bbe810089b163f2008d0cf",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/getYear.ts",
+      "bytes": 252,
+      "sha256": "6f45711db7327760b386a9e9b50ed63ecdb9a48871d46737d9958ded3fda1515",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/index.ts",
+      "bytes": 741,
+      "sha256": "6a4aa6cdc89105c016e50f3dbbb1a32b6c19e55b634613c240ba55d58128f202",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/isSameMonth.test.ts",
+      "bytes": 1248,
+      "sha256": "86b271466dbbb2fc68a255c6598453701ccbbc87058d689b1fb6a03e31f171c1",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/isSameMonth.ts",
+      "bytes": 458,
+      "sha256": "f5819a3abfc25be1a3292523c07a9e4193509c41981201ce2b32b02c92d0af9f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/isSameYear.test.ts",
+      "bytes": 1228,
+      "sha256": "ca4dfa16f50db33650f092b41af4563e237ebb098ab7c5be9f0d172439efbb57",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/isSameYear.ts",
+      "bytes": 489,
+      "sha256": "f743cc28ef19475ec9daab0d20bd105070b9f1203ef44e7cb800debe60b56a06",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/newDate.test.ts",
+      "bytes": 1388,
+      "sha256": "ba572d2049f5db039815c2c8c8efd4cec49aa3858522d24413ede91973ab1600",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/newDate.ts",
+      "bytes": 792,
+      "sha256": "c233bea43eb6c5f0074b23cab88cc84072b79c283af36214813744e62420e67c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/setMonth.test.ts",
+      "bytes": 1902,
+      "sha256": "050f4089edd79f0997f777fbf68489ffaf19c19147194f20cdbb03206b920249",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/setMonth.ts",
+      "bytes": 570,
+      "sha256": "62f6b1d679c65bf05b86463f44d65d9464a641d79ee71346b9a368a79094580b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/setYear.test.ts",
+      "bytes": 1739,
+      "sha256": "d7500afdb8e9be8af78fe2b20afedb7ec14caaa748b0847f95ecf1f7499dd70f",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/setYear.ts",
+      "bytes": 607,
+      "sha256": "2be831be6bfc91f7d7f8d3a59ec9b550ef220c3924f8096f172076cbb6393214",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/startOfDay.test.ts",
+      "bytes": 1691,
+      "sha256": "5575de4737f226bb295cce6ce2eb17bbb095f86a81c4169035e940e0f91516e9",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/startOfDay.ts",
+      "bytes": 329,
+      "sha256": "e05fb6b5dd6c4f7b2325a497fa266636aa8d04005e12518d87a7c662d098ff06",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/startOfMonth.test.ts",
+      "bytes": 1245,
+      "sha256": "c52346a711a4be1a01dc1455f845bf1d1697ac8054d3b771223beb5a7c3705c3",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/startOfMonth.ts",
+      "bytes": 333,
+      "sha256": "9f7ea554de7519d0918f90bb8191e2dd9203d8f87ed8a62e9444da51c305d1e6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/startOfWeek.test.ts",
+      "bytes": 1697,
+      "sha256": "2b280f0ccb115c628ebd46a33f1aa3f63bf7de0857d5cb0c3b7b935c0a9d7477",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/startOfWeek.ts",
+      "bytes": 493,
+      "sha256": "a3d12ddb0a09b34e0292e07a11e2d63a12ecdab326ae8f3e603f284acf1338f6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/lib/startOfYear.test.ts",
+      "bytes": 1324,
+      "sha256": "27f94f6350d261fcb0899191b2e133e8804bcf76378bbf6573f4bcdacf1f6e41",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/lib/startOfYear.ts",
+      "bytes": 326,
+      "sha256": "b34fea36c37914d4245da49eeabd9ae0aa794dba8e8827e5995822941ce6c0c3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/utils/daysInMonth.ts",
+      "bytes": 580,
+      "sha256": "46a6d3d4e38b209e6cc6be8a8cf9346f9d993ee2f92678f670e1e12bdfa48dc0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/utils/EthiopicDate.ts",
+      "bytes": 388,
+      "sha256": "91b6c752af19a3721b0598a31c767f944c33af3167fd8ddf777ca9096f05796c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/utils/index.ts",
+      "bytes": 222,
+      "sha256": "7f91b55ec5b4ede4d0a1d3a6973ed26bb1273fd698e621999ba03e1bc7de36d9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/utils/isEthiopicDateValid.ts",
+      "bytes": 362,
+      "sha256": "3e434b456b702a9148a23f5e2107dab3007e8e319cc6382769a49a7fc7b7e0a7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/utils/isEthiopicLeapYear.test.ts",
+      "bytes": 711,
+      "sha256": "c11d0f9a0696011c97d54594c9b5f6a47eb4d4404bb2b3668cf7476959c5174d",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/utils/isEthiopicLeapYear.ts",
+      "bytes": 249,
+      "sha256": "46b9bf665ee2287fc9b17a353744f8548a7bc3f8016535135532eefdddb72392",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/utils/toEthiopicDate.test.ts",
+      "bytes": 1657,
+      "sha256": "f85ddf9f7692a05c786e2d98c97fb1efc66c5f3589635b6e202a0e2c2d1e50d7",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/utils/toEthiopicDate.ts",
+      "bytes": 1572,
+      "sha256": "245be9801427366d45a4a125b80fde10e3b789424aa14a63bc3d51aee07dbf0e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/utils/toGeezNumerals.ts",
+      "bytes": 1438,
+      "sha256": "4830fcbfe9e7ab032e5d20401e0632fdb7bdf0e4da02635d42e939e5835b2889",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "ethiopic/utils/toGregorianDate.test.ts",
+      "bytes": 1928,
+      "sha256": "39ead0cad52af7a4ae38a9011af13b56661b054c9e406aaebbad535f67ae7fca",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "ethiopic/utils/toGregorianDate.ts",
+      "bytes": 2166,
+      "sha256": "8f5f7dadeb222a57c3f441e6db8b888fe4715829657e48857447f25c38e3c34c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "index.test.ts",
+      "bytes": 267,
+      "sha256": "6eb3a8321c4c15c3f1ca65d903c44c5858081ae6deeb5013a29b7208fa7e0d06",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "index.tsx",
+      "bytes": 37,
+      "sha256": "f57112dcb46b807a4b53f45695f7821dcddbd6c0b8038968ee705d4a2503229d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/am-ET.test.ts",
+      "bytes": 2215,
+      "sha256": "4614e844ccc2ede1e73223c23722f7f41604db77c666ddae3e3db4266e46ff36",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "locale/am-ET.ts",
+      "bytes": 4244,
+      "sha256": "4cf972bf4b7a4785fb21549046238437d84c2887cbbf3b1d5f81165511839ae6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/en-US.ts",
+      "bytes": 54,
+      "sha256": "a06d5ad47d9bfc6cb6f859f65065b9595bc1286394e62374539f18fa4c8a78b0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "types/props.ts",
+      "bytes": 56,
+      "sha256": "fd4ab34a15003a4cdb95fe97e85e9e308a31d1bdfea60a8067552bc081d68390",
+      "category": "source-or-helper"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution"
+}

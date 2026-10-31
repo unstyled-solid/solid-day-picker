@@ -1,0 +1,34 @@
+{
+  "work": "/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/daypicker-packed-juqlgl",
+  "tarball": "/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/daypicker-packed-juqlgl/solid-unstyled-daypicker-b16e6fe1a968e0bb899d3377796498760c182f5ff15240bcd82a85c5db79e027.tgz",
+  "sha256": "b16e6fe1a968e0bb899d3377796498760c182f5ff15240bcd82a85c5db79e027",
+  "integrity": "sha512-5EMgwO0nSf4Rz7yqlvdCPXWR9avNTTS4Dyu2SYaPeRsB/MA1oCaa1wrH4QdCPHbxMY/ixoUgYbyKjficKiEQLA==",
+  "identity": {
+    "roots": true,
+    "buttons": true
+  },
+  "unusedLibraryModules": 0,
+  "calendarSubpaths": [
+    "buddhist",
+    "ethiopic",
+    "hebrew",
+    "hijri",
+    "persian"
+  ],
+  "checks": [
+    "archive inclusion and installed byte equality",
+    "stock-peer strict Bundler/NodeNext declarations including core and five calendar subpaths",
+    "default and browser+worker exports including calendar SSR",
+    "unused root import elimination",
+    "fresh-process SSR",
+    "deterministic requests",
+    "two-root Chromium hydration identity including all calendar hosts",
+    "trusted prehydration click replay exactly once",
+    "selection/range/native keyboard",
+    "five calendar wrappers: selection and navigation identity",
+    "controlled month identity",
+    "CSS animation start/completion",
+    "disposal"
+  ],
+  "errors": []
+}

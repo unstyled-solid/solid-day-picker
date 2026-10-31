@@ -1,0 +1,41 @@
+---
+title: Buddhist (Thai) Calendar
+---
+
+DayPicker supports the Buddhist (Thai) calendar via a dedicated build. Months and weeks remain Gregorian, while years render in Buddhist Era (BE = CE + 543) and Thai numerals by default.
+
+The Buddhist calendar is included in DayPicker. Install the package and its Solid peers:
+
+```bash npm2yarn
+npm install @solid-unstyled/daypicker solid-js@2.0.0-rc.13 @solidjs/web@2.0.0-rc.13
+```
+
+Import `DayPicker` from `@solid-unstyled/daypicker/buddhist` to render Buddhist years while keeping the usual DayPicker API.
+
+```tsx
+import { DayPicker } from "@solid-unstyled/daypicker/buddhist";
+```
+
+### Basic usage
+
+```tsx
+import { DayPicker } from "@solid-unstyled/daypicker/buddhist";
+
+<DayPicker />;
+```
+
+<BrowserWindow sourceUrl="https://github.com/unstyled-solid/daypicker/blob/main/docs/examples/Buddhist.tsx">
+  <Examples.Buddhist />
+</BrowserWindow>
+
+### English locale with latin numerals
+
+```tsx
+import { DayPicker, enUS } from "@solid-unstyled/daypicker/buddhist";
+
+<DayPicker locale={enUS} numerals="latn" />;
+```
+
+<BrowserWindow sourceUrl="https://github.com/unstyled-solid/daypicker/blob/main/docs/examples/BuddhistEn.tsx">
+  <Examples.BuddhistEn />
+</BrowserWindow>

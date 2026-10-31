@@ -1,0 +1,40 @@
+---
+pagination_next: using-daypicker/styling
+---
+
+# Getting Started
+
+## Install the Package
+
+DayPicker is available as `react-day-picker` npm package. It requires [date-fns](https://date-fns.org) as a peer dependency.
+
+```bash npm2yarn
+npm install react-day-picker date-fns
+```
+
+- See #1087 if you are interested in DayPicker supporting different date
+  libraries.
+
+## Basic Usage
+
+To create a simple date picker calendar,
+
+1. Import the component and its default style from `react-day-picker`.
+2. Choose a selection mode using the `mode` prop.
+3. Assign the `selected` and `onSelect` props to manage the selected date.
+
+```tsx
+import { useState } from "react";
+
+import { DayPicker } from "react-day-picker";
+import "react-day-picker/dist/style.css";
+
+export function MyDatePicker() {
+  const [selected, setSelected] = useState();
+  return <DayPicker mode="single" selected={selected} onSelect={setSelected} />;
+}
+```
+
+<BrowserWindow>
+  <ExamplesV8.Start />
+</BrowserWindow>

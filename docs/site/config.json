@@ -1,0 +1,13 @@
+{
+  "title": "Solid DayPicker",
+  "logo": { "alt": "DayPicker calendar", "src": "img/logo.png" },
+  "repository": "https://github.com/unstyled-solid/solid-day-picker",
+  "navLinks": [
+    { "label": "Documentation", "href": "/", "position": "left" },
+    { "label": "Examples", "href": "/examples", "position": "left" },
+    { "label": "Playground", "href": "/playground", "position": "left" },
+    { "label": "API Reference", "href": "/api", "position": "left" },
+    { "label": "Support", "href": "https://github.com/unstyled-solid/solid-day-picker/issues", "position": "right" },
+    { "label": "GitHub", "href": "https://github.com/unstyled-solid/solid-day-picker", "position": "right" }
+  ]
+}

@@ -1,0 +1,134 @@
+import {
+  DateLib,
+  type DateLibOptions,
+  DayPicker as DayPickerComponent,
+  type DayPickerLocale,
+  type DayPickerProps,
+} from "../../index.js";
+import * as dateFnsJalali from "date-fns-jalali";
+import { enUSJalali } from "./locale/en-US-jalali.js";
+import { faIRJalali } from "./locale/fa-IR-jalali.js";
+import { createJalaliNoonOverrides } from "./noonJalaliDateLib.js";
+import { createMemo, omit } from "solid-js";
+
+/** Persian (Iran) Jalali locale with DayPicker labels. */
+export const faIR: typeof faIRJalali = faIRJalali;
+/** English (US) Jalali locale with DayPicker labels. */
+export const enUS: typeof enUSJalali = enUSJalali;
+export { enUSJalali, faIRJalali };
+
+/**
+ * Renders the Persian calendar using the DayPicker component.
+ *
+ * @defaultValue
+ * - `locale`: `faIR`
+ * - `dir`: `rtl`
+ * - `dateLib`: `jalaliDateLib` from `date-fns-jalali`
+ * - `numerals`: `arabext` (Eastern Arabic-Indic)
+ * @param props - The props for the Persian calendar, including locale, text
+ *   direction, date library, and numeral system.
+ * @returns The Persian calendar component.
+ * @see https://daypicker.dev/docs/localization#persian-calendar
+ */
+export function DayPicker(
+  props: DayPickerProps & {
+    /**
+     * The locale to use in the calendar.
+     *
+     * @default `faIR`
+     */
+    locale?: DayPickerLocale;
+    /**
+     * The direction of the text in the calendar.
+     *
+     * @default `rtl`
+     */
+    dir?: DayPickerProps["dir"];
+    /**
+     * The date library to use in the calendar.
+     *
+     * @default `jalaliDateLib` from `date-fns-jalali`
+     */
+    dateLib?: DayPickerProps["dateLib"];
+    /**
+     * The numeral system to use when formatting dates.
+     *
+     * - `latn`: Latin (Western Arabic)
+     * - `arab`: Arabic-Indic
+     * - `arabext`: Eastern Arabic-Indic (Persian)
+     * - `deva`: Devanagari
+     * - `beng`: Bengali
+     * - `guru`: Gurmukhi
+     * - `gujr`: Gujarati
+     * - `orya`: Oriya
+     * - `tamldec`: Tamil
+     * - `telu`: Telugu
+     * - `knda`: Kannada
+     * - `mlym`: Malayalam
+     *
+     * @defaultValue `arabext` Eastern Arabic-Indic (Persian)
+     * @see https://daypicker.dev/docs/translation#numeral-systems
+     */
+    numerals?: DayPickerProps["numerals"];
+  },
+) {
+  const context2199 = props; const restProps = omit(context2199, "locale", "dir", "dateLib", "numerals", "noonSafe");
+
+  const dateLib = createMemo(() => getDateLib({
+    locale: context2199.locale,
+    weekStartsOn: props.broadcastCalendar ? 1 : props.weekStartsOn,
+    firstWeekContainsDate: props.firstWeekContainsDate,
+    useAdditionalWeekYearTokens: props.useAdditionalWeekYearTokens,
+    useAdditionalDayOfYearTokens: props.useAdditionalDayOfYearTokens,
+    timeZone: props.timeZone,
+    numerals: context2199.numerals ?? "arabext",
+    get noonSafe() { return context2199.noonSafe; },
+    overrides: context2199.dateLib,
+  }));
+  const locale = () => (context2199.locale ?? faIR);
+
+  return (
+    <DayPickerComponent
+      {...restProps}
+      locale={locale()}
+      numerals={context2199.numerals ?? "arabext"}
+      dir={context2199.dir ?? "rtl"}
+      dateLib={dateLib()}
+      formatters={{
+        formatWeekdayName: (date, _options, lib) => {
+          const activeLib = lib ?? dateLib();
+          const isPersian = activeLib.options.locale?.code?.startsWith("fa");
+          return activeLib.format(date, isPersian ? "ccccc" : "cccccc");
+        },
+        ...props.formatters,
+      }}
+    />
+  );
+}
+
+/**
+ * Returns the date library used in the Persian calendar.
+ *
+ * @param options - Optional configuration for the date library.
+ * @returns The date library instance.
+ */
+export const getDateLib = (
+  options?: DateLibOptions & {
+    noonSafe?: boolean;
+    overrides?: DayPickerProps["dateLib"];
+  },
+) => {
+  const { noonSafe, overrides, ...dateLibOptions } = options ?? {};
+  const baseOverrides =
+    noonSafe && dateLibOptions.timeZone
+      ? {
+        ...dateFnsJalali,
+        ...createJalaliNoonOverrides(dateLibOptions.timeZone, {
+          weekStartsOn: dateLibOptions.weekStartsOn,
+          locale: dateLibOptions.locale,
+        }),
+      }
+      : dateFnsJalali;
+
+  return new DateLib(dateLibOptions, { ...baseOverrides, ...overrides });
+};

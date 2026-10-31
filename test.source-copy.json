@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/daypicker/upstream/react-day-picker/test",
+  "target": "/Users/avi/avir-oss/daypicker/test",
+  "sourceSha": "1bfd4f0776d66f2242b6b32a1f084ab94e2702da",
+  "files": [
+    {
+      "path": "dateMatchers.ts",
+      "bytes": 1756,
+      "sha256": "a5591eece85e3a6665ce31dd2d88aa040fa2f54f9ef635198869a188866eca2f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "elements.ts",
+      "bytes": 3164,
+      "sha256": "a1b99f9fee7310b873d710553eed4637e3e92c12cb654d0ab2ce66008eed4c33",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "jest-custom-matchers.d.ts",
+      "bytes": 325,
+      "sha256": "ff19416ca1160e6943e29043b021018cd18930db8d73b43eef977f29c605917f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "render.tsx",
+      "bytes": 106,
+      "sha256": "4170f983f03f33a6f095cc1bbf31844ec6baef111bd937b6b87118106d38d579",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "renderApp.tsx",
+      "bytes": 551,
+      "sha256": "0d68aa241a644b6223c76379ae5124c04175970968623083e5d4c72a594588bc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "renderHook.tsx",
+      "bytes": 575,
+      "sha256": "1f3bfb840f7c87a9eba21233e671f40294391f86e581b43f515d9dc80792d6d0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "setTestTime.ts",
+      "bytes": 178,
+      "sha256": "da385804d967bea3fc1d0924bf912a344cc9a936240e3dc558b9f3b6415ce6b3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "setup.ts",
+      "bytes": 62,
+      "sha256": "86415b782749910a9cb2809d69cc384e5d5584d44a175acfb8dc9b08e4a58616",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "user.ts",
+      "bytes": 572,
+      "sha256": "bcff8a8f84e69c4266488d70d68ff8ff9e3dbefcd6b62ab3a83ab40608e32c45",
+      "category": "source-or-helper"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution"
+}

@@ -1,0 +1,41 @@
+---
+title: Hebrew Calendar
+---
+
+DayPicker supports the [Hebrew calendar](https://en.wikipedia.org/wiki/Hebrew_calendar) via a dedicated build.
+
+The Hebrew calendar is included in DayPicker. Install the package and its Solid peers:
+
+```bash npm2yarn
+npm install @solid-unstyled/daypicker solid-js@2.0.0-rc.13 @solidjs/web@2.0.0-rc.13
+```
+
+Import `DayPicker` from `@solid-unstyled/daypicker/hebrew` to render Hebrew months (including Adar I/II in leap years) with RTL layout by default.
+
+```tsx
+import { DayPicker } from "@solid-unstyled/daypicker/hebrew";
+```
+
+### Basic usage
+
+```tsx
+import { DayPicker } from "@solid-unstyled/daypicker/hebrew";
+
+<DayPicker />;
+```
+
+<BrowserWindow sourceUrl="https://github.com/unstyled-solid/daypicker/blob/main/docs/examples/Hebrew.tsx">
+  <Examples.Hebrew />
+</BrowserWindow>
+
+### English labels, LTR, Latin digits
+
+```tsx
+import { DayPicker, enUS } from "@solid-unstyled/daypicker/hebrew";
+
+<DayPicker locale={enUS} dir="ltr" numerals="latn" />;
+```
+
+<BrowserWindow sourceUrl="https://github.com/unstyled-solid/daypicker/blob/main/docs/examples/HebrewEn.tsx">
+  <Examples.HebrewEn />
+</BrowserWindow>

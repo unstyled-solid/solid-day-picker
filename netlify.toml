@@ -1,0 +1,9 @@
+[build]
+  command = "pnpm docs:build"
+  publish = "docs/generated/site"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Keep extensionless documentation routes backed by their generated HTML files.
+# No SPA fallback: missing routes should remain 404s.

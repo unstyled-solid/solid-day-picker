@@ -1,0 +1,4684 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/daypicker/upstream/react-day-picker/apps/website",
+  "target": "/Users/avi/avir-oss/daypicker/docs/website",
+  "sourceSha": "1bfd4f0776d66f2242b6b32a1f084ab94e2702da",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 233,
+      "sha256": "7c2bf6ba263ba149a2885847a9f7186e0d7af58faae3e01f2e69a7465f7cfecc",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": ".vscode/tasks.json",
+      "bytes": 477,
+      "sha256": "f1a231c5fde86c1447db3f37b39263f32c975bf11af0e943d55b518e6b37c680",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/buddhist/functions/DayPicker.md",
+      "bytes": 696,
+      "sha256": "1548a9300856a3cfbf393ae0a6a0e4cfe15f8f215df7acb3d95e16c9ad0f911e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/buddhist/functions/getDateLib.md",
+      "bytes": 475,
+      "sha256": "d45fbec1fdd7989c41916c258f9bdec88ee3bfff26ad49c07cacd3b0cfc4d6a7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/buddhist/index.md",
+      "bytes": 399,
+      "sha256": "6765bdcfec0eb14ebe9016a1eb3246adfc8218ac15f70b6f067b438193a660b3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/buddhist/typedoc-sidebar.cjs",
+      "bytes": 499,
+      "sha256": "ab1faa2adc76a4683fbb22bc6497fb38fd33754d8f686b32d4f4cad7fffa170f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "docs/api/buddhist/variables/enUS.md",
+      "bytes": 267,
+      "sha256": "0e0529cb7dce2c5d07c888565ba70bdff890d3c7f73a0e9989282c9b99de2249",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/buddhist/variables/th.md",
+      "bytes": 259,
+      "sha256": "aa2c7e6e76a50d14cbef5052f0a885e89bd87d6ad213f9e765ac64480bfb1a93",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/ethiopic/functions/DayPicker.md",
+      "bytes": 962,
+      "sha256": "1ef642a0db316adec314a078830993c08909d4f2f6c97c36f041a0f9ab8c69f1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/ethiopic/functions/getDateLib.md",
+      "bytes": 466,
+      "sha256": "e5bfe5825cf94af25fcc09c63375a7667dde6cef612cd2e16170adddb50511db",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/ethiopic/index.md",
+      "bytes": 540,
+      "sha256": "9c3526dfc85f671742bca98cd3c38bf8fda91b2a60fa83251c5b1ed335fc86ea",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/ethiopic/typedoc-sidebar.cjs",
+      "bytes": 503,
+      "sha256": "c6d01fc5f7111b282a752c969ab1cff831ba51ba6d62a00e550d7b8269b72c54",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "docs/api/ethiopic/variables/amET.md",
+      "bytes": 324,
+      "sha256": "ff11583405d756924de821f9c35dc37a32dc294175bef6ae1b88bc850dd82b1c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/ethiopic/variables/enUS.md",
+      "bytes": 337,
+      "sha256": "aef2ad5e4e58abe784297dd59fb715ce3d0014b7c712c7b8d5487a03c5b5935d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/hebrew/functions/DayPicker.md",
+      "bytes": 702,
+      "sha256": "aa20292a396e7fd567da75037f84ff4d548541d424adfa4b160f4d5c63c446fa",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/hebrew/functions/getDateLib.md",
+      "bytes": 465,
+      "sha256": "c89026c0415efe7781a790b19e5a8a426c500da728512f811d886b413bf82968",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/hebrew/index.md",
+      "bytes": 533,
+      "sha256": "0eb2e732457f32d6783216c9989135071b1d26dd577aba2bf8c0e3f0e28a3607",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/hebrew/typedoc-sidebar.cjs",
+      "bytes": 491,
+      "sha256": "392c18fc35631fe0fb6fc89f6e1b49626a262a3372d4dab9e0da1945fc194bbe",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "docs/api/hebrew/variables/enUS.md",
+      "bytes": 337,
+      "sha256": "aef2ad5e4e58abe784297dd59fb715ce3d0014b7c712c7b8d5487a03c5b5935d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/hebrew/variables/he.md",
+      "bytes": 308,
+      "sha256": "881a51b5bb009b9cf03e716ee6a2e626d670b0c2fb40d78a7f0eb40a3d08a86b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/hijri/functions/DayPicker.md",
+      "bytes": 759,
+      "sha256": "9e0f0858b732f1902434f1b88399d8bf2b747db898bfa1d9efa7f2c8b2542efd",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/hijri/functions/getDateLib.md",
+      "bytes": 414,
+      "sha256": "0ba56e476330f3c7c8d45fe788bc04f887b85ad3aab4fa62b91514e0770baa98",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/hijri/index.md",
+      "bytes": 551,
+      "sha256": "f26d4e5c5dd433aea2647f6f059da445468ebbe0aa4ddc58662fef904abc7d7e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/hijri/typedoc-sidebar.cjs",
+      "bytes": 491,
+      "sha256": "fb165af47933158398a4bc3fe86a24e07bd58802099e58a1ceccc6f2d32e888b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "docs/api/hijri/variables/arSA.md",
+      "bytes": 333,
+      "sha256": "3079874bed72b4c09016a1eb6564a2d9680ae81dc2ba7cf3387b96f4a6d5b8ea",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/hijri/variables/enUS.md",
+      "bytes": 337,
+      "sha256": "aef2ad5e4e58abe784297dd59fb715ce3d0014b7c712c7b8d5487a03c5b5935d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/index.md",
+      "bytes": 2127,
+      "sha256": "7e094e511cb03fa32daaf428ed92f5288fc9012ff1e7d492f63f7e52b5310317",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/persian/functions/DayPicker.md",
+      "bytes": 913,
+      "sha256": "d60976bd965d7efd2f44a70741cba03fa44f127ee73680b33815a056fb0a27bb",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/persian/functions/getDateLib.md",
+      "bytes": 578,
+      "sha256": "d03ea905f79916bbb3d4c7139a7b909ae3bd13652169c5d0d5668f730dcb4a11",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/persian/index.md",
+      "bytes": 827,
+      "sha256": "07a8308965afc73b0b6d08827d1cbbeb2acf64893634a41d0ee21573926b1560",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/persian/typedoc-sidebar.cjs",
+      "bytes": 639,
+      "sha256": "0f8f8c48412078948dc0bab86aa781460a36da2693b10e27f47b2c465a76fdee",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "docs/api/persian/variables/enUS.md",
+      "bytes": 315,
+      "sha256": "8942e68e3f149a627ffb181fec6a34852a3c91796f9376d918d7c6e9bf788ddd",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/persian/variables/enUSJalali.md",
+      "bytes": 380,
+      "sha256": "044da8c4973f4f331c201d689441695ba1c592572b07f4b932ea66e59ea2dc73",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/persian/variables/faIR.md",
+      "bytes": 317,
+      "sha256": "329f74c005d1a7ae3884ac2858db17bd30f6f683e5beaa9ec78c332cbe0694c8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/persian/variables/faIRJalali.md",
+      "bytes": 371,
+      "sha256": "4fcadd365973af90a064c03f34f41480d3ecae33fd327dc22acdf0a5a9c7a8bc",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/classes/CalendarDay.md",
+      "bytes": 3929,
+      "sha256": "9762f3df31bb6448bfedf3ed69d63270f470ba23323f75d8c51ee1047ab11ed0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/classes/CalendarMonth.md",
+      "bytes": 1478,
+      "sha256": "2909bad9fdd3f493f1690279b362c64e28001fbd00bc2833c08e6d4ea34ca490",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/classes/CalendarWeek.md",
+      "bytes": 1461,
+      "sha256": "9f66d76c6c6a4b4a95e33651171661c6ce1bc7a8ae40efbf55b64806ba7e0c78",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/classes/DateLib.md",
+      "bytes": 22797,
+      "sha256": "c8fefbcee69ddc1176985b0efd4f638e5c9aaa237c9465ebf0cfb22fe1bc966f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/enumerations/Animation.md",
+      "bytes": 1720,
+      "sha256": "23a0042fe79d51c56fa7512c12cd182a53508f06ab4e320c0824580e4442a89a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/enumerations/DayFlag.md",
+      "bytes": 822,
+      "sha256": "e8910f414a5e758a4b5e08556b9d6d0d0650b21057a9930bbe6a5f37ca86f233",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/enumerations/SelectionState.md",
+      "bytes": 888,
+      "sha256": "5021be29d5221d4cf9261aa70e51664f5f76042bcc816bf1db6352e149c4a034",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/enumerations/UI.md",
+      "bytes": 3585,
+      "sha256": "bea7b3e7b8f2a41b12961d2237c9da0350ac5485e8f2911fe9045fcdd69e7e04",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/addToRange.md",
+      "bytes": 1272,
+      "sha256": "fdc5e717bd25bad3338238aa1dec09847a7f0bd95d5562daf71e3ab4171fe395",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/CaptionLabel.md",
+      "bytes": 519,
+      "sha256": "e7bf2ec7e8ee04ee322dcc2ab8bc766935d5b906edb2d50fab3ae2d1ca5fe79b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Chevron.md",
+      "bytes": 926,
+      "sha256": "7042a3d0daaaae85688935d880370c5c7063408f662e4edd152e1e6e6225601d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/dateMatchModifiers.md",
+      "bytes": 936,
+      "sha256": "3485ab81d0df5e054e3937e0f1047b3e84b60334e94efea6eeaaf6eed6c2178f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Day.md",
+      "bytes": 770,
+      "sha256": "fccc80fae54b6e96af85539a07d2de854e250a84c1d1a25ad6f5e0ee5d3c7d21",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/DayButton.md",
+      "bytes": 647,
+      "sha256": "e32bfafac9ab5c5380a13337a8441589ac4071bbec95683c69dd3fc3df0102bc",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/DayPicker.md",
+      "bytes": 594,
+      "sha256": "793b965c651da2f18de58203700c265423ebd7ce398429b95b209758302b937b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Dropdown.md",
+      "bytes": 635,
+      "sha256": "0bd90c893afeddb2a05357522c05ea83399d72716b57cba22933f03ce3a33a28",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/DropdownNav.md",
+      "bytes": 525,
+      "sha256": "12c3db99aeed074bcf95addf0aec6a863f55cfe8834704cc4f42aa67c411d873",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Footer.md",
+      "bytes": 490,
+      "sha256": "ed5c0b17338a01272ffae7754e3f7214ef202a41315b315d14c2312da8fab826",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/formatCaption.md",
+      "bytes": 953,
+      "sha256": "7f04071e893f03a983e1cb70c87d46804d15d731f07b99cfef7cc5d0a3057a6a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/formatDay.md",
+      "bytes": 877,
+      "sha256": "b59f4a09213310e1c74073720d534e8cda8d3b6b8c70a1bcafcf47e49f418dff",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/formatMonthDropdown.md",
+      "bytes": 884,
+      "sha256": "8cc8ccc541f5a1c420e5a45c508fb91104dfd65c476dc8f071057202ffe90080",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/formatWeekdayName.md",
+      "bytes": 982,
+      "sha256": "c446d375352a08015b451fe475d40231794e5ef87bd317cee74bfdb1afbe5c22",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/formatWeekNumber.md",
+      "bytes": 899,
+      "sha256": "f83fc342da29186233c4052f468d3b427ac4ef87ee2288dd34934cbb9933340c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/formatWeekNumberHeader.md",
+      "bytes": 545,
+      "sha256": "4d1015032ccf747c2d8f7e2435709dfc6fb9554b6f4bd817ecd72475bfd8e241",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/formatYearDropdown.md",
+      "bytes": 798,
+      "sha256": "9f520cfd546847b105c539bb521a96c37b1504f4144ef07aa8c65ee24215fa1b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/getDefaultClassNames.md",
+      "bytes": 634,
+      "sha256": "bf8914183db567cf9a0abe413f8390db30a21b65b3248d3445045b0bcfa874f6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/isDateAfterType.md",
+      "bytes": 623,
+      "sha256": "f8c327713f28f2d71d0fa2a17b6b72a6385f7762b07424aada2c74407db3b287",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/isDateBeforeType.md",
+      "bytes": 631,
+      "sha256": "9af89569f38f3d3d7004c3edeafd4a1f867dc601af2c57a952b9728e901e8d08",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/isDateInterval.md",
+      "bytes": 647,
+      "sha256": "6c547eb7a58cbc006abc4bc2093acca11c417f764b39ee68d2ec15c646526d50",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/isDateRange.md",
+      "bytes": 615,
+      "sha256": "511209f32d8e132f53eeb6ed3ef5076afa797ed354af75ac88638850dba2d084",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/isDayOfWeekType.md",
+      "bytes": 623,
+      "sha256": "38332180668675d362961c24eb045bf621b284732361ccbd1644638e7a7f2e8e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/labelDayButton.md",
+      "bytes": 1133,
+      "sha256": "69035986822057a96eab64714cab6b2c20b2a4519524235c3c49f2fad9c72318",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/labelGrid.md",
+      "bytes": 956,
+      "sha256": "2221ec1fa41225d1363f2ee6618a67f28b1abadeb0fcad8dd752d7d3bb6dfd68",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/labelGridcell.md",
+      "bytes": 989,
+      "sha256": "90bc69347c9a4c615105ea51150977c59183d89847c569b52d231cb971fdbd0b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/labelMonthDropdown.md",
+      "bytes": 651,
+      "sha256": "3ab35ec8c5b014ccf012c4487100e33cd2b64227e7237b360b1cd7720c54358a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/labelNav.md",
+      "bytes": 461,
+      "sha256": "619abc976e1209a043556f98d2912a7942274aed6cb7e13099caca7fa6593b87",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/labelNext.md",
+      "bytes": 674,
+      "sha256": "7d7bb644b5a2cf7dc704a2755cabf7dc74b21ce9b590d73d9db6d9902d06c420",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/labelPrevious.md",
+      "bytes": 619,
+      "sha256": "7a643654196a09334de385b42221abd1e575884bb67f99c76599e18294fe82a0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/labelWeekday.md",
+      "bytes": 958,
+      "sha256": "e7f2fb763d0e97e4c54241d41cd22dd8467ab45b90ac8fbcd9269ca4217cd3bb",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/labelWeekNumber.md",
+      "bytes": 762,
+      "sha256": "2048a740dda3557da444cfd80a7d90c00e9ca98249d35c9efb002457c1789bf9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/labelWeekNumberHeader.md",
+      "bytes": 672,
+      "sha256": "771255dadaae6e90d9505b7703de626944be58a1080402665a50e9b02231187c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/labelYearDropdown.md",
+      "bytes": 644,
+      "sha256": "cc87bdd484c434f965f7448f0bb5c90c464532fe7fd75e128ef5dba800e74101",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Month.md",
+      "bytes": 632,
+      "sha256": "11347852e40153215b6280380fc0a20ebb276811300739a361ebe56987a3899d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/MonthCaption.md",
+      "bytes": 628,
+      "sha256": "0840d1b80d67bc5b34d79e572202a16ece2757a085efe967e10d75e71aa18cd3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/MonthGrid.md",
+      "bytes": 520,
+      "sha256": "aa30dcf6454e056ad1ca96115e18df2dc9cc2cc918c01cbb9e99a5bf982c5896",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Months.md",
+      "bytes": 500,
+      "sha256": "3fee8d91fb01002e9b07ac953cf275fd176ccade50e3c8155752efff3b7ea7a9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/MonthsDropdown.md",
+      "bytes": 661,
+      "sha256": "4d816c5bb526ee6d270de69dbed168ad72424502479187ba551bea6e6f4cd239",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Nav.md",
+      "bytes": 693,
+      "sha256": "49475d0ea0b19c0ed44aaadf31023691a3a1b6c6fafd621ef626480ab20448dd",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/NextMonthButton.md",
+      "bytes": 565,
+      "sha256": "4e2470c4c7a45e46b69348eae4e063db9f3b53ee0e300fb28173e01e21d41d3d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Option.md",
+      "bytes": 492,
+      "sha256": "5f18c50f50f2d1c6aaafb0ac70a0ef16feeac065d80a98c7c6b2ed361ebdab71",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/PreviousMonthButton.md",
+      "bytes": 585,
+      "sha256": "844999dbae5b1453235721dcbdb7732de253f83d14dce3adefd60a598decba23",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/rangeContainsDayOfWeek.md",
+      "bytes": 1056,
+      "sha256": "45cde0e98f3ba5d0bfddfd878c41db47577e7d87c3e3218f2b124222d6596cde",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/rangeContainsModifiers.md",
+      "bytes": 1062,
+      "sha256": "8ebb7806bb1c2393aa2f6dbe6e0b89e36084054ab4c17cefd9febf96ff217b81",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/rangeIncludesDate.md",
+      "bytes": 968,
+      "sha256": "7bc91af895a75e2e57443f3ac682618487c0ffea873eb30bc29b76db920aa2d3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/rangeOverlaps.md",
+      "bytes": 1033,
+      "sha256": "50c242d02155a9b735db76f418198f3c6517432ceaeeb567accc95757fc73f3b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Root.md",
+      "bytes": 535,
+      "sha256": "18fa663264b0177487d1d819be13554fab6be14ba20b64d19c21cfd43091e25d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Select.md",
+      "bytes": 491,
+      "sha256": "ab6c7f3c61a8565ed75297224378d750aea8331be5a96670f8582f2f9185616b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/useDayPicker.md",
+      "bytes": 983,
+      "sha256": "a60fbe1b37da6b58dbd83feb8a9c375a4dc1dd2c0be1fa10ae0048674169f13f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Week.md",
+      "bytes": 572,
+      "sha256": "7987d3a7f778800dba17c27f62a655e731edbb343a401e1dc68b4e0a08680ab8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Weekday.md",
+      "bytes": 541,
+      "sha256": "c86c9e43d7edc91df7d6e3ae4b3a376aa972d0a1e242f037dc9b8a19888c7790",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Weekdays.md",
+      "bytes": 519,
+      "sha256": "1fc3ea76f260d574029f0ff3aef9c01c8c61c9f77130b184aab7494d1938c229",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/WeekNumber.md",
+      "bytes": 598,
+      "sha256": "87c7e0c4fa8995b161093eb2564534b7e8b4f4a201f53fe0a72de6e045743d9c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/WeekNumberHeader.md",
+      "bytes": 555,
+      "sha256": "463aadd287208d56bc3c1f8e8efd5f2fdb7401f4c3c0292f02e0991b0f70e4e1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/Weeks.md",
+      "bytes": 514,
+      "sha256": "be6bd3c526171d89fed39b91ac832f8b78175179ed1f30a67f41d931de9f0a39",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/functions/YearsDropdown.md",
+      "bytes": 656,
+      "sha256": "39d604f891fd2d1e98a7bf0313dab60d4dbacbea861e95adad4676725a243b99",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/index.md",
+      "bytes": 14317,
+      "sha256": "34479e6bb7b87d6dd5ba2590da19972eafa9edfd31c8fa241b2148a64605a911",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/interfaces/DateLibOptions.md",
+      "bytes": 1924,
+      "sha256": "bad3e83a093b13999bcd2e1f82845c2331eba014819a2e47a1a907453dc94c3d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/interfaces/DayPickerLocale.md",
+      "bytes": 681,
+      "sha256": "f341fb11c6735db30759cfe53702567e52553e68e12d32f021e26ca18810722a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/interfaces/PropsBase.md",
+      "bytes": 29107,
+      "sha256": "0eedd198605cbab75bc163bcf24babc028dd192b4d4220cbf2aca53e167f87cc",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/interfaces/PropsMulti.md",
+      "bytes": 2090,
+      "sha256": "32a11c910ef60dfffa708c6dad4f42e503f5ed172753f38c19f76820e439dbc5",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/interfaces/PropsMultiRequired.md",
+      "bytes": 2071,
+      "sha256": "1b0cd99d39449f6d1cf441410053335e3b6ffbd46bb4181b759d158e130ed65b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/interfaces/PropsRange.md",
+      "bytes": 3769,
+      "sha256": "de09509802382f96907dd03cb1c5b4232affb16741c2c029bdd7d3d76724cf64",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/interfaces/PropsRangeRequired.md",
+      "bytes": 3583,
+      "sha256": "88f92bb633004f60221456f9938207652b56d4f3a1d31ff2c06576ee03809781",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/interfaces/PropsSingle.md",
+      "bytes": 1500,
+      "sha256": "62f1c0a5663d0cdb83d4f83a2c64323268d37825083f7bc2ba68f786ed70e6c5",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/interfaces/PropsSingleRequired.md",
+      "bytes": 1481,
+      "sha256": "99ec0846f491adf94f0d05dfcda4ef42e3f9a04331f2d4dea0e4eaec132f5450",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/CaptionLabelProps.md",
+      "bytes": 364,
+      "sha256": "ad8fe92d98f4e8e2a309e39c78aa6f3b83f597a2e4357630c8187d34c46fd06b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/ChevronProps.md",
+      "bytes": 334,
+      "sha256": "6cd5baf9414d9ac5b74609956bf4ffa031a08b5c95903ee86be42a9cca618a64",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/ClassNames.md",
+      "bytes": 641,
+      "sha256": "0ca70c7b12d58e310f692871aa4071651552f1468686741bed1d5b11b9041236",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/CustomComponents.md",
+      "bytes": 10361,
+      "sha256": "ea5239cf62c4bfb4c5085477bd4b3539171cbc75336cdf5e518be3e3ce389423",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DateAfter.md",
+      "bytes": 702,
+      "sha256": "dbbd3459eaba6acc609cebb39b16af919bc33759ba9889190fe89b56c62e308f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DateBefore.md",
+      "bytes": 711,
+      "sha256": "e2c053542a0641ba807a3b7f8c95423e53a129ce5dd2cb8abbc31438891d9bac",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DateInterval.md",
+      "bytes": 1061,
+      "sha256": "ff35e1d7fa184773f042708449b9951721631c3ad23f77098146efe725293e75",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DateRange.md",
+      "bytes": 1074,
+      "sha256": "c6a207329e5dd7e06892b78ccf3fe7fd6627b3634ab18d590cf38be555c59cc1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DayButtonProps.md",
+      "bytes": 346,
+      "sha256": "fe37cd4f649a2aada452932d1a2f2a7bce4a75510aec5094d6e1173f4dfec59d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DayEventHandler.md",
+      "bytes": 892,
+      "sha256": "a049608dd3f53e8d970edbb75d3e7165247c60188b0b42369364a30737b854ea",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DayOfWeek.md",
+      "bytes": 778,
+      "sha256": "591ae471b57de06bb62c8ccda2cdd56247d278d891f50ed645fd09e3bfdd6682",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DayPickerContext.md",
+      "bytes": 6152,
+      "sha256": "fd0db755a6b69512f80b0c6a032c0f2895f2bdb096f19553f5203f0815c1cdce",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DayPickerLocaleLabels.md",
+      "bytes": 391,
+      "sha256": "23cc47cfc246c58cdea30efb4f01672b0486caeb9c063bcec6746286833fb55c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DayPickerProps.md",
+      "bytes": 731,
+      "sha256": "b65026d8309daa1160382925bd98535f2291c1dfa5caf8c3e73c0f10f9326140",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DayProps.md",
+      "bytes": 310,
+      "sha256": "c8b185984a41e1ab694547ee85a4b07c639381c74ac36db5178f3935efafd7d8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DropdownNavProps.md",
+      "bytes": 358,
+      "sha256": "242989d4185230ae61f4ddd74da71e3c1d58fcf63e68e05941678cb2b07e7909",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DropdownOption.md",
+      "bytes": 1322,
+      "sha256": "d151f092a099af5ced15d509ec9009c3270188e4b77fa64a0ebc004de4e2ae34",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/DropdownProps.md",
+      "bytes": 340,
+      "sha256": "7f002a7f829ee691688e1462dc40977424832c17ca55e40d1ad2591ebbfce03f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/FooterProps.md",
+      "bytes": 328,
+      "sha256": "cc9897bd264324e657f2e5be0e36b3bd335e7f846c187ede5805c0296160405e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/Formatters.md",
+      "bytes": 3439,
+      "sha256": "c5b88fd6df9d05a22701ec290713b4fcb1a9d01821e5a47e839426ad2f239302",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/Labels.md",
+      "bytes": 5014,
+      "sha256": "6fceb7b65827f297d12ad20620e39d35d9e23eb55e6741137b23cc77940307f8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/Locale.md",
+      "bytes": 299,
+      "sha256": "26dbecf749eeb953c278b95dfa24b43820634aef7038055414e2354f49861524",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/Matcher.md",
+      "bytes": 731,
+      "sha256": "7b6b8b082806fbc3a18037fdbeb30c9c3cded26c7c834f7c3c3bfd8d5e7ae6ba",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/Mode.md",
+      "bytes": 473,
+      "sha256": "81ea2c830234fbf244f7868c83e0fcd87dc388bbf4bb8c09e6711d05ae15603a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/Modifiers.md",
+      "bytes": 598,
+      "sha256": "ac71c444e7d34f1b5bd71b38d1cfa3e5015c7aef43757d20015ccaac8c19406a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/ModifiersClassNames.md",
+      "bytes": 658,
+      "sha256": "70dd9bf76a1894d2e81af839dfbb13a82d50e5ad5724ff24fd2bcb6b1c8f2e41",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/ModifiersStyles.md",
+      "bytes": 534,
+      "sha256": "b64774b10ae9ac30fe10546310217b473a5ec44c4991bbeb4c1798eaf00efff0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/MonthCaptionProps.md",
+      "bytes": 364,
+      "sha256": "66556bc6c1426aedefd8b6df42e7ada9e946dda55b54f04ac594fad0f696fd29",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/MonthChangeEventHandler.md",
+      "bytes": 572,
+      "sha256": "1b5e2c4c9e4d8bb2979f96278b14958625a1fc2dcb0877d6c6f9401103598bba",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/MonthGridProps.md",
+      "bytes": 346,
+      "sha256": "ab622080f1f3e6ba1c354959f997da90591d9865a15e974ac40249fe218a221f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/MonthProps.md",
+      "bytes": 322,
+      "sha256": "014ee38d082132e8cf4436f385fa4b46c3268aa52fe01541d6b0567d5710cc7d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/MonthsProps.md",
+      "bytes": 328,
+      "sha256": "2967567b63ced8c182d90d1a9b996fa4f2995e6454fd7f3cc462ec85dd0b5bca",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/MonthYearOrder.md",
+      "bytes": 369,
+      "sha256": "849c3749b2cbf75c41ce9819f998a26f7c9193d48d24212f820f0f1a6026fcb2",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/MoveFocusBy.md",
+      "bytes": 373,
+      "sha256": "8d67073f0e2efb424f8ced7efb6be1be008596ab225952fb49c99f2a7df2d5e1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/MoveFocusDir.md",
+      "bytes": 348,
+      "sha256": "66f94c715ced8be22f45cd643cfb38c69a7380fc0eb02d5ec1639abb23aaec1e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/NavProps.md",
+      "bytes": 310,
+      "sha256": "ad1c008b7dd16efdccb4d24c8b4f074eb908c4a160adca57351e4afafd5abe81",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/NextMonthButtonProps.md",
+      "bytes": 382,
+      "sha256": "04031b4f3b604c5f03eaaf4700acbf742aa0faa79f030526641067d76c5a4f2d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/Numerals.md",
+      "bytes": 923,
+      "sha256": "188e963847d8595d36173487ee63c71d20f37314d059676e5cfc143b22982579",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/OnSelectHandler.md",
+      "bytes": 1181,
+      "sha256": "0e44375af2ac5dde1e25e4b2c6e06e7215176bd151f25bf426bec999bb0e6d73",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/OptionProps.md",
+      "bytes": 328,
+      "sha256": "b5cad1a1ad2d0f121d0f3416193947c0f7280c5b51aac2579f99697c83593c2a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/PreviousMonthButtonProps.md",
+      "bytes": 406,
+      "sha256": "4ac1fb3cdb1651576e88513ef4d284b36ba257b9dccbfe060b8cc935b9ae0327",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/RootProps.md",
+      "bytes": 316,
+      "sha256": "bd49bf1c2275f248fae14a5b9d35298d0dc2ffe303ae2fee069ef2dc2fb026ed",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/SelectedMulti.md",
+      "bytes": 444,
+      "sha256": "1a922a10144bf8286fc4ea0f3f77b1e4b8caff4cdfb64cdba75af3125eecab52",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/SelectedRange.md",
+      "bytes": 482,
+      "sha256": "4b0c2e38524f7114ad6847707d40d79fa8f66eafe56b902086a733cd036bed8e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/SelectedSingle.md",
+      "bytes": 442,
+      "sha256": "9945ce2f94c9cbb8eb68d2d6aa796044284fceffc4bb7c9deb8e49fb4c273a3d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/SelectedValue.md",
+      "bytes": 1106,
+      "sha256": "445ea2cf6de7b03ade10051bef40f5de1e4c8060ab40e6f554bdf1ad5b51a96b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/SelectHandler.md",
+      "bytes": 937,
+      "sha256": "f9c27518838fc43876971449a977b24af252d418910179ce7dde3e20e2907936",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/SelectHandlerMulti.md",
+      "bytes": 762,
+      "sha256": "124fdf3504fa6d138fc9d10971f7ffe7e55d6a52f1a509118c31f4ceb08c343c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/SelectHandlerRange.md",
+      "bytes": 838,
+      "sha256": "0343e332eb500ce8780a67cf1a90d19f44b8e09cfa9aba90070739e0a8640854",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/SelectHandlerSingle.md",
+      "bytes": 756,
+      "sha256": "dae71455e579b69f2c2df2a398196b2539842630aff3ac4282b976987bb74714",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/Selection.md",
+      "bytes": 1609,
+      "sha256": "b93cf22c75fe6a01b69a37a7c90d3da4500bffe582e6e2ca11d92f21c6a61696",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/SelectProps.md",
+      "bytes": 328,
+      "sha256": "3d8760ab18f8e21f607bc048f77d53efee6a437b71bfd8e7fb7d79ae3b0a94c3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/Styles.md",
+      "bytes": 490,
+      "sha256": "0cf98a4f509768158867b6b0cab7ea9f14a6fd17fe9e0ba959b6c06340659308",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/WeekdayProps.md",
+      "bytes": 334,
+      "sha256": "8b7f86d13168f46c122f8ea5ce02ea95b44d085800d44b265cc2418db50ef55d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/WeekdaysProps.md",
+      "bytes": 340,
+      "sha256": "fd8a3775d5927df30808101c8764eaab4d5a6bfd26c26f44396769a04f7cea80",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/WeekNumberHeaderProps.md",
+      "bytes": 388,
+      "sha256": "8fffca23015f827a91adb52601745fdefbb26c84ea80fe398190da48e0145126",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/WeekNumberProps.md",
+      "bytes": 352,
+      "sha256": "31aea3b11fa0be642152fe6ee490da858abee60d776e249543d0abb79b460e72",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/WeekProps.md",
+      "bytes": 316,
+      "sha256": "0085fca73a8dcb68bd8cc09e29d58411fe1b23f3dbf3201a26716c983be4554f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/type-aliases/WeeksProps.md",
+      "bytes": 322,
+      "sha256": "4928582675e96162eab547a1579ffee138e253df3fb30404ebe3b43b27e6177c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/typedoc-sidebar.cjs",
+      "bytes": 10665,
+      "sha256": "5b62fd92fe6ee9570261599b208203ca744887181ed7cedf8b45695f9a0aa0e9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "docs/api/react/variables/defaultDateLib.md",
+      "bytes": 367,
+      "sha256": "1bf9da6f4a840213dba65e9b54ecd59df345c3c55b16dd960b94eca51719b85c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/api/react/variables/defaultLocale.md",
+      "bytes": 391,
+      "sha256": "8b9871b30b7ed4a558fcf6c2ca644bcdc9d3094286520da2dbcb2231679c75eb",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/changelog.mdx",
+      "bytes": 151,
+      "sha256": "8bb658890dd696b1acf85c1068cf4724180a6ec2ffa6fd62d81de6336df9cf03",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/development/code-of-conduct.md",
+      "bytes": 156,
+      "sha256": "52b150adda52a79cbaabf848188006cebf90f112c561053a237601cd45c93a47",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/development/contributing.md",
+      "bytes": 140,
+      "sha256": "20a73bc20c958458a5acedcb12590c1576b9a23c314dc50982d875e4fbc9ef3d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/development/source.md",
+      "bytes": 238,
+      "sha256": "d0291ecdeedf840ba3692fbc9cd5cef7eed2be205a82e18ce7fc1793dfc238aa",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/docs/anatomy.mdx",
+      "bytes": 3286,
+      "sha256": "e781130d113c2d207d4c9b610246f0075a52fc8dff5d16cba754072fcf40c01f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/docs/appearance.mdx",
+      "bytes": 5386,
+      "sha256": "329f3a6d971fc086537c8012f869998c450e0dd289e1fbdf3ac9600f1d9835db",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/docs/caption-and-nav-layouts.mdx",
+      "bytes": 6095,
+      "sha256": "2f2c0e98893bfe1265f099eae616c23ce688d63e8c5934d263bc99076ae7a5c7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/docs/grid-and-months.mdx",
+      "bytes": 2622,
+      "sha256": "0c4fba245ea7221e80f789575162837e8c6af984575c717f74241d818ff01ce3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/docs/navigation.mdx",
+      "bytes": 5822,
+      "sha256": "a46bb1c06ae9df08c1b59f0c4fb2b81fcb1e5933522eb63262faec4bc96973b3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/docs/styling.mdx",
+      "bytes": 10183,
+      "sha256": "4509c1a31618d932af89875a4ef872203eaf55d036008566ff255fb7914fd52f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/docs/week-numbers-and-footer.mdx",
+      "bytes": 3047,
+      "sha256": "2a1b81e87b1b587f7e2a7cfa29a10646cd6c5b9800fffab49709aac224586b1b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/guides/accessibility.mdx",
+      "bytes": 5099,
+      "sha256": "e0faf65502bf605a450b0dced0d29edad93fdf1e337f792952755a40be27a51a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/guides/custom-components.mdx",
+      "bytes": 16348,
+      "sha256": "9665b29fa7d3a84e513ceead09a9b1c8f9d165b97898a6a776221a6cefab6fd1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/guides/custom-modifiers.mdx",
+      "bytes": 4119,
+      "sha256": "bf3784609cfe9cc54e0ed5627d30dcbc69b8b27f08d88bf15827248d2f4076a7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/guides/custom-selections.mdx",
+      "bytes": 10536,
+      "sha256": "54741a487f62538098caa9c39eafb0986804fa566de8f57bc4f8a503fe07c2e5",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/guides/input-fields.mdx",
+      "bytes": 7336,
+      "sha256": "9d6c0c9c1695b00b8bbbfe1c7beacc84d3c473941668eafbd59d2c50487b1380",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/guides/timepicker.mdx",
+      "bytes": 5193,
+      "sha256": "2bbe7dbf0190563873f9e93edf9e9e67dfb3d3234eaf810ad933b27cab0b4753",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/guides/translation.mdx",
+      "bytes": 5797,
+      "sha256": "1c8f4f4577eaa1fcd3d692dc99e09b66d256287fb8d27db98e3bcbf957ca96ee",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/img/anatomy-dark.png",
+      "bytes": 144451,
+      "sha256": "9b4bedc847c18ad7100e80c0f0cc963f28ba75b56e3c74bb3aa6f6011bf3b578",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/img/anatomy-light.png",
+      "bytes": 147551,
+      "sha256": "d79ac87f8a126770381f80a1caf27f3ef00dccf64ad57edc53394c6e76f1772a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/intro.mdx",
+      "bytes": 6185,
+      "sha256": "01b2ee1ff2bf1103ff8214c900b960abd81643e00a453ae7aa232b5d2b04d035",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/license.mdx",
+      "bytes": 1274,
+      "sha256": "6f3c6ef0667d904a9d84cb7e0e840b95851623f56845e757c88625fa8c5f7d87",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/localization/buddhist.mdx",
+      "bytes": 1070,
+      "sha256": "6e5b061883beef6bf579787846d2b028cd6ab7f77e689e756858f6f24d8f4900",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/localization/changing-locale.mdx",
+      "bytes": 3395,
+      "sha256": "bd91b09614ccfa32aecd78ffc3f780a6ae32593a1d1c14149fdd6a86f11fe2e7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/localization/ethiopic.mdx",
+      "bytes": 1205,
+      "sha256": "011f0bb408d06992ffd1f43b94b68a49e01e0cc0618edb93e333ead8b234042e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/localization/hebrew.mdx",
+      "bytes": 998,
+      "sha256": "642d29c0ace6421e3fe12b3c180a268c4c576fe37b992ceac56b9675ce95ae43",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/localization/hijri.mdx",
+      "bytes": 1216,
+      "sha256": "0087c4f5465c78df72ed1422e2104538af94ef3293711a4012ec64bbd1d0369d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/localization/iso-and-broadcast.mdx",
+      "bytes": 2031,
+      "sha256": "b5c2587100890f06877a3c6c3315c83259ec4a91c8e07526ac1f5aafbedb0d76",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/localization/persian.mdx",
+      "bytes": 1098,
+      "sha256": "98d51dc41e1a1a404b6972175de9d0e90fa802be49d197bab0015290f494345d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/localization/setting-time-zone.mdx",
+      "bytes": 3616,
+      "sha256": "e46c21fa6d4c4de71d457651fb7a5f7dcff14211204fc2c3c107de72528cb61d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/selections/disabling-dates.mdx",
+      "bytes": 3952,
+      "sha256": "f6d524151ea0cc62e80b8013734ca711f4069e2a6680e7829a1a7e6eb53ff42b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/selections/multiple-mode.mdx",
+      "bytes": 2340,
+      "sha256": "757096c2f7fa2da2c12cbe58e948bf20225a77ea62cdc943940170e93e7e4a48",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/selections/range-mode.mdx",
+      "bytes": 3813,
+      "sha256": "0dd6b5787634f9dd2b5f35937ea73ac4c5aa528acef881109e55d8d76b468115",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/selections/selection-modes.mdx",
+      "bytes": 2246,
+      "sha256": "5d6366e41cbb436c9af98c254e664c510bb621cf689bd59a74662fe11ed670b8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/selections/single-mode.mdx",
+      "bytes": 1798,
+      "sha256": "609ff93679cef03319941a618c4a39c4c1e2aa2d3804b64781b381bc5a552bdd",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/start.mdx",
+      "bytes": 4455,
+      "sha256": "9050c7eed28f84846711d72d66abcafc251342915f2dd76351b37b136178b4d0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/upgrading-v8-to-v10.mdx",
+      "bytes": 23692,
+      "sha256": "649bf71ba8840f43debed0d4da320d9e6019145b22cfe38f4aa40218c265b4ce",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/upgrading.mdx",
+      "bytes": 9639,
+      "sha256": "6ad753e05c4b14546d089d8e62af6300d6555877c4fe30d2a530aca0e2096336",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docusaurus.config.ts",
+      "bytes": 11208,
+      "sha256": "507a1c121126f574b6ac4292335365553f556a366cadcb14367339ab445f96eb",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Controlled.tsx",
+      "bytes": 569,
+      "sha256": "62c9f9e60c86b52edc38cab2f662232b61a61e67a433f4432dba47102b920174",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/CssVariables.tsx",
+      "bytes": 197,
+      "sha256": "dc45addf66e3a41296e6ede76641052362eece22a1de2b4e7ad9deb18f6971be",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/CustomCaption.tsx",
+      "bytes": 753,
+      "sha256": "13da3a34256e9d9526af73ac9cdf4a34b97330028ea2bcdb5d2cc9aca6aa0fc1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/CustomDayContent.tsx",
+      "bytes": 371,
+      "sha256": "02349087bf47b66cc75e096c9a894e3c70178e03c74a48dd39893eae40f8cb97",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/CustomMultiple.tsx",
+      "bytes": 942,
+      "sha256": "f1a7e4d2dc4e6486603f75084e4077bbddecd1c8b879f3770147b0f007a94c5c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/CustomSingle.tsx",
+      "bytes": 652,
+      "sha256": "05075e1d40767e43c24b418a4e3fea126ac7cba1d2e44a321ff38d1fcd88eda3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/CustomWeek.tsx",
+      "bytes": 1517,
+      "sha256": "6123378bd80f4b1ea59dc735b7f21565358aa10c68304fd0ab42d9aa1a2d4ab6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/DefaultMonth.tsx",
+      "bytes": 144,
+      "sha256": "1ce7b732fd5ce6c1e562262514b76fc4ef461d2a5d5be1fa25c03d92693da069",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Dialog.tsx",
+      "bytes": 3691,
+      "sha256": "1c24a27f479a71e85d4bbe07c34a7c4452ecdbec84e80c63596642c56fdfcb18",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Disabled.tsx",
+      "bytes": 125,
+      "sha256": "264e1cf1797f7127e2d93c59ef11271b51ccd1e28ec080e506612fe4a0200c65",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/DisableNavigation.tsx",
+      "bytes": 134,
+      "sha256": "4e11c5cb2cbfbd487327f7ee7e251e867216c23f1732e330d402ac0cc8cbf174",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Dropdown.tsx",
+      "bytes": 162,
+      "sha256": "637f8dcb300a2100d1126038153b97514012374bf5a8b9d171a825f993741963",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/DropdownMultipleMonths.tsx",
+      "bytes": 241,
+      "sha256": "e9502d530ce699964c553b052f96dcfe609f89174e8067fa48ce955de32ac81e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Fixedweeks.tsx",
+      "bytes": 222,
+      "sha256": "e043a91f51eba308e655390143daaa98c56edb79395684dbc9ff795c9e5cff58",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Formatters.tsx",
+      "bytes": 835,
+      "sha256": "f0778be4eb123515745e379352db8e4bda82e2a9947d6c4f41317a86bf0c5f0d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/FromToMonth.tsx",
+      "bytes": 269,
+      "sha256": "72cd4ed8614edd0cab559cbae8fd3e5d5748d063b875391f27571fdde723c1b2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/FromToYear.tsx",
+      "bytes": 182,
+      "sha256": "2cbfcb581555cc901d9402f1709ce36aa4abece46a3acad4a361f1cf0b449e18",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/HideNavigation.tsx",
+      "bytes": 131,
+      "sha256": "2cd546527bf387c539fced7a5d2d7cc0de069be9d70bd28154347976d1bd2ba1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/index.ts",
+      "bytes": 1739,
+      "sha256": "ba69ff4ec1d6e8e8c1046772b20bb4f5d58cf151c8694d65e5242716c9d1d987",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Input.tsx",
+      "bytes": 2133,
+      "sha256": "2e98b8e33972b23b02760707bf851de42a9e8e3b1133a71e70837abedffed548",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/InputRange.tsx",
+      "bytes": 2300,
+      "sha256": "3a11833f26dff446b25050ed0d92e69e5338efe1750b51f4525074b43a845eb1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/InputTime.tsx",
+      "bytes": 1639,
+      "sha256": "2382469a3f29243932122f84fc884436d8437d93ca57b193b81684c837a2ae8c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Keyboard.tsx",
+      "bytes": 406,
+      "sha256": "f09103346b18745d370793fdb9b7eb15160de1dfeb14ef86defe701c9c2525ba",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/ModifiersClassnames.tsx",
+      "bytes": 520,
+      "sha256": "9363ad5769366832303f461fed7ed640f9896a22ab80759a0d76c1e676f4d0f7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/ModifiersCustom.tsx",
+      "bytes": 915,
+      "sha256": "4c75b32306f0aea5f1928e613e3f84847de1330b8eaec74236f9bd5bc200ee5b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/ModifiersDisabled.tsx",
+      "bytes": 232,
+      "sha256": "9131a83d83663db931ee9c4538edb1b65a026a4796251eec0af0944a08e9de3d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/ModifiersHidden.tsx",
+      "bytes": 273,
+      "sha256": "5ba2cd04e7cb6e75f7524c79d2be045ec4af349f527be08b21aa3b0d918a15fd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/ModifiersSelected.tsx",
+      "bytes": 523,
+      "sha256": "fa69196cbc626c32c4fdede4fa3758c31c6346f70156c2c5a1129c75422779f1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/ModifiersStyle.tsx",
+      "bytes": 458,
+      "sha256": "ebd4ab73ca31a48f1274b64ec066afdbd197a3751e44c73dcca1e4fd9bf1eb64",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/ModifiersToday.tsx",
+      "bytes": 544,
+      "sha256": "1b1359cb88f43443efe4897895f3db4412dd2b01d93c6c437366497905466055",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Multiple.tsx",
+      "bytes": 453,
+      "sha256": "28ebe160408b2d6db831f5d212c56a87c649389d838eb285c482d83c3b9f4473",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/MultipleMinMax.tsx",
+      "bytes": 468,
+      "sha256": "d3687f4b020e1ee156bd6fcced60869df7d5e561a914420810817c0d7b7078a1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/MultipleMonths.tsx",
+      "bytes": 132,
+      "sha256": "cf77ca53794f25158b6d15dc8d58a3e16493c52ade651742a88b66ff282b081f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/MultipleMonthsId.tsx",
+      "bytes": 156,
+      "sha256": "323ef8710b33a9c5bce64755dae4352e90eb7b3fca39796950cb032b13753547",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/MultipleMonthsPaged.tsx",
+      "bytes": 153,
+      "sha256": "84c5d6ef5dc6444fdc45d5a0bee481d4ab2785754a17ec5633d434284724be96",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/None.tsx",
+      "bytes": 118,
+      "sha256": "391e7a7fab7fd89c718608573fe3cdf78507096ae1ff4b3d3303ed7e2d8ee317",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/NumberingSystem.tsx",
+      "bytes": 847,
+      "sha256": "ecef41934bab39a7513eaab564ca8614baddf5fe74447096daea9f9f86cea579",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/OutsideDays.tsx",
+      "bytes": 141,
+      "sha256": "54d18cabb46c88b454c76af1c75e851fff280fa0c50c7bd243cd87b28066fed7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Range.tsx",
+      "bytes": 691,
+      "sha256": "f10009d81e70339db45d76d4eb029553e7dabf83876a5847607cb3ac880f1efe",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/RangeMinMax.tsx",
+      "bytes": 725,
+      "sha256": "bdb846a1dc388c479c2851adf6583b872660e529fddd8e9f94685657644cf08a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/RangeShiftKey.tsx",
+      "bytes": 1485,
+      "sha256": "3cc4f21a284399d2ab332c02957d25d261f92d0a5d4193f667595b3bf92b4c0f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/react-day-picker-v8.tsx",
+      "bytes": 609,
+      "sha256": "7d1b6f52b60a7d842b132c08fe00dfc74bf67619c8eb5195b1711bf6ec782fcd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Rtl.tsx",
+      "bytes": 173,
+      "sha256": "852e73bc8188f3ed761d10549a3dbb235b008c9a2aa3ba09d3dc3c26a2b37820",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Single.tsx",
+      "bytes": 342,
+      "sha256": "e44c9c25670a31a76cb531f18fb3f6e677b5e73195b2a0f10415c9e0c0bcda46",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/SingleRequired.tsx",
+      "bytes": 351,
+      "sha256": "2044249f55416d1b68c0450ae441ea35a8ba52337f5f8385f5082cdccfd98221",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Spanish.tsx",
+      "bytes": 160,
+      "sha256": "e4a99499400efe3f278e389c854adc443eefaf981f2507e36d348d0aef1b83c4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/SpanishWeekStartsOn.tsx",
+      "bytes": 189,
+      "sha256": "056fb8fa091cf2ad07c523fe655486dd103e66ba886b0386a48198b6860d691a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Start.tsx",
+      "bytes": 326,
+      "sha256": "65ef3e6a78c1c262a025bcc76fe001937667cb3383261e570db6065be6f86397",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/styles/css-variables.module.css",
+      "bytes": 46,
+      "sha256": "389a8647efc4d7c12a7dce19cce8d186ce35b5add3d6844c70a95cb6e6d33825",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "examples-v8/styles/styles.css",
+      "bytes": 591,
+      "sha256": "c2ae6d8f5d0d22b5c06f534fceefa9631eda9dcddd19ede96774279beceec64a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "examples-v8/styles/styling-modifiers.module.css",
+      "bytes": 55,
+      "sha256": "47b9e387de9ad1ad1400585741b9807c488db31a66fef182f531232edd2a89c0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "examples-v8/StylingCss.tsx",
+      "bytes": 365,
+      "sha256": "f1982b994337bcf2afac263c5ab2415077f22273e5d047f8c04253df10eda232",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/StylingCssModules.module.css",
+      "bytes": 203,
+      "sha256": "a731aecac00f3b0c12f409ff9944760fd4fd0fe5e50633b50bdfd84c1f385d75",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "examples-v8/StylingCssModules.tsx",
+      "bytes": 222,
+      "sha256": "db2cf7d959df885636f5660750154f8691291e44aea27e3a689484443719fa0d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/StylingInline.tsx",
+      "bytes": 186,
+      "sha256": "248e149147982fada0873728340242d659fc675458fdc582763fa69e9392b079",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/StylingModifiers.tsx",
+      "bytes": 632,
+      "sha256": "1660b74d5faffdbcda64cc6a3a4ca1a9f720fcf6b9aa9f03ff5471be1873c611",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/WeekIso.tsx",
+      "bytes": 145,
+      "sha256": "cabc3f542a60db37c65e3b8d5ae225cf722a9676074836273e79fe69659a64f0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/Weeknumber.tsx",
+      "bytes": 413,
+      "sha256": "b5c9cd0a207bf9c9a38d3445217e112bb49af6aa4e8c4bace9a113f8498e675a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/WeeknumberCustom.tsx",
+      "bytes": 642,
+      "sha256": "4ee840ccfe94b1c59062614a57451cfeada86056c0850f0488722181bf6aa77d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v8/WeeknumberIso.tsx",
+      "bytes": 135,
+      "sha256": "6a72585da7c14af32f4060d63cbe6bb07ff24ef19ebd49a24b10a39f75e80702",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/AccessibleDatePicker.tsx",
+      "bytes": 742,
+      "sha256": "7c50a0f72b62933572b1d315d262729232db43ae86c5365ffd51f3036579eba4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Anatomy.tsx",
+      "bytes": 669,
+      "sha256": "46515c52a46cdc28cea7566936c03cad6d6374917d20caddb1ef936f0ad1193e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Animate.tsx",
+      "bytes": 334,
+      "sha256": "a691435afea039815c787777d1c59d788f05ed9dac32e4fb43d52e8c95b94c6f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/AnimateCSSVars.tsx",
+      "bytes": 389,
+      "sha256": "5252c29caa8a103f4e1b5f4ade6931f83d722768937e64cc170a5343b874944b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/AnimateRange.tsx",
+      "bytes": 367,
+      "sha256": "22b043a9b826de4d8e587cb6bc253a5fc6e563e5cfb1bfabec2181f6882ec33e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/AnimateRtl.tsx",
+      "bytes": 484,
+      "sha256": "00a0b1c4494675b385e5a37e82eae33ba862b2585887c0a8af8ad2cf89d0e844",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/AsiaSaigonTimezone.tsx",
+      "bytes": 350,
+      "sha256": "265bde5181179543d9c1f245709f7760524e051ae3130f2c0012950bc9a949a9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/AutoFocus.tsx",
+      "bytes": 277,
+      "sha256": "d49f0646c93ecd7ec9361be1cd4d0f6f7889f5c03958e54c5e155e7bbabfd4b3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/BroadcastCalendar.tsx",
+      "bytes": 190,
+      "sha256": "ef63ab217e2e0d15e0c4c29c497d3b2ec382bd131eb73535dc758673e50448f5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Buddhist.tsx",
+      "bytes": 157,
+      "sha256": "d40a24d3734c69870d32a7cfe9dae1ea408bc8aaa6c102b00106cb568ce1e845",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/BuddhistEn.tsx",
+      "bytes": 236,
+      "sha256": "977e141e111709fc84cdc2c318fe21834082b5e01d2b7a0ff88a5c55809f1f1d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/ContainerAttributes.tsx",
+      "bytes": 310,
+      "sha256": "d63ca3073cc6745ef3c59970c194dd460faf28af3983e2a240d9749069432e4a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Controlled.tsx",
+      "bytes": 640,
+      "sha256": "0bb2f3452d401d7ba82bdbee660ab53f6438ba707c2dd82e32c0e33acc819dbb",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/ControlledSelection.tsx",
+      "bytes": 724,
+      "sha256": "ac0bbb0e1d9b36e4ddd45620a26a18d05bc3d2032d516293ca9676dfe22902d8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/CssModules.tsx",
+      "bytes": 251,
+      "sha256": "1ee08efb833d844912110be0234e51c249e29c6390fc644857cc454f09706311",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/CssVariables.tsx",
+      "bytes": 239,
+      "sha256": "0c4fc729df2fa5581e6b9f0823cd21eebd0d3de38fba7438943a32a051962b79",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/CustomCaption.tsx",
+      "bytes": 1117,
+      "sha256": "4b6162c1acf2ee63754c02e871ca6e76fc4f601cf6a8ee9e4a7adea6da3cb875",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/CustomDayButton.tsx",
+      "bytes": 1169,
+      "sha256": "c668156a2abaf66860b6c5423be2c34780d55b1504866fd73bf8aeeb5f3dc06c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/CustomDropdown/CustomDropdown.tsx",
+      "bytes": 2249,
+      "sha256": "59e7fbe2ffb8d1babb9a66f8e98642170e655fa9545779a0010217b87331f47f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/CustomDropdown/index.ts",
+      "bytes": 49,
+      "sha256": "d82c96ad13543a681cc8b3d969076b31d5487697ea0e93b3f7f2a037ce37b645",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/CustomDropdown/Select.tsx",
+      "bytes": 4886,
+      "sha256": "646f63fc3c0c9cf465b883c9dfd565de6bfd13781f4312b7aaf19081d46a759b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/CustomMonthSelection.tsx",
+      "bytes": 1001,
+      "sha256": "c61f56e058ef5d3764ff1be4e4253fda3ee679cc9309b189738aba22bd5a9234",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/CustomMultiple.tsx",
+      "bytes": 1020,
+      "sha256": "3fb76c500e67c124baac099486ee3b57a09a3b0f665b2107b303ffb0075bbeed",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/CustomRollingWindow.tsx",
+      "bytes": 1112,
+      "sha256": "b67b4c4d3dfc10d0229884e223949ed33074d92f2e99ae0f33efc7c94738e72e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/CustomSingle.tsx",
+      "bytes": 676,
+      "sha256": "2265401f2d4a6e2a087a24263d33c2beb56d434fd1b8ed99b8d4cda0b2103ba2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/CustomWeek.tsx",
+      "bytes": 1173,
+      "sha256": "86c5cf6a40581697ecde540f74f7e4a7db91179a57bf88abcbdfc817f1e676da",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/declarations.d.ts",
+      "bytes": 119,
+      "sha256": "69c4f5eb050ea22adcc17f8573feb2699d55da2e0d6a4d4e49d56928421d521f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/DefaultMonth.tsx",
+      "bytes": 185,
+      "sha256": "c1158b836a83a3b69c51a30ed4b8cfd31062b36bd01e5854f787a27d97b292b6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Dialog.tsx",
+      "bytes": 3833,
+      "sha256": "7ebaecfb92baa4bd402a328fd317d9136356a4283d22be33b9dee8736acad4de",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Disabled.tsx",
+      "bytes": 166,
+      "sha256": "342dcdfe740e69c336e35325e9d1198619435b8604232c1bd82c952be522d381",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/DisabledSelectedDate.tsx",
+      "bytes": 603,
+      "sha256": "f9a1754196f12ec5e682e8b985667c263465b85a5d5615677b675c12b515972a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/DisableNavigation.tsx",
+      "bytes": 175,
+      "sha256": "6b0665f664bf462cc70f281e630b326d759f356407503dcb0d9825ae0156308b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Dropdown.tsx",
+      "bytes": 304,
+      "sha256": "28f7b80969e976364ab5dd94f2d31014443a90c982e776e6b5a632c8ab976617",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/DropdownMonths.tsx",
+      "bytes": 186,
+      "sha256": "370648096c840c0f46f69400a78a052186909323d17af204dfaa62561ec56d79",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/DropdownMultipleMonths.tsx",
+      "bytes": 343,
+      "sha256": "9323701a1c10a77babb62057342b2346a08a635624d23a7313321bd306dc3b94",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Ethiopic.tsx",
+      "bytes": 212,
+      "sha256": "d0dea2cfce79e86cda09de267e0a587a4984dd941edef44a6c68b86bafa4283e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/EthiopicLatin.tsx",
+      "bytes": 178,
+      "sha256": "b636cfff207418c3fee9b80ab8cd582b444343b6c7d079504d57e1c9eabbc2df",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Fixedweeks.tsx",
+      "bytes": 176,
+      "sha256": "dffabdea28c191160e0a1449aaf986c88ff24b57196be2c157616750ee23779c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/FocusedDisabledNav.tsx",
+      "bytes": 332,
+      "sha256": "75ce06f726cb8fd12a533bebbd65f3dda6db918f79a5836da6b7e307f9a44c92",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/FocusRecursive.tsx",
+      "bytes": 469,
+      "sha256": "fdc2c727f9390365189578cc70ca0621e84d00fcfffdfc5e7af05aa4860479c4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Footer.tsx",
+      "bytes": 426,
+      "sha256": "ff503da64cf61865a9d864dbdf3a1bff2d286641d0994555517331d82766a22d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Formatters.tsx",
+      "bytes": 941,
+      "sha256": "9ad6901f187bb5f8225befedc0e4b6192cf084f55425ba11216fb7b4a68f624e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/FromToMonth.tsx",
+      "bytes": 311,
+      "sha256": "70bcf31a3ecd23c496db01f9065c86b3d6b50c64242518b57fd5510b0fd95c74",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/FromToYear.tsx",
+      "bytes": 223,
+      "sha256": "72b8d52efdbc96ca83fdbf38cfb5823e63f16f29548515d40561a4ebdb8a4dc7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Hebrew.tsx",
+      "bytes": 153,
+      "sha256": "2e1ac226dea6dc0ec7ddd61ea351a6f1ee0a9fe9edf848c7970cc2cdb59dce11",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/HebrewEn.tsx",
+      "bytes": 246,
+      "sha256": "dfa857a0cb6c314ce91855c014067ed1aaefd4abb0672071594f3e210f0f6749",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/HideNavigation.tsx",
+      "bytes": 194,
+      "sha256": "4eb510b4ef7ee1af2987b948fbb4e2442188dd99f7115fe07a1166b4212d8dd0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Hijri.tsx",
+      "bytes": 165,
+      "sha256": "9a78b6d8fb80568c4654233714a0e4bf15c4263292f59805ad6159b2b16fa251",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/HijriEn.tsx",
+      "bytes": 230,
+      "sha256": "de0f70aee78885268b303a49123fba9028208e76a9ef5e31b2091cf174f7aa19",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/index.ts",
+      "bytes": 3784,
+      "sha256": "330f54e57cf8f7aa6d9222d049153cfe9be6ed5b0f0ac51fd00e70c605427afd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Input.tsx",
+      "bytes": 2341,
+      "sha256": "d915c2793bb2a6c43f15d8337f368cb173d5863fadffed4d0659daa444f544fd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/InputRange.tsx",
+      "bytes": 2311,
+      "sha256": "b2518ce6d7bcd8f012852efc97d8b7b0e3d3ce426a411ecc1fded2da29a3c087",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/InputTime.tsx",
+      "bytes": 1932,
+      "sha256": "17639fceba90fde14d51220ebfd3158e042d3ce228be3484a37ce206a211f7af",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/InvalidMonth.tsx",
+      "bytes": 391,
+      "sha256": "9de9e41617912cadbf19ba1fed7f560fbcb36bedf95ba7b7a71e25d41d6c1793",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/InvalidMonthDefaultLimit.tsx",
+      "bytes": 418,
+      "sha256": "25911636e7be4291c4e28f8ad8380165d74163e514db78a9d01a75e7ca6b060f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/ItalianLabels.tsx",
+      "bytes": 815,
+      "sha256": "c53103d33a97bbe6fc15282de23c1947c39130cf72e41c2f989e112ee86fc29e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Keyboard.tsx",
+      "bytes": 458,
+      "sha256": "4c941393b5c178a57c6a5d7864e2d79308deb928d1c0a0fe66821b76d523e87b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/ModifiersClassnames.tsx",
+      "bytes": 614,
+      "sha256": "de4159161035f46c3433fc3c5e41019c22b6831befc1ee6e66f6f18d56a4d653",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/ModifiersCustom.tsx",
+      "bytes": 961,
+      "sha256": "c1864e3190973592fa91a1c57b73c39e639734f38809afe13f76193525bf5c8d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/ModifiersDisabled.tsx",
+      "bytes": 203,
+      "sha256": "9fc897b240df99abe4f439c53c8df4cd67eb7015b3af8fd1a65b38e8aeeb0d5b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/ModifiersHidden.tsx",
+      "bytes": 314,
+      "sha256": "4eeddc0db8f741d0c1c53dab1a37272dea5417dc083c0d85c482fbb0450de6d9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/ModifiersSelected.tsx",
+      "bytes": 569,
+      "sha256": "6cf31906a89979b5b67de6a2d19c9d1fc52cb796ad609f8e3b931fb17c9b18ff",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/ModifiersStyle.tsx",
+      "bytes": 499,
+      "sha256": "b0e0fac72617c590c652366ddb6fb90a80d70f93e0c1088c1fe43ed4be2cf565",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/ModifiersToday.tsx",
+      "bytes": 601,
+      "sha256": "14ab859e1546e8553b5acad88dd5d387a0a9ece0204adcc998f0c90fbf8e33de",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Multiple.tsx",
+      "bytes": 164,
+      "sha256": "534a72fa84f030b4b02445458bb8034d7165629173637d73c1740fc57b936ea7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/MultipleMinMax.tsx",
+      "bytes": 298,
+      "sha256": "d42ee6f65daebeb7e3e4fdcd02847e20af9cb7ff10f1b2a44bb5e572aeb3ba95",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/MultipleMonths.tsx",
+      "bytes": 173,
+      "sha256": "41d2fa7861e5d3b40c7459d5078da1677c5a2d9cc40963a707a04226212630b9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/MultipleMonthsPaged.tsx",
+      "bytes": 194,
+      "sha256": "1a2448f15232bdf498cb66a1c030f8a1fc73d88d11eb1d110578bd4b17553c59",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/MultipleMonthsWithEndMonth.tsx",
+      "bytes": 263,
+      "sha256": "5fa60699b606a5c00aa76cfadbca23106d6cf7975e37f918c540876b15f9f66f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/MultipleRequired.tsx",
+      "bytes": 205,
+      "sha256": "933ee518ec81090880a2f28a2b4eb0156fb471283fb055dadd7917142ff98894",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/NavLayout.tsx",
+      "bytes": 168,
+      "sha256": "55bdcb921bdc626d61bbd3c98b68081d78f9910fc9cc6e513e2712013fdbb69e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/NavLayoutAfter.tsx",
+      "bytes": 172,
+      "sha256": "53cfa0541dd5f8fb5984af6823499afdad8b149cef97b271d6f4139f52ca3bf8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Numerals.tsx",
+      "bytes": 224,
+      "sha256": "4d83facd55fc9f7c19c8b805e19e64e6cbd5fd6656563a48dfd5ac016c884f65",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/OutsideDays.tsx",
+      "bytes": 198,
+      "sha256": "380a8de16bdd79fc009262abf26ec5ae9463fe1b0e9ae1ed48f3a55afffafadd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/PastDatesDisabled.tsx",
+      "bytes": 205,
+      "sha256": "276602c66936e8abcd2544be7894d842d2bd05671e730bb4a3807de5273f165b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Persian.tsx",
+      "bytes": 169,
+      "sha256": "dda35e1f8aa7b6ea1d99c40f1de2b56dbec7bb3f2f3a337cd4e413ae47fe5ed3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/PersianEn.tsx",
+      "bytes": 234,
+      "sha256": "bb52fb9fb18dcdfd1e8459ea172d6b75582c9b31fc260a09787266d658acc16e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/PersianFormatted.tsx",
+      "bytes": 508,
+      "sha256": "b29bcc2a5df4f5b3631befd161703295eb5c259f36455cd546752dd0f7dfd3a7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Range.tsx",
+      "bytes": 975,
+      "sha256": "aa472f95ea420fcccf3e9f6b646c57450aedbdebb184b0f429c2e250a2f9b52c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/RangeExcludeDisabled.tsx",
+      "bytes": 232,
+      "sha256": "f44e14d453b24cfd7a2b71e96b8b6f0309db2fc85946bc1586fdd3ec8b6b5cde",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/RangeLong.tsx",
+      "bytes": 447,
+      "sha256": "e579b80cdf3a08cd55c19562850e8e46402076146aa21c77f4c1c3e047d85e90",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/RangeLongExcludeDisabled.tsx",
+      "bytes": 522,
+      "sha256": "eabd7a841b22ce87a444ce26a770a3c41f7faf418a4de313e76d73e39b75735c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/RangeMinMax.tsx",
+      "bytes": 735,
+      "sha256": "95b4537e614d1808cd4d53929a8756321811e64eafcde9e938d1074f7ac097ad",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/RangeRequired.tsx",
+      "bytes": 749,
+      "sha256": "17a9d9a3d95a2a56f27a4d5472516d5dcefe2aea96bab0f67e91200b0ca9e433",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/RangeResetSelection.tsx",
+      "bytes": 822,
+      "sha256": "64ffc770714730dc8180c47ecec716811d035ec3a1a33c355f097705b055bf09",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/RangeShiftKey.tsx",
+      "bytes": 1347,
+      "sha256": "00a5bb8f3c578f8d73b20e9c4817f121d20e47c936fe9d71b067fe655e211194",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Rtl.tsx",
+      "bytes": 217,
+      "sha256": "9d270f3124ff176538837779064b1ad4dda9ac242911d9b4fcc577bfa6cf7b3c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Single.tsx",
+      "bytes": 160,
+      "sha256": "e0ad9061440fc4bf459b38f6cd18a73c34e0cf1446912db46fb5fa73f1a0ea04",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/SingleControlled.tsx",
+      "bytes": 283,
+      "sha256": "b5eec04a67c80a90ec6f39f622b318f908e71cce7fa6cdf3aaf49f92dbc4781f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/SingleRequired.tsx",
+      "bytes": 361,
+      "sha256": "f38e2df0ca79bff116be04d939cb1f6b61e77693f0331080986225cf859c6d15",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Spanish.tsx",
+      "bytes": 207,
+      "sha256": "6178049258659cf98a35ac8c0ca022b9be5a1ed7ec6a1cc797d0cb857f8ef81d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/SpanishWeekStartsOn.tsx",
+      "bytes": 236,
+      "sha256": "03b143c3ebff80a46a3268e65b8cdc7e5ff7baf44d914702c9f17f2376d4db70",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Start.tsx",
+      "bytes": 418,
+      "sha256": "c6579891ab1c7984dc8cd6aa9be9fda70f856ad24c74a0e1fad5f54b22a66397",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/StartEndMonths.tsx",
+      "bytes": 280,
+      "sha256": "6e2370becb51f35fd792a9874a4fa84cd7866ee61e7643f7fd324d5f43578ad0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/StartEndMonthsShowOutsideDays.tsx",
+      "bytes": 511,
+      "sha256": "4bbd6aacee773ddf423bdb65e3dbe78b89ceb81dde849784d9f07ea09dc076bc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/styles/css-variables.module.css",
+      "bytes": 46,
+      "sha256": "389a8647efc4d7c12a7dce19cce8d186ce35b5add3d6844c70a95cb6e6d33825",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "examples-v9/styles/styles.css",
+      "bytes": 591,
+      "sha256": "c2ae6d8f5d0d22b5c06f534fceefa9631eda9dcddd19ede96774279beceec64a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "examples-v9/styles/styling-modifiers.module.css",
+      "bytes": 55,
+      "sha256": "47b9e387de9ad1ad1400585741b9807c488db31a66fef182f531232edd2a89c0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "examples-v9/StylingCss.tsx",
+      "bytes": 412,
+      "sha256": "251c049d9d5c054bb822a0cdc7350dba368c03ab4fe4da1780aec6dad54e29e4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/StylingInline.tsx",
+      "bytes": 233,
+      "sha256": "784827245d3212dfd2274b3043a931f2642841b6debe9f5ae13341b7c2c3cd85",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/StylingModifiers.tsx",
+      "bytes": 672,
+      "sha256": "e0f9770fb0d9e8a15a52681d5618f1ae66de4df0b2cfc150b4e606bf08a81885",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/TailwindCSS.tsx",
+      "bytes": 928,
+      "sha256": "3f07f22e59fd9e4915d63a8e0bbd5e4aeb51907e903bb63f2d54741d3aca1752",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Testcase1567.tsx",
+      "bytes": 804,
+      "sha256": "c8cd9954e72cd12784c7f83fea6f449a718a7eb8a8d3dc99bd2572e672a24c7c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/TestCase2047.tsx",
+      "bytes": 525,
+      "sha256": "fc77a77fd2ba6973f27252d6ecfe04d24add1c7a4d75fc6eb2e88b6abbe2f1ee",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/TestCase2389.tsx",
+      "bytes": 446,
+      "sha256": "f324653a68ed111da1c0741ae85a311c67fb5426be8c3aec4aaf660c2b17ca36",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/TestCase2511.tsx",
+      "bytes": 403,
+      "sha256": "d8c444c149ee45a01f29a735f1b09f5457eee8b038e6044aea8d2beb2d862895",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/TestCase2585.tsx",
+      "bytes": 392,
+      "sha256": "fcba99cadcaf19e2df1225fbba897b65ec63b6f944728980655c73018b2e9803",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/TestCase2835.tsx",
+      "bytes": 484,
+      "sha256": "866698b7d35fb9ae442558c9e8e979c7a7ad1eb9c4af8163c8a5aad5db994f24",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/TestCase2843.tsx",
+      "bytes": 759,
+      "sha256": "75afa7afdec50b0f68191cad3b5d7600d62dd91f5f81b95baa3a97b075103f35",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/TestCase2864.tsx",
+      "bytes": 613,
+      "sha256": "ec98612bea45438a1965752f1fb25dd3d0372e520ae70062df56e1feb90f8d3f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/timezone/TestCase2833.tsx",
+      "bytes": 545,
+      "sha256": "dfbfdb83ca75211cdbd045e6c9b89d6a19403140d354ca31f146345b712ea012",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/TimeZone.tsx",
+      "bytes": 552,
+      "sha256": "c78a5d5c8a4ed3e426070ba7fa7d379dcc73cda99b8dcc936158a36d5574adfa",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/TimeZoneNoonSafe.tsx",
+      "bytes": 1654,
+      "sha256": "d331e1fc9bcee2887d77e531473267f53a8d5eed8a7e31182a2f4337efc22927",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/TimeZoneNoonSafeSimple.tsx",
+      "bytes": 1138,
+      "sha256": "d7af55d9e1dba61025609f19b0ff5a3005d6b7df05f564360528b2af09d4c2ca",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Utc.tsx",
+      "bytes": 439,
+      "sha256": "ff3cabc8be1a341ee5c68593c7a157781d278ae7d45c43ead7447cfad809483d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/WeekIso.tsx",
+      "bytes": 186,
+      "sha256": "e28dae8f2cb5fa0d6e8929272ef4c517d4bcfc8418dc8b4f380b56b9ce4dbc88",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/Weeknumber.tsx",
+      "bytes": 165,
+      "sha256": "fd1afdf56e59ba170d82a11c230fa39731885724ab76b29aa7efac44b9f2d6db",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/WeeknumberCustom.tsx",
+      "bytes": 779,
+      "sha256": "77e4aa38aa894de664c41daaa66ba28e86aaff2672a77ec8cb7281ddad4ec7a2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/WeeknumberIso.tsx",
+      "bytes": 176,
+      "sha256": "66bcc8bff45dc94a22176bb1edc9f5ca9e6fd8c74dfe29d5775573efd5e7fb1a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "examples-v9/WeekStartsOn.tsx",
+      "bytes": 169,
+      "sha256": "a31ba5c84c1f9c6e57f1b37d0dcb27efbc68633ed455dfb7670560886bf22424",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2199,
+      "sha256": "a54d89f4d6ab84da4ae057d158324fe5f5e34d3816ecc6fe10e398f41aa6cbc5",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "README.md",
+      "bytes": 548,
+      "sha256": "16dd48cd34ee46c37041caea85bf51889b91083039723f5b8b2d6549aa9ba3c8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "scripts/generate-api.mjs",
+      "bytes": 6781,
+      "sha256": "63898bb369081701a2d736898ab9a2016bd7b292aa4564bc672f4cc5f42f14d9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "sidebars.ts",
+      "bytes": 3162,
+      "sha256": "f7b1d57f199329f7d762e3ee7bf5b6b2f404e366a58a15ce7dc81830cfd98396",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/AnatomyDiagram.module.css",
+      "bytes": 1858,
+      "sha256": "a3270f767b03f9f0fa0875cd8428c52094df006fa74160ea32c572b327296ca1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/components/AnatomyDiagram.tsx",
+      "bytes": 5271,
+      "sha256": "cdeb0dd4650bb768b5777f70d0d9a998a9c616de7e745fb8a5b0e5f5bd02d629",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/BrowserWindow.module.css",
+      "bytes": 2297,
+      "sha256": "71dea30558a3752686025b261e19fd90ec211c99c8672e6a1240f9df1086bd52",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/components/BrowserWindow.tsx",
+      "bytes": 1878,
+      "sha256": "b924336297bc19a7d1daa0338150096df66721df8cac4e1c3a986569e9da12aa",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/HighlightWithTheme.tsx",
+      "bytes": 818,
+      "sha256": "a2af7be98f644d868b9bf9add5c3ac257055a84e4a35f1b803626285aa95d54f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/Playground/CustomizationFieldset.tsx",
+      "bytes": 6872,
+      "sha256": "95fd4f40a130c83a554caf0cd3d4259e8b3a044beab562565f2b68a932cd4d3d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/Playground/index.tsx",
+      "bytes": 9600,
+      "sha256": "a6e52f5d94180b933abaf12a23bcb7a039f60086fd1144d48f712c1f59700bdb",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/Playground/LocalizationFieldset.tsx",
+      "bytes": 12171,
+      "sha256": "7f23722525c1bbfc222c88ed6b3d5246ab3fad2108f53b90c1d2de6e081cf426",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/Playground/NavigationFieldset.tsx",
+      "bytes": 11290,
+      "sha256": "532fb4865e42a53fbe2cda3243fa4b3bc804449048defc6cf8e94e4c097c1231",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/Playground/SelectionFieldset.tsx",
+      "bytes": 4721,
+      "sha256": "76c5e687f385e3c0f220002c283f990f4a68a32df54c0b5c634676183e15c736",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/Playground/shared/queryString.ts",
+      "bytes": 4105,
+      "sha256": "bdee84a24870a7e300e49a626241677886eb147804b37984be10225aed87d06c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/Playground/shared/toJSX.ts",
+      "bytes": 951,
+      "sha256": "8862d91e3b8573b4fa9dab14ecf0b31a5bfc531e2d5a477b4e1706553b369b28",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/Playground/styles.module.css",
+      "bytes": 1157,
+      "sha256": "d9e9dc8d8e75932a3b8aac49d1885a5e6f8dbffd4d4fd36388061c44202440b7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/components/Playground/useQueryStringSync.ts",
+      "bytes": 1311,
+      "sha256": "41d5b4d64106cd6f1df18889e0cb90a096a8362f095fe03cb3b00f6250dbeacc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/PlaygroundV9/CustomizationFieldset.tsx",
+      "bytes": 6930,
+      "sha256": "32af3d7dcf6fc8f108ecfc67f65b4c06a0b0eb4d28e4c38bad2d9b8d8584967b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/PlaygroundV9/index.tsx",
+      "bytes": 9838,
+      "sha256": "6b7a3ef224150b4b53096d2b11639292b514d1bd62be3bcbcfed200e555c5ac1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/PlaygroundV9/LocalizationFieldset.tsx",
+      "bytes": 12213,
+      "sha256": "8de77e20fe365742b8b3ce26e6971202a808429f33466a099a678ea6a664e4df",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/PlaygroundV9/NavigationFieldset.tsx",
+      "bytes": 11305,
+      "sha256": "59d278bc0e8c7c0763ef63bff7334bbe9eeb590af6bd2dc20afc34b31a3f17c4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/PlaygroundV9/SelectionFieldset.tsx",
+      "bytes": 4737,
+      "sha256": "95376521abb41c5f65b9670533e96f71798ab33bc56a3cace888094092eb7832",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/PlaygroundV9/useQueryStringSync.ts",
+      "bytes": 1329,
+      "sha256": "2618e4e7e1732e317caacf87215c9d6524227985f8de9951daa71cb0ce41dfca",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/components/ShadowDomWrapper.tsx",
+      "bytes": 1101,
+      "sha256": "73ddaea05e783901091bbe33fdc348ace82a0ff78dd6162242557899a869ad09",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/css/custom.css",
+      "bytes": 8118,
+      "sha256": "635385b3a8ee5d03baa05e55a86f396ccea5148df9ea5e04706bc7c2c6d9fe48",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/css/daypicker-locale-fonts.css",
+      "bytes": 2160,
+      "sha256": "62b73a3bde0269622f71fd764ca56e55ebf81f9f5a4e500f21850bbefc618c5c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/css/docusaurus-reset.css",
+      "bytes": 3970,
+      "sha256": "0330f068df26c515d4b8de92ba03f7dd2e4edd4493e0b806da4cadf49832c9b1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/css/markdown.css",
+      "bytes": 3041,
+      "sha256": "023fabeabd9cfecc9461cb547c73b994d298c7e42d62ddbd8f78f6be133fce84",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/css/site.css",
+      "bytes": 359,
+      "sha256": "13184738cd882468fb3d50ed83192aa3fcf0e522613426d56c1d6e1e76056361",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/examples/index.ts",
+      "bytes": 38,
+      "sha256": "0d298dedae87b5411d34f406945558b42244843dcd5e469117dfc2a3f98df026",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/pages/playground.tsx",
+      "bytes": 484,
+      "sha256": "cb714c9fe31e6915c4db8f6d1595fcb3a3f9282587048e7ec76cb538dbd6722c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/styles.d.ts",
+      "bytes": 103,
+      "sha256": "53c059a09bb3441ed8cd6505ad5bbba656b27a3fdf1030fc13e70d948e5bf010",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/theme/MDXComponents.tsx",
+      "bytes": 2643,
+      "sha256": "97ad81d49b748163a4925c42560d02a48bd5dd8cd95cd635cdbf5955c43a9351",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/theme/NavbarItem/ComponentTypes.tsx",
+      "bytes": 420,
+      "sha256": "bd82a3431b3367f47054a20e9f9e413de1eb5e7e7c30a04a69cea989e81b2e98",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/theme/NavbarItem/VersionedPlaygroundNavbarItem.tsx",
+      "bytes": 998,
+      "sha256": "6c43600da2a168225c89d705c84277f8dde44ff46f57dbab5c5c8e7d8794d177",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "static/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/CNAME",
+      "bytes": 23,
+      "sha256": "4bc632519269a9c5aebae9b932be42c753b5dcea05a10a2939bd0fe757c22a21",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/img/anatomy-dark.png",
+      "bytes": 144451,
+      "sha256": "9b4bedc847c18ad7100e80c0f0cc963f28ba75b56e3c74bb3aa6f6011bf3b578",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/img/anatomy-light.png",
+      "bytes": 147551,
+      "sha256": "d79ac87f8a126770381f80a1caf27f3ef00dccf64ad57edc53394c6e76f1772a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/img/chevron.svg",
+      "bytes": 856,
+      "sha256": "07d24d92c4444e3d4dd325852b503b3d90001773e6e671e1aa33aa6c19595cb8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/img/favicon.ico",
+      "bytes": 110708,
+      "sha256": "1a2f1013ecf1a33730d7b258c8f47de75257f118565f0e1660843327408802f2",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/img/favicon.png",
+      "bytes": 110708,
+      "sha256": "1a2f1013ecf1a33730d7b258c8f47de75257f118565f0e1660843327408802f2",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/img/logo_dark.svg",
+      "bytes": 7599,
+      "sha256": "04b33e039c7d5573ae34a091b2203e54970a78866b4bc80124569bbb0ddc5638",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/img/logo-dark.png",
+      "bytes": 141526,
+      "sha256": "62b6299941ae557c8fbbb47ba6221d49fcf3f5f1760ebb606ff648ba16c6339f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/img/logo.png",
+      "bytes": 110708,
+      "sha256": "1a2f1013ecf1a33730d7b258c8f47de75257f118565f0e1660843327408802f2",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/img/screenshot-dark.png",
+      "bytes": 59823,
+      "sha256": "79767dd4801641f15b478b56cd6518e3e23558e5b4d600f7a3ea151ee3c7de87",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/img/screenshot-light.png",
+      "bytes": 62093,
+      "sha256": "a20628039a39088c8cc16cf2e7c30823b7f9baf048a8e021418129e3004f0ead",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/img/screenshot.png",
+      "bytes": 54490,
+      "sha256": "1969a8b45e09bf95f4e1cd49f04e348df9746e84a60b8db79305ea7949a45b22",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/img/social-card.png",
+      "bytes": 228840,
+      "sha256": "d81208ddb295f50d41693ee40fed3f521a7324704f16495f17afad600c73259f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "static/llms.txt",
+      "bytes": 7986,
+      "sha256": "d8eb70725e0887aae0ebf52b9ea5513d5794eb7c24b833fd8610e47ef61b159a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 1605,
+      "sha256": "bc2880eaf2b1239c25f0a06e3691ac5443ca5e72cba969801228794729bd1259",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "typedoc.mjs",
+      "bytes": 1471,
+      "sha256": "9854f253efa03d679b5cc53580ebd9626ea0ef2a15abaae0c060a356f03bb3ba",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/.eslintignore",
+      "bytes": 4,
+      "sha256": "d171794c5c1f7a50aeb8f7056ab84a4fbcd6fbd594b1999bddaefdd03efc0591",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/advanced-guides/custom-components.mdx",
+      "bytes": 6787,
+      "sha256": "7730425199af76f216a169474e6c7e61c5856009c88e093d82e33b600213cca7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/advanced-guides/custom-modifiers.mdx",
+      "bytes": 4334,
+      "sha256": "d0b01e0f0dac459703602bd4981ac9157fd7aa93ecac8572cd2879e2931fa46a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/advanced-guides/custom-selections.mdx",
+      "bytes": 4065,
+      "sha256": "d24b916eb2792ac7813988e9b5d068f1d98e099db69a8b0ca6a121ddbb8cf52a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/advanced-guides/input-fields.mdx",
+      "bytes": 7830,
+      "sha256": "c4d8b3ce38173d534a3531bab633b7e543152385074d08b28e4e6dafdb8e0477",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/enumerations/InternalModifier.md",
+      "bytes": 1079,
+      "sha256": "f4ef9683ebf1289808a621e07d9d40645ccacfbea56c4e8f9da8558a98e904f6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/addToRange.md",
+      "bytes": 675,
+      "sha256": "317927cbf6828e04d52b770eaf65c3cdb2d0f95538016599bae882565f2fac2a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/Button.md",
+      "bytes": 525,
+      "sha256": "516153807bb5f689c08ab478011f0f35e71d01364661e0f4bd0a4806fa22e18d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/Caption.md",
+      "bytes": 538,
+      "sha256": "5eeb4df3a3050605537e85c6d1002945ddc48e028e83624cc5ab43ca877ac847",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/CaptionDropdowns.md",
+      "bytes": 483,
+      "sha256": "61bc6e99671dc39118c8df2afaded7a57b4b3f6875d58ccfe795b78495f3c6c2",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/CaptionLabel.md",
+      "bytes": 502,
+      "sha256": "43437a30a079372e0ac8291cb80c72fc0c16351b46e4e6de6c13eee593740ac7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/CaptionNavigation.md",
+      "bytes": 462,
+      "sha256": "0d7a0042eff010ba27586b9900c5daf35be942b7dd661f6bdacd3587de93d502",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/Day.md",
+      "bytes": 435,
+      "sha256": "9afa10fe926b1d50f834e5657631ec987985e8cfdb91d6ec9cdf912a861da930",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/DayContent.md",
+      "bytes": 427,
+      "sha256": "166e9f1f799c62e3acb5021d0c93e28635362dcaa6d0da64d9fc7123802992cf",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/DayPicker.md",
+      "bytes": 714,
+      "sha256": "8b62afdcffa5648afcc12ba97034a524f2650a8d437f372f2ee7a8fa3affd54f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/DayPickerProvider.md",
+      "bytes": 579,
+      "sha256": "d70bc974e99e2f0f9a26375faa7d7daf7d6d7a7b3f4f95d102c2fdf42a7a1f31",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/Dropdown.md",
+      "bytes": 466,
+      "sha256": "bcb19c99b9b2dd7cbca7f13fae7eec13918759ebb608a9509c24f9ce9959c360",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/FocusProvider.md",
+      "bytes": 484,
+      "sha256": "3e20c625013a46ae32470a6a3ab3447c4e9f954e7d25ad8b2262ece2a2361c27",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/Footer.md",
+      "bytes": 413,
+      "sha256": "e1d04328768c8a4ec460aac341235d86833a96cd15d0f6a3e842c88914927e9c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/Head.md",
+      "bytes": 254,
+      "sha256": "2e1a61b6ff6116a03379e939de0401f4d89cf1424452a22b4700d42e75e0be4c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/HeadRow.md",
+      "bytes": 322,
+      "sha256": "fa97790952f00250dd50915cd9e75c7ea26065d13f15789cc46bd16d39e2d558",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/IconDropdown.md",
+      "bytes": 440,
+      "sha256": "79f6806ad2bccc2b3894f2a2749182f4af1e1efb7ff6c23f5220e0dde7d0d2c8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/IconLeft.md",
+      "bytes": 437,
+      "sha256": "7cf222ef7f54e03988e191613fddb8e5a35826a185e68b3ec82fdad27b82703e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/IconRight.md",
+      "bytes": 437,
+      "sha256": "e9b0db7e4ff10a65af065b4b8dd4591ee860ded014db73fb08a39efd97d2a785",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/isDateAfterType.md",
+      "bytes": 435,
+      "sha256": "e48087efbf480da5072bb44d3ecd18d629fbdc23c9c7eabd4a78a77db14c2acc",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/isDateBeforeType.md",
+      "bytes": 441,
+      "sha256": "0ade24852fac3e89384e070dc9bc2b79a397693b239f569f2f5fb078c64d42ad",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/isDateInterval.md",
+      "bytes": 453,
+      "sha256": "9fbcb817051751d19472d83956779542845dcd824a15d014017672e1ca22f37c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/isDateRange.md",
+      "bytes": 426,
+      "sha256": "d453af22d5432c45492244245b7ad639dba7395dbcb536637c8f417af791296b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/isDayOfWeekType.md",
+      "bytes": 434,
+      "sha256": "cb696160895e4ec882bfda8fc1211f7f9b4105ce8063a1a9863b510a6b8824f9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/isDayPickerDefault.md",
+      "bytes": 550,
+      "sha256": "a96436612b8da5428d544bea7349f89b40f09d7d2a0424022f3742ccd25f203e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/isDayPickerMultiple.md",
+      "bytes": 627,
+      "sha256": "08604f149929e59cb4fe5de99f2a9c17801fdad69562ad1637a2d18f04e9e730",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/isDayPickerRange.md",
+      "bytes": 603,
+      "sha256": "7377c87aa986506ae47948430b8b8cdcaa19f6fc3780bd5afd93d2004f841da3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/isDayPickerSingle.md",
+      "bytes": 611,
+      "sha256": "10e29112fde42f195bdd1df55d11ca7812b078cb1edff87b0bbb1e2f64f8e186",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/isMatch.md",
+      "bytes": 813,
+      "sha256": "b45239311dad968d8d9124b2a415c5637112e8ebc8c4b038788870a52e2a4abc",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/Months.md",
+      "bytes": 407,
+      "sha256": "9ec4b1293475c805a16585d559c368c9ee4cd0a9ad50870db366facf30388aea",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/NavigationProvider.md",
+      "bytes": 514,
+      "sha256": "749f4d06e74d8d8c8a7917b13afdfb5dae109ca31280263b6886bfcc41f8c16d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/RootProvider.md",
+      "bytes": 438,
+      "sha256": "8a54e894a0cdd3a4e30d5934d4cdbb9194011210dce42a6c0a4827041178fa0a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/Row.md",
+      "bytes": 414,
+      "sha256": "25f6375aa9105ef2521510e4b61136b292b1cb7c2eabaf4f0fff17384d8fba2a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/SelectMultipleProvider.md",
+      "bytes": 581,
+      "sha256": "c29a36500b74c4c48211770968b31e9fce3caba3a1dfda62ed7f70b25bc2551b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/SelectMultipleProviderInternal.md",
+      "bytes": 486,
+      "sha256": "32fa92d547536b78ead5350ead81af369b618795ecd1ec724a7e071af576614c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/SelectRangeProvider.md",
+      "bytes": 538,
+      "sha256": "db7a050bba4d5c78628ffc9d5c9abc990591c003340aee03d59db4aa6202e9eb",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/SelectRangeProviderInternal.md",
+      "bytes": 465,
+      "sha256": "243d46a00f3c4be7f6ef1e66f8cea879df4827ce8a2d5dd197449c921b2206f4",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/SelectSingleProvider.md",
+      "bytes": 548,
+      "sha256": "c72ef2ff3f7d01b20d2897538eb37da71b7136a9996c8730b37c33d355d28b9e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/SelectSingleProviderInternal.md",
+      "bytes": 502,
+      "sha256": "c9b680028877e6d773bedb668fd1d3d678b0170ef3795c0e1ac73934ef5d415c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/useActiveModifiers.md",
+      "bytes": 680,
+      "sha256": "880f917f85086ee71520bcf4352afb07f8ae427d33a453e9e24a93264fb65444",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/useDayPicker.md",
+      "bytes": 587,
+      "sha256": "d01e446e34dd095de72180e414c0ab6990cf406fa55c70398d2f2ccef45ae6e9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/useDayRender.md",
+      "bytes": 928,
+      "sha256": "557acc2368a59746c4cd582eda276fa1b4bde51d7cf5d6af78d72add31449481",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/useFocusContext.md",
+      "bytes": 577,
+      "sha256": "731bac4e29f11b34f94e44b98c2fa4e0c65f73a8b1ad7e26e3162b62e1ef0177",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/useInput.md",
+      "bytes": 531,
+      "sha256": "2f670c3a9f5ad95555f54dcb2568f4f0ec30f7ac2c6326d0028b3383ac62b25a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/useNavigation.md",
+      "bytes": 622,
+      "sha256": "4bece3ddcd9bf06fde8b91b64ce24819c931844bb826bbc41281a194006e1ba9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/useSelectMultiple.md",
+      "bytes": 608,
+      "sha256": "cd7397099e708e5652b235c7266d4b06bd13a264ec0c016106a7890bcad60ea3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/useSelectRange.md",
+      "bytes": 572,
+      "sha256": "70bbde5bf6665899a02d3b59659c947b14609d44baaf8aed1f8bcd0803b805a1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/useSelectSingle.md",
+      "bytes": 582,
+      "sha256": "f6c312d1ccbcca272673398484a2b235b81bc1ec30148b7a8330471006adc81e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/functions/WeekNumber.md",
+      "bytes": 517,
+      "sha256": "8540f63f48f4115a1705264d0c4552439c1e9ce9cb9bfdd6fdd5184745fda226",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/index.md",
+      "bytes": 25698,
+      "sha256": "ed93be1f62a216c39fea4b96135f8886c5a1011efdfac99ca493f3767acaec5e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/CaptionLabelProps.md",
+      "bytes": 1022,
+      "sha256": "2e468f797051e17114cb550a7b7b7c18f6976404ed210dea1fe539515d945be6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/CaptionProps.md",
+      "bytes": 988,
+      "sha256": "327084ba99d4305198d8a36ed12cc3f2c3314640b47b1b9373bf9dc001a44fe1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/CustomComponents.md",
+      "bytes": 6497,
+      "sha256": "04f6b4108fb4450bd6a9ff9369b35cef6252935d84e57dfba71940578d7189fd",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/DayContentProps.md",
+      "bytes": 934,
+      "sha256": "2ba5602aa2bdf3fd5f6ff9fb4f4c81c940705e118cfe597cbf7a94365b92740a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/DayPickerBase.md",
+      "bytes": 22223,
+      "sha256": "a8a38f60098248f681644c6324ca3c52de01adac021a927aa75a74bbedce9c44",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/DayPickerContextValue.md",
+      "bytes": 29978,
+      "sha256": "f0b97a1ab7f41f59ae8691ec62b54cf1930e37fa9c6ef03ca71d4c6f284f2305",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/DayPickerDefaultProps.md",
+      "bytes": 28493,
+      "sha256": "4833111c7c02b63af7354113664f469f28f35c74c573d419eb4aa99dac74af5a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/DayPickerMultipleProps.md",
+      "bytes": 29260,
+      "sha256": "5c4d91bc790d035ff05bc8155bc1d6fdf7356fd28c0fa40b9ed1873469ff3871",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/DayPickerProviderProps.md",
+      "bytes": 726,
+      "sha256": "08b84a72d6c1a5d1da56b564cc841b481b4d041a3bc4467b4a15c55dafcbd0a4",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/DayPickerRangeProps.md",
+      "bytes": 29265,
+      "sha256": "443ec80a37e9b23674ae393b6f54534d670f28e787004391df6befcbd5eeae17",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/DayPickerSingleProps.md",
+      "bytes": 28929,
+      "sha256": "1560d6d07e57ba1068e0249116b50a26d6493c482777c9289840f82c5cde24da",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/DayProps.md",
+      "bytes": 564,
+      "sha256": "ecceda2b74a0a36012a824ff05c3c4dc77d719ce65b65efd35b57493902b6027",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/DropdownProps.md",
+      "bytes": 2050,
+      "sha256": "38acd1b97067461e3a6f907cb3f6e2ed44772f0f6ec7bf6aaae53b5fbdc81f17",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/FooterProps.md",
+      "bytes": 301,
+      "sha256": "f58060f37910130c1466c00f697ecb5813d7cc05ef82e9603d94e7db560d8f19",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/NavigationContextValue.md",
+      "bytes": 2719,
+      "sha256": "83427b8c8aee4f69c0ede24d925557085eac8633f0ca93000b3bac2b4b265427",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/RowProps.md",
+      "bytes": 806,
+      "sha256": "67f9f7e223b0c638f12439363a507314f58d46a3be29a405378e3a3cd658f109",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/SelectMultipleContextValue.md",
+      "bytes": 1243,
+      "sha256": "4a199895f6691af617e686a10601c0377418be94fa61edbdfbf639749257c2f9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/SelectRangeContextValue.md",
+      "bytes": 1232,
+      "sha256": "af7b9d3a84ee68dd779b5cef95ad665acdeddc6021df93876aef522f2b25e2bb",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/SelectRangeProviderProps.md",
+      "bytes": 602,
+      "sha256": "e171e1c2ea2f36aaa06a7d8e3c2873ce225887aa043f7e6bba6f319dd750a934",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/SelectSingleContextValue.md",
+      "bytes": 838,
+      "sha256": "caa2619676659c4634cf9ba8422023110ba49501d50076318476ea946eed3c7b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/SelectSingleProviderProps.md",
+      "bytes": 611,
+      "sha256": "462ade8dda27cd976a5f9c15d9fe347231caf343f3eaf8ecd0d8bd5e086c48cf",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/UseInputOptions.md",
+      "bytes": 3672,
+      "sha256": "526e58a1d4ff2e4659851ce941b01992357cc642eda83b9949bc330d4fa4331b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/UseInputValue.md",
+      "bytes": 1407,
+      "sha256": "7ca5b3b1ff1904e5e72a3514b26f805ea1332df1c0425a185a79722bdf5e79e9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/interfaces/WeekNumberProps.md",
+      "bytes": 581,
+      "sha256": "b879a2904e957de018373718ce181b257d298bc1a8085432853c1629b519881e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/ActiveModifiers.md",
+      "bytes": 607,
+      "sha256": "075c6eddcc5bcd6620fcf55ffd2b3081e1c614a9a39c11ce135aeffaeca2e731",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/ButtonProps.md",
+      "bytes": 306,
+      "sha256": "eb17d2efb9ae0b3d947e27696c7f125e583da17724d5a5b1fda94e7f4f50c209",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/CaptionLayout.md",
+      "bytes": 522,
+      "sha256": "95bc02ceaddab20dfe43baa43e07a966ee2fbf3ca197ae7c3bf5e82a14dca1d2",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/ClassNames.md",
+      "bytes": 291,
+      "sha256": "54774675c47e854754f9cc282a0e5bc9de9ca6f598f0a9b8925bf4153d57f440",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/CustomModifiers.md",
+      "bytes": 427,
+      "sha256": "54a560f6611f72f910d470e3cd250f733f318d144abbbf7a03923f92a71aa264",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DateAfter.md",
+      "bytes": 390,
+      "sha256": "1daf2f539fb4555ed70f9046dbae529a3db0ce31f47e2c90a7c8c1a2c41e7a57",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DateBefore.md",
+      "bytes": 395,
+      "sha256": "be99da3860c388a173490d3b2d7b5348323f928c7bd9afd9eebea4e18dd8f2c5",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DateFormatter.md",
+      "bytes": 447,
+      "sha256": "159311e693f61cc3e8c3e103dcea25a5198320b1517ba982d532d2aa6c4e00ac",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DateInterval.md",
+      "bytes": 448,
+      "sha256": "908e18a3bb408c8434fc6d722f68508ceeba45189d66eec24b837a5bc5c8d0ab",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DateRange.md",
+      "bytes": 503,
+      "sha256": "1d2404a0624734796e67eb37867789b4c3d77fd375b41e290d009faab5a1a8e1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DayClickEventHandler.md",
+      "bytes": 498,
+      "sha256": "714cb9e4cbbb8bfd0dde31df896ee56fd4cc5cd6ad875cb7712ce70a8cdd73a5",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DayFocusEventHandler.md",
+      "bytes": 517,
+      "sha256": "3ae0ac1c9a1b6ea148f315f88c9e3d6128f00a9ef57731775c74d82dc78649a6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DayKeyboardEventHandler.md",
+      "bytes": 518,
+      "sha256": "c79777aff6378b0e790c1c4ac7be64331260b9e8e60321e88bc340e3839e8ddf",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DayLabel.md",
+      "bytes": 534,
+      "sha256": "828face5ce88eff05a99a306ca9fd2ccfa9e6a88fcb4e0da91b7e2549a3319bd",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DayModifiers.md",
+      "bytes": 401,
+      "sha256": "595b75e85c264f4bd4db90b322b12a2122fdbcc4b051dbc197026755bae5ca07",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DayMouseEventHandler.md",
+      "bytes": 506,
+      "sha256": "aac9deb0cbefa5bfccffecf3a8993f1cb6421bec65da665090ab9445375bf337",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DayOfWeek.md",
+      "bytes": 419,
+      "sha256": "c5f9f450e97abc104f63bcba06042b976a9b6e5f1024e1355be5638a52bfedbe",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DayPickerProps.md",
+      "bytes": 464,
+      "sha256": "dad461fe3d6e85252682bcad9136fb9257ca11187c1eac80001ce47092d7eb47",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DayPointerEventHandler.md",
+      "bytes": 514,
+      "sha256": "c0f802b2a1555c46a0c6c9946ecd48a98b43f273a53447ed006281bb81def337",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DayRender.md",
+      "bytes": 1368,
+      "sha256": "31bed73b7463df7170c4f80e394aff98434fa8654b544f5cfc79207ecf6337f6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DaySelectionMode.md",
+      "bytes": 624,
+      "sha256": "1c57f7d02b81d6aeb3d69c2c3258a84d18e3b1170cf8ee280aa48e4956b3a3b9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/DayTouchEventHandler.md",
+      "bytes": 506,
+      "sha256": "06588bd2b1f86d800a8a69505e798597d94366a69452c938d79207178253206e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/FocusContextValue.md",
+      "bytes": 1680,
+      "sha256": "841ae1eefee9cb663a8d53e49f33f02de980e1d4469440449039e839452bb684",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/FocusProviderProps.md",
+      "bytes": 364,
+      "sha256": "c7b2544177252a08c7365c5fa297ee0f08a1ee64116e84fa992e6301d5080efc",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/Formatters.md",
+      "bytes": 1347,
+      "sha256": "cfeb28febc6977841baeedf1560b152e56500c8042e7ce0f3e82d36fc218801b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/InputDayPickerProps.md",
+      "bytes": 528,
+      "sha256": "7c2489cd6437ad54958610155e0bac6e8d90577d4d961765d8b65a08e41ce844",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/InputProps.md",
+      "bytes": 433,
+      "sha256": "d24e40d0a515f22f86545d77647cbcb4fc48ceec7e6641fbff8512ca0aa060e7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/InternalModifiers.md",
+      "bytes": 361,
+      "sha256": "7c46056c8a74d71b04092767a093b0cfb27d49c8226e0cc682cdb69980fd3a42",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/InternalModifiersElement.md",
+      "bytes": 524,
+      "sha256": "edbab179a2b1138f0295eafea2fe1be64e0b8f84744c15ab6efa8955cc78bb27",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/Labels.md",
+      "bytes": 1179,
+      "sha256": "340d8236d13efad73719045e374b42b117ee36900ec3cadba24be3e09fab5da6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/Matcher.md",
+      "bytes": 1808,
+      "sha256": "8894b1c084ef3314198924522fe8f1c448b18f0fc91564c7d33a3abab082e236",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/Modifier.md",
+      "bytes": 290,
+      "sha256": "21ff41a750e4b0fdc79508611ea57ef076d84bfdab0faddcbe6e9b4b559676c8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/Modifiers.md",
+      "bytes": 317,
+      "sha256": "a812b92eb22234266340621a6f3fa580388ada089d993124c0ea7a84e1964d4e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/ModifiersClassNames.md",
+      "bytes": 429,
+      "sha256": "76ba720ac9beee27bcc6dbbbcfbc888eaaa410337a0580fdde8a9a391274e5a6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/ModifiersStyles.md",
+      "bytes": 429,
+      "sha256": "4fa33400db6c444d9f0a6bea876317d5932a703a3be840e3c5d2571e18f4912a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/MonthChangeEventHandler.md",
+      "bytes": 415,
+      "sha256": "29c81f6a153ecff3de9d873e04c3b7c59c6e3dddc7977aee0cdbfc7f3446778f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/MonthsProps.md",
+      "bytes": 391,
+      "sha256": "269b9ef177fa4ab80a6e43a1af2493e42782b27f740c65779f1132270475ede9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/NavButtonLabel.md",
+      "bytes": 486,
+      "sha256": "aa0ce74af3757fb47d258120f3cc885cc775614fb595876b123d14636183d782",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/RootContext.md",
+      "bytes": 419,
+      "sha256": "078a21b0bf74b8e70cc80fd830ffeda6221480d22e59362ae5fbe87a43741fdd",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/SelectMultipleEventHandler.md",
+      "bytes": 578,
+      "sha256": "cde1ab67f0311f25f6e4712be9dbbd4e3464028b54bebfcf8c45752458fcc661",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/SelectMultipleModifiers.md",
+      "bytes": 424,
+      "sha256": "4be8cac4d622221f5f297a3f43c8d0c3b2d9b3291263a30e6d25f20bdd6127ed",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/SelectMultipleProviderProps.md",
+      "bytes": 557,
+      "sha256": "7a3afdff3a73313f26372c99c0399cbefdf830db8ee1b8b64a85630470ddbf54",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/SelectRangeEventHandler.md",
+      "bytes": 595,
+      "sha256": "5a614927dcf68abaec23506d24fde6683ba52ff021ee46b35aec4c4ec39664cd",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/SelectRangeModifiers.md",
+      "bytes": 501,
+      "sha256": "2e8f6868b1a6aaf31fce2ec89e9a051a2527694697daca2565921922af3cdc0c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/SelectSingleEventHandler.md",
+      "bytes": 569,
+      "sha256": "8ba24c2cf5e4774b9968638e69f7cd819d6dc2856301051b0238aa55de9b5e12",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/StyledComponent.md",
+      "bytes": 510,
+      "sha256": "ce16b748e42a6743b6c6fd30749e4c5325d04f4f31335847dd95c4f738e23df6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/StyledElement.md",
+      "bytes": 3726,
+      "sha256": "95257962c38031f32177492bb9e92ac79a35d2ece9d2827f12add6b0375ba771",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/Styles.md",
+      "bytes": 494,
+      "sha256": "48675561bfe0f31cba889f389a8fbb3c6d68f03bac5ee02d1939dbc5004f6b30",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/WeekdayLabel.md",
+      "bytes": 437,
+      "sha256": "6817cd72029cdd47cf5ece9825cdc31a52358abf207753500f0f814ea87e0a85",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/WeekNumberClickEventHandler.md",
+      "bytes": 487,
+      "sha256": "7fce15e7d672ea0d6e9ea63f605a5c9a79b4d6fd409ee980018381f46f1aaed4",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/WeekNumberFormatter.md",
+      "bytes": 483,
+      "sha256": "1257fb905d97a4d9845d5aa44a3513ed9f2eb52c86d23838ba6e9cc2487e420d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/type-aliases/WeekNumberLabel.md",
+      "bytes": 437,
+      "sha256": "575c802e5fbd9ad0ba716df67e802fd3b22cf3b43eb76ade72f103de9bd697be",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/typedoc-sidebar.cjs",
+      "bytes": 10853,
+      "sha256": "055dcb140568e74f52dcd7415bed50e739651afb7eb2fe556170c8129af7c76f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/variables/DayPickerContext.md",
+      "bytes": 636,
+      "sha256": "fdc9477c3109e31d0571dab7e82c2886678525ff986275a4a89568a2891db052",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/variables/FocusContext.md",
+      "bytes": 483,
+      "sha256": "85217e8cc88b73e781444a6ab9ba9414931b17d05fb76022881eeceaabc076ce",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/variables/NavigationContext.md",
+      "bytes": 531,
+      "sha256": "cda900c54902c25ff22d18eccf88df3c99f7b9019136bc135900ac35c3a9e831",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/variables/SelectMultipleContext.md",
+      "bytes": 584,
+      "sha256": "5315d3bc21a303237fe2f64978515b00ce7acb3735fafb6c697f4765f2f848d2",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/variables/SelectRangeContext.md",
+      "bytes": 548,
+      "sha256": "2508f01d6419be763c0f8a5f77464a2d4b4ee007fe0956d5e7fb31bab4375b33",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/api/variables/SelectSingleContext.md",
+      "bytes": 560,
+      "sha256": "0106a4ed8a6252306fd58914569a47f94edd5550a09dd672140dc4560ddab100",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/changelog.mdx",
+      "bytes": 154,
+      "sha256": "29b4c8513baaf081db2a11d99de0744a2d0a6122e63a972aad018ca75a4ed27c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/development/architecture.mdx",
+      "bytes": 1421,
+      "sha256": "51bef1a7ac97cde54dcd9f42e25c287966dbf7467936f858762b873f1eb55f2e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/development/code-of-conduct.md",
+      "bytes": 230,
+      "sha256": "ea366f0e1dd7d2888b1d1ab140f132bcf46626f73679c2fe075579b6820bf9f6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/development/contributing.mdx",
+      "bytes": 227,
+      "sha256": "6cb01b8040e5f7cf07d573e781d56dfc958223b8d20ad9b5167c3ded52e9aee8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/development/documentation.md",
+      "bytes": 236,
+      "sha256": "5a3b33dfbd77b53d120df4e7a0b29057152643f6e48e9692343b4c33e527e6d7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/development/roadmap.mdx",
+      "bytes": 1554,
+      "sha256": "3166c97f59f607248ef68b79aade248482a595c110bdbacb39f1fbbd8b453111",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/development/source.md",
+      "bytes": 238,
+      "sha256": "d0291ecdeedf840ba3692fbc9cd5cef7eed2be205a82e18ce7fc1793dfc238aa",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/license.mdx",
+      "bytes": 1274,
+      "sha256": "059da93be1d9cd989b68380d6bcf36b4a58e6f667a176d8561ad4ef06385670f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/README.md",
+      "bytes": 1586,
+      "sha256": "843c24e509c902f6def0966c0964c54bd0af184c5301c218b67706db28b61629",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/start.mdx",
+      "bytes": 975,
+      "sha256": "6edf4b6e067dbde2afeb84af2756f1ca3a25fb6d1f96fe2706b730eb18f19d52",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/upgrading.mdx",
+      "bytes": 2398,
+      "sha256": "9e53e1073ad3fdc33607b174691d30cddfe3924913f053031f89e5601c53c757",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/using-daypicker/accessibility.mdx",
+      "bytes": 2301,
+      "sha256": "b7425428861c0ecb59e261908ede53112220c148534e4e4e3d87b7d4f5edd48e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/using-daypicker/anatomy.mdx",
+      "bytes": 252,
+      "sha256": "2e7555a3e73e20659284099236d7c0f7da8f1b0b24a6525b7708e5e42d78506a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/using-daypicker/customization.mdx",
+      "bytes": 4174,
+      "sha256": "4842f0abcb3bafdead6cbc70a956d5a9fa7e4dbe6f356ee1d977518278526956",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/using-daypicker/localization.mdx",
+      "bytes": 7464,
+      "sha256": "6acb1447b70c4509d6386628f54693ee9a0428248cff0988522b037e028cd39d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/using-daypicker/navigation.mdx",
+      "bytes": 3346,
+      "sha256": "b60068e948fb97a84e382e16297bf81810f2b58037ee752ed8c4bcb36af96dec",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/using-daypicker/selection-modes.mdx",
+      "bytes": 7662,
+      "sha256": "84aa9b87020adb59d30aa3b6e8a20d19acccbcb06dca61aa83135904d1f7d43c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-8.10.2/using-daypicker/styling.mdx",
+      "bytes": 3713,
+      "sha256": "64cf1e2d74a37436915eeb3fef2b019efb2bab230b569deb531d261f6a9f67da",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/classes/CalendarDay.md",
+      "bytes": 3461,
+      "sha256": "05d0e295db0bf002445144276a641422eb88b8b66c996bed0508c211f6cb39fe",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/classes/CalendarMonth.md",
+      "bytes": 1270,
+      "sha256": "374d4a445f5e717aa36af1961eecc39a583fa44a8b5d1b096c2f7c861d00fe87",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/classes/CalendarWeek.md",
+      "bytes": 1253,
+      "sha256": "a9910ba40f8409eca58ba3fd2cde220c7b14b839e8a643b802ad76065702a15a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/classes/DateLib.md",
+      "bytes": 20863,
+      "sha256": "9d1cbd4dce62d7479f83c9dc2a782618f4a47ff098c90f392e012bcea37702e1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/enumerations/Animation.md",
+      "bytes": 1668,
+      "sha256": "4278d5e679e412e03251806a2e063c0f20c8c20c608a2bcbb014e478407449b1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/enumerations/DayFlag.md",
+      "bytes": 770,
+      "sha256": "65cd8ff523fe78773da127131482ec069dc29a5d60a08728e92c2d2879078ea2",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/enumerations/SelectionState.md",
+      "bytes": 836,
+      "sha256": "f4c5d5f70cb5fea080e1df2c07da3e5d054973cd595c6bfad4bf55d1f8c3571a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/enumerations/UI.md",
+      "bytes": 3535,
+      "sha256": "e9932fcce8a0a0d71aa8d2fb2273b94a279be3fcfc3f6051bcbfe4e9390ef950",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/addToRange.md",
+      "bytes": 1220,
+      "sha256": "9773afc0c38204297a7dc3b03f6bbd9f213d53d075ceb41d9897adb40d5722d3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/CaptionLabel.md",
+      "bytes": 467,
+      "sha256": "018eec1287dfd84e2f5748c6aa83b32cdc6ac9e6e0b2fdf18032052e1a8315e2",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Chevron.md",
+      "bytes": 874,
+      "sha256": "f48b79208485cd37962314af9caa4f70d2fbe402c317c53c3f91d5cdbe873afe",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/dateMatchModifiers.md",
+      "bytes": 884,
+      "sha256": "567005d5488f5f8348196b8225d85abe62c3c3b5504c635dd899639cd6bd6b48",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Day.md",
+      "bytes": 718,
+      "sha256": "71cc55d22d816f3ccdc55ea254e6552581e9255505032a189fb33cd08e3ff224",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/DayButton.md",
+      "bytes": 595,
+      "sha256": "889c5bbb59ba9151dc0614798c48ffc718d9df013a75b8fc3acade2a374eb0a3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/DayPicker.md",
+      "bytes": 542,
+      "sha256": "426a07f28c0dea7dcd8d7b44b939c931a829306d0b3a7c542710faeccbdae316",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Dropdown.md",
+      "bytes": 717,
+      "sha256": "1ce0a1641f13fb794bb1c0ba8896605638bcb3d7140890eb1f4e3ada29d778f4",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/DropdownNav.md",
+      "bytes": 473,
+      "sha256": "1c5596a36de32143eb79f8570a14f791a2e9d8b29aff897abd860ef6082a7de9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Footer.md",
+      "bytes": 438,
+      "sha256": "28fc628b8c741e0bbd6ca36b4491034d8f92870af2b94829cc66a0b5ace1a258",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/formatCaption.md",
+      "bytes": 901,
+      "sha256": "cda2dc5d1a399afde0afbd15cf324476200087b330b60268bcd7d78fbad970f1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/formatDay.md",
+      "bytes": 825,
+      "sha256": "fc0d8ecff0aae4df0ed4b3decbbe7acb292a6fb6b5cbc35b445259f73164ba0d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/formatMonthDropdown.md",
+      "bytes": 832,
+      "sha256": "bcbe26372e5a76e071af430e68fcd987ad9b70e2ce0bad917e7727c19a811e4c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/formatWeekdayName.md",
+      "bytes": 930,
+      "sha256": "7c420ef6dfa00a37f5cc51ab172ef83d3d2a6c29544ea20dbece77bbf17afa38",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/formatWeekNumber.md",
+      "bytes": 847,
+      "sha256": "04a5ca1ad19fba4756871b899e99aef32d78b9061d00fa4e74ca14c7afe26227",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/formatWeekNumberHeader.md",
+      "bytes": 493,
+      "sha256": "12cafd0aa907719ac064d0345ccab3f9ea373fc961625a467e77ef52b326a627",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/formatYearDropdown.md",
+      "bytes": 746,
+      "sha256": "df3a960e1a9bc83308dfc7bf3b106c9a75d5704825149368628ecac7ae611f9b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/getDefaultClassNames.md",
+      "bytes": 582,
+      "sha256": "7d13df872d75d79f0154878567dbd6144a33689caa69a134948dada9b236f2df",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/isDateAfterType.md",
+      "bytes": 571,
+      "sha256": "edba7c7fa4ea28bd7015336ff961ad5827fd2649baa81357ca300adc1fc67b6d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/isDateBeforeType.md",
+      "bytes": 579,
+      "sha256": "f3d03ce43a9e2723d33e9b9c92111d0707c24b8dd7c86d437aa612130476e06f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/isDateInterval.md",
+      "bytes": 595,
+      "sha256": "481cb203005af740a89cefc0363da4439a0f5a957e0c22615401a82c831f6eb7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/isDateRange.md",
+      "bytes": 563,
+      "sha256": "5dd41cc70e5ec27318a7fbd64c8f777c2411287a9baa1dd1251f2d483afb4b50",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/isDayOfWeekType.md",
+      "bytes": 571,
+      "sha256": "f97f1f221e98ef898893c7b9941e5e49c05eb6c8139a949c420057fc6bd4e9ab",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/labelDayButton.md",
+      "bytes": 1081,
+      "sha256": "3acbc9ad31418f9c38219c06d655517599fdc77024ec4d678fbeacdac7770e16",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/labelGrid.md",
+      "bytes": 904,
+      "sha256": "0878486f3d094c21af8be25a79524059cea2fd3c63976e75b44bc7fb049e44a5",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/labelGridcell.md",
+      "bytes": 937,
+      "sha256": "663f7d9f0e87dc1270f4efcca3476eacaba61f2272d1687554c318bdfb6ad8e7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/labelMonthDropdown.md",
+      "bytes": 599,
+      "sha256": "ee68d48a6b68eac6832e8ca49b583eebf3cc875e1c4b12b20ad4805a9b2153c0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/labelNav.md",
+      "bytes": 409,
+      "sha256": "18d84885aa8ca858bcff0530b92908b9235af0cf4e56f14444125691450ac64d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/labelNext.md",
+      "bytes": 622,
+      "sha256": "18a3b703d502b327fd92528dedc0463fd12bafd591b0736d9e9a00e42114ed68",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/labelPrevious.md",
+      "bytes": 567,
+      "sha256": "f773c38426fceae57e7b03cf66cb8a636e24348825e100a68c84ac18b32bfb2d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/labelWeekday.md",
+      "bytes": 906,
+      "sha256": "409a4d36f5a7ae2f00aedf296dd5745973181b3f89abb0a8c3a85ba6d5e0915d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/labelWeekNumber.md",
+      "bytes": 710,
+      "sha256": "117aab613fd0d72a717b26f464fc349d337996db7de5c2c953b0b8ce3b2534c8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/labelWeekNumberHeader.md",
+      "bytes": 620,
+      "sha256": "2c0fd3f5d897a20676c8a4f0163d0e466ed0fcfa1449d526d5f52b75f129f49b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/labelYearDropdown.md",
+      "bytes": 592,
+      "sha256": "ef0f1a441887b7cbbe8f13153a7bdaa59ae4555bf82e1fb64eb34fe0538f051c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Month.md",
+      "bytes": 580,
+      "sha256": "71b967d818b1da9873321e1234c992368d3f091cf853bec20c8c1555a5a7d383",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/MonthCaption.md",
+      "bytes": 576,
+      "sha256": "5c2ea8db68945acf5a09f2e5561c8745f84f9ffc7a0d741c7d3320fe92886ae3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/MonthGrid.md",
+      "bytes": 468,
+      "sha256": "85f88954da803effd5e12b615562f80e33afe126e0d459ee57cabd6f963ab349",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Months.md",
+      "bytes": 448,
+      "sha256": "49422f35ebc7a579431271dc4a6facb1d5a00acf6658e68e823004053a9cec18",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/MonthsDropdown.md",
+      "bytes": 743,
+      "sha256": "1a449520d61739e9a80054f2fd87ef7465a9e2e65a1f8351482d1bdc27a483fe",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Nav.md",
+      "bytes": 641,
+      "sha256": "b642242202016ccfd396bd1f4a14a19cb89ee2be0928f3f5e3aab8b862584cff",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/NextMonthButton.md",
+      "bytes": 515,
+      "sha256": "43e88e8cab82b8eb47b4f8d9c771a262d8b1c436f9045ff6c7015c0b3576965e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Option.md",
+      "bytes": 440,
+      "sha256": "7194e883b964d7151b3bb59137bdfc0d84d7d443438176bd34fce14fdd560ef0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/PreviousMonthButton.md",
+      "bytes": 535,
+      "sha256": "b8129718720e77b4c0a2c4bed6a1e4d6ba43b1b27d93561e666133b9c9c00249",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/rangeContainsDayOfWeek.md",
+      "bytes": 1004,
+      "sha256": "6465efc95f4f13a96ba7c21ace6bdcf53b8bf9b23ce360d8776ef0ce3bcc722f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/rangeContainsModifiers.md",
+      "bytes": 1010,
+      "sha256": "756952e181aecff2693acedb479ce422d907a2ec39716ba0d19fbabda591201c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/rangeIncludesDate.md",
+      "bytes": 916,
+      "sha256": "98e4b5c1a6139d9e2b976cf4878dcbc0bffa982dec0e3e6d035d6185e2ca9f41",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/rangeOverlaps.md",
+      "bytes": 981,
+      "sha256": "8582a9bea529f7700bb154933e3489646c92f85a6ad4879c0b7f438757a08e9a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Root.md",
+      "bytes": 483,
+      "sha256": "3a1763d1e6d7c4dbdb093864b3933ba5c1664d15f13d246a833619dae2d45b4f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Select.md",
+      "bytes": 439,
+      "sha256": "a7e90f50cc8d538cd97d92460f3c1dfd0a18379bdba6d5a14dd2b07641252999",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/useDayPicker.md",
+      "bytes": 931,
+      "sha256": "0684394248280a38777ae45849778c0a058da0189ee3e37a87d5c4f788d562af",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Week.md",
+      "bytes": 520,
+      "sha256": "0c248693902c0cc4b8f42fc0c96198341b51725ebae43d754b03cbec65b0aaf8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Weekday.md",
+      "bytes": 489,
+      "sha256": "13150e9b1ebf864c113dc7b0fa7067ef6ce89d22477735316339a1f6e144c2f4",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Weekdays.md",
+      "bytes": 467,
+      "sha256": "1260a3e23261c4d821729cbdd195034de072c76c480f4ee91571ac9541a1cc8f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/WeekNumber.md",
+      "bytes": 546,
+      "sha256": "e10be5507ce31e9dac9a77ee9f15577b008fe4a1fec2ea4ca69dfc7c98754989",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/WeekNumberHeader.md",
+      "bytes": 503,
+      "sha256": "b7c13c03a438332c1ad339cc5b620e4128b89fd860a9d58fdcb954dc6fb25a5c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/Weeks.md",
+      "bytes": 462,
+      "sha256": "6a6a76a47e267e2d9ff72138300b00150b32103400c8c50fd55f0c594f1ecd24",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/functions/YearsDropdown.md",
+      "bytes": 738,
+      "sha256": "c904e266354b06ee1edd149c814caac4d7fe37a485f9037004985b8be7c842dd",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/index.md",
+      "bytes": 14478,
+      "sha256": "1e6dedbbf74620705624eacc0dc82a664f09dd5e1161ca52a0ed0c10fe2e18e6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/interfaces/DateLibOptions.md",
+      "bytes": 1666,
+      "sha256": "ec268e7c496dcc2f1072ee1d1e41d8ddf4aaf2b7b27a36c610b2134d22ece876",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/interfaces/DayPickerLocale.md",
+      "bytes": 576,
+      "sha256": "676479380b9a56564ae4b8d8c20d503748b5911b30d131998535c22242c31eaf",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/interfaces/PropsBase.md",
+      "bytes": 25927,
+      "sha256": "2ec05f9b04b013e2ec221645cef16b5193af00ab5956bbfb853b9051c7f8b2ac",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/interfaces/PropsMulti.md",
+      "bytes": 1721,
+      "sha256": "94709caf6a6b47ff6f5acb163aa94adfcc255349f5b20a893b42460795d8e4fb",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/interfaces/PropsMultiRequired.md",
+      "bytes": 1704,
+      "sha256": "b3557fd1a01595b4c69567215eb8bc27e74e80c1930491e15d1823ab9430bc8c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/interfaces/PropsRange.md",
+      "bytes": 3241,
+      "sha256": "ca64123b611d550cb8346ee736bfd38e0c62085531134c697d4d0077a3ade75a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/interfaces/PropsRangeRequired.md",
+      "bytes": 3057,
+      "sha256": "5c5e8cd02b922dfbaa8f58c2c1151ba218f01292d00c344c6e58f49b69fd402b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/interfaces/PropsSingle.md",
+      "bytes": 1237,
+      "sha256": "59456a9b53d2745bc4373fcb7eb8780b2060da8059c6886a9f7160f63f76b2ae",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/interfaces/PropsSingleRequired.md",
+      "bytes": 1220,
+      "sha256": "d78d9b5ab175c648cd79d9227b5477ca9bc5bd2c766a3a1393088683f472e80a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/ButtonProps.md",
+      "bytes": 250,
+      "sha256": "e731b88799a929463d6e36200218c5d5b3fb387cb18037eb9c55256dd84f20ae",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/CaptionLabelProps.md",
+      "bytes": 312,
+      "sha256": "00581466bd560b81dcaac2fe57c23c4a8dcf3ec98b10394277c43b57ad80a2a3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/ChevronProps.md",
+      "bytes": 282,
+      "sha256": "8eeac10447236a4aed72d54aa72c2d5c034d32fba0a534c76566df4a9ef1c4be",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/ClassNames.md",
+      "bytes": 589,
+      "sha256": "7dd0b9bc5e82d22e47a710dde0187f9706f3bd95a865b09345ff9547713b6cdf",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/CustomComponents.md",
+      "bytes": 9459,
+      "sha256": "f0ac97d182c1e4da4db3e8ba9c1a10feffeaa3263ca04e1fe352100c68531cf4",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DateAfter.md",
+      "bytes": 598,
+      "sha256": "ba958a448d2c53ef7279f59e2e56a6a163f624f835c4c036f1a46517d340345b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DateBefore.md",
+      "bytes": 607,
+      "sha256": "a0394dab1472913560bf7305ab4bf04fbdff29de9729c61b2cd9848ce506b329",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DateInterval.md",
+      "bytes": 905,
+      "sha256": "119214d1f08b603e3ee5a13ef4bd3c32150a719bf3921141b4fbf274b73a9d5b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DateRange.md",
+      "bytes": 917,
+      "sha256": "338681006f712d626889d8403749016680a1520fd9e0c08d3f20964214a770d7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DayButtonProps.md",
+      "bytes": 294,
+      "sha256": "5eeef206e338aa8a031c8fd6be9562e94acab70856029a927085489e91922729",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DayEventHandler.md",
+      "bytes": 842,
+      "sha256": "b064a9760abf6ea52b29e5a96533284b4e0c06e616d360516217cfe872740b94",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DayOfWeek.md",
+      "bytes": 674,
+      "sha256": "a05e9270bd0970bf65277e2d1efb4c8363363c1ef9b73aa26cdcf233482b71ec",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DayPickerContext.md",
+      "bytes": 5372,
+      "sha256": "0961218e34bd354de5d51b12eeb690a42ac542dfbee3876bc461acc2f32c78e2",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DayPickerLocaleLabels.md",
+      "bytes": 339,
+      "sha256": "fa6476747355eb025cad5b16a1c7a61368f4059fa80da27cbc35b94bcadd35fe",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DayPickerProps.md",
+      "bytes": 679,
+      "sha256": "cf45b16f9337343d350d8380fdfee71aade5b691dc3a717a226e6ff2d171d45a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DayProps.md",
+      "bytes": 258,
+      "sha256": "debf11eb044d2e42b902bbcc687673b3ab6827ba3d159adbee4bf1fe566e2c21",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DeprecatedUI.md",
+      "bytes": 11352,
+      "sha256": "bd906a5264db9321c01045230952ccf70d777480e8df86ae54023c138dbc306d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DropdownNavProps.md",
+      "bytes": 306,
+      "sha256": "e100dc84e0cee3ff59e3a0604811e0d83d153321686594d95ee3c65e490c8795",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DropdownOption.md",
+      "bytes": 1114,
+      "sha256": "406a7eda163aa8f277ea94dd7963d2b8af1b610a12c77dc256a1b50bc0830e20",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/DropdownProps.md",
+      "bytes": 288,
+      "sha256": "cb1ad427480f34357791f2fb29d192213bd73e38d3a5384c19ae6a74c43d319a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/FooterProps.md",
+      "bytes": 276,
+      "sha256": "a33979764cee15cbe8f07c2535c64badc56153be274bda495b001ae72f0b1fad",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/Formatters.md",
+      "bytes": 3027,
+      "sha256": "0cd4a7b2ffb11b473be769bf806683586fe1a5afb39ff3101b7ae388c96022f9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/Labels.md",
+      "bytes": 4390,
+      "sha256": "76f546ebe2e76316328aa963038c22cb7466c3784c8b9e73c397baf2617ba006",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/Locale.md",
+      "bytes": 247,
+      "sha256": "2f4a1ed6431b00e13065b8fb4d2149eceee81255f8ac167ef7caa28acb3d7c93",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/Matcher.md",
+      "bytes": 677,
+      "sha256": "77dfd256e4b67cba434fb59307fc660e07e6b82569c6e1c6feeb70d61d7ca750",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/Mode.md",
+      "bytes": 421,
+      "sha256": "16464842401800f6432d4476b016d7b4976deb79c5c5c524313e5e566c81b286",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/Modifiers.md",
+      "bytes": 546,
+      "sha256": "d117d8672a058221b358a3ea6de0aaa5b41ee347c85e18b9e978bcfd03277b9b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/ModifiersClassNames.md",
+      "bytes": 606,
+      "sha256": "3c0ac6dd914482e42e8d9dc6e6797384fcbcbaa93a3a50e8cafbf5b355a99cf0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/ModifiersStyles.md",
+      "bytes": 482,
+      "sha256": "15057544370547236a2f9e00e400ea01a09fc6a43b2d87c3f823ce1b119616f7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/MonthCaptionProps.md",
+      "bytes": 312,
+      "sha256": "91b5a27a24b9db2d476e7f0cf9f25672854c0be9c19f3fc5f5696c43863630c4",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/MonthChangeEventHandler.md",
+      "bytes": 522,
+      "sha256": "0be28973dcef139f013e986633062f8695537f7709679d0ce6f425f85a4a58e5",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/MonthGridProps.md",
+      "bytes": 294,
+      "sha256": "e2ac1445708857ac1061e8cee9b080373c86a6b8f59ecdf60aeb1d0fe56c7597",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/MonthProps.md",
+      "bytes": 270,
+      "sha256": "a4c29f513cec01b0d6a6d49827d7e5575851e6e679d4b86b7fd6626efb40b9c9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/MonthsProps.md",
+      "bytes": 276,
+      "sha256": "f1ea322c20665b61ad85e5a4c839bbba73b05adff6de8696c861a883cb65a312",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/MonthYearOrder.md",
+      "bytes": 317,
+      "sha256": "1b33534a8af629f64240f14f5b44d4d923f235dececf4df081cbf6a1b191bd92",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/MoveFocusBy.md",
+      "bytes": 321,
+      "sha256": "bccbec3ecd6081438b4ef91cd74ba695656a2a316baa6c513b87eae88e4d218b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/MoveFocusDir.md",
+      "bytes": 296,
+      "sha256": "25831fb40f966b1004d3e5e540d19392f3021844fef156e6b577c31d759c4953",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/NavProps.md",
+      "bytes": 258,
+      "sha256": "facb191f3fed1beec5e3f22500e3e3b4f7e5f9ac4d244e9552169c8124b33995",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/NextMonthButtonProps.md",
+      "bytes": 330,
+      "sha256": "e6fd65393eca35c1055b528d9e7935ea7f0985847f4f54fa7455ea86120828af",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/Numerals.md",
+      "bytes": 871,
+      "sha256": "5a34718463896daa1d99de43d81aa2628426b7682a1a020da119ee1cf0008776",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/OnSelectHandler.md",
+      "bytes": 1131,
+      "sha256": "69cc5621b3afdb24f2aa65a93ffeecbb3f681be16ef1f58edf1311be5a41e8fb",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/OptionProps.md",
+      "bytes": 276,
+      "sha256": "49eb935d195a4364f7b1f9822060e5a9e136c25f273dc64d9a2b736755a9e43e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/PreviousMonthButtonProps.md",
+      "bytes": 354,
+      "sha256": "f3922534b1bbd8e2e41d990fbc22ef7d5d3208f1bc4c08f6462c549ac524a0ec",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/RootProps.md",
+      "bytes": 264,
+      "sha256": "a2c4681d9e432097d829aa148df015f0b19ac4f7dde494b476eefdc030ec7d92",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/SelectedMulti.md",
+      "bytes": 392,
+      "sha256": "cbcd53c55fd67e730282d6597d3e830f1973a5429d8324de3ea1f00ae5043a40",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/SelectedRange.md",
+      "bytes": 430,
+      "sha256": "48af3d1e6c1c34060a4df1218c008c7e4e5003177f5f762994249d43a64c4fee",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/SelectedSingle.md",
+      "bytes": 390,
+      "sha256": "8c8c3b1405ad1720d6eeb8212dbff3e9c9769a387aa204631008cd9bb7eeaa70",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/SelectedValue.md",
+      "bytes": 1054,
+      "sha256": "ae7461c42653b82e683e09634e665316cb29902b3e601e1f72805433f3ef6d37",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/SelectHandler.md",
+      "bytes": 885,
+      "sha256": "cb4d0aa084d3d0c739294cd7def2ca2534e76044ba1b78993305e7804a451645",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/SelectHandlerMulti.md",
+      "bytes": 712,
+      "sha256": "a56d172853d2f86629540e1803deeccb9645a90f182d2dfac715faf93ae37ed1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/SelectHandlerRange.md",
+      "bytes": 788,
+      "sha256": "8338dbfe35d1768b2134e39907267810d8a0f33225d458cd37d6895e64f86d01",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/SelectHandlerSingle.md",
+      "bytes": 706,
+      "sha256": "994728c8a0b41b2d89fa7402aa48c29bc2347d06e48642e6170540b334d3a62c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/Selection.md",
+      "bytes": 1403,
+      "sha256": "fa8f17249afd2f418ee49214b00c4b796bff3fb0dfd4987333bce01f7c7bcae7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/SelectProps.md",
+      "bytes": 276,
+      "sha256": "6c2f3dc030fd9473201787bba3250f3cfa240d97f7ee6af0d2e6c9c623437e29",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/Styles.md",
+      "bytes": 438,
+      "sha256": "db4b064329437e3a30a48100e96ab055f5179bef1beee250e1098d7fcc20086e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/WeekdayProps.md",
+      "bytes": 282,
+      "sha256": "6ab6320f7b43da7ec22d34a27f057cb48579a5feb6602031334083f327b6e01b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/WeekdaysProps.md",
+      "bytes": 288,
+      "sha256": "1799f7017dc29a7f6cf07b77e03727e67563b022fed27cbac700926bf3d5607d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/WeekNumberHeaderProps.md",
+      "bytes": 336,
+      "sha256": "a79ef34909dc86efaec474061c8a228d33ea5e0a613c67e527f2e1ef43a55b1e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/WeekNumberProps.md",
+      "bytes": 300,
+      "sha256": "4b00f08a721a6b05ff5ce1d258651c1339ac3b4423d8973bfccdffc3705f4e23",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/WeekProps.md",
+      "bytes": 264,
+      "sha256": "53fefbfa5721ee6c5c666466812cb5f29f420c9be3fc12395692637cb8ea10f8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/type-aliases/WeeksProps.md",
+      "bytes": 270,
+      "sha256": "fab91ac9f6e2bd3c90618f2a93388e69a125d276e3d59315b374bb9b89244fcc",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/typedoc-sidebar.cjs",
+      "bytes": 10035,
+      "sha256": "d0da5e75862e29ce697f65309f780f37efdba0e20c77c8e3517f75214974e75c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/variables/defaultDateLib.md",
+      "bytes": 315,
+      "sha256": "5f104d1fd2eb606e87edb9d6dc0d0ba74269b0eefd4424ceede398a069d5aeb7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/api/variables/defaultLocale.md",
+      "bytes": 339,
+      "sha256": "a14921c6458f579ddba2b4de7d78be6d500ca5f3aec2bcd832877bbb48ef1e20",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/changelog.mdx",
+      "bytes": 154,
+      "sha256": "29b4c8513baaf081db2a11d99de0744a2d0a6122e63a972aad018ca75a4ed27c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/development/code-of-conduct.md",
+      "bytes": 159,
+      "sha256": "843c33a12497b721e2f73e67b1d9ce8253c51d52d2bf56e3cf1a9ff07129038e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/development/contributing.md",
+      "bytes": 143,
+      "sha256": "d646fd303172098fee2eea99c704b9664c462c6285663d62bed81745f730d8bd",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/development/source.md",
+      "bytes": 238,
+      "sha256": "d0291ecdeedf840ba3692fbc9cd5cef7eed2be205a82e18ce7fc1793dfc238aa",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/docs/anatomy.mdx",
+      "bytes": 3280,
+      "sha256": "15ac3427cb46b27262f48b2bb73019deed384fc3498cf3954f494fcc22f3f53f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/docs/appearance.mdx",
+      "bytes": 5386,
+      "sha256": "329f3a6d971fc086537c8012f869998c450e0dd289e1fbdf3ac9600f1d9835db",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/docs/caption-and-nav-layouts.mdx",
+      "bytes": 6095,
+      "sha256": "2f2c0e98893bfe1265f099eae616c23ce688d63e8c5934d263bc99076ae7a5c7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/docs/grid-and-months.mdx",
+      "bytes": 2622,
+      "sha256": "0c4fba245ea7221e80f789575162837e8c6af984575c717f74241d818ff01ce3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/docs/navigation.mdx",
+      "bytes": 5816,
+      "sha256": "f86f2b047f1b864cd698f410096cc9ce074b05aa48cabb52e08944854f9f09a0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/docs/styling.mdx",
+      "bytes": 10217,
+      "sha256": "338fd6dad6a8459343b04b66055426c1f7db5cd6a330b05b2c1a8c67672a9505",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/docs/week-numbers-and-footer.mdx",
+      "bytes": 3035,
+      "sha256": "ce6227ad2c840774bccb0392ca2fd09689abd084fb7867bfaaa4d32ac697b018",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/guides/accessibility.mdx",
+      "bytes": 5087,
+      "sha256": "1b80f6217c48d78c300b0e831e9cd0fde2a135ad5655a6520a85f6c0d175f646",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/guides/custom-components.mdx",
+      "bytes": 16222,
+      "sha256": "9e37f47c1c8aeea494d4e522ac0fe992d2287e3fdfc0bc76534ac9cce6b16442",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/guides/custom-modifiers.mdx",
+      "bytes": 4095,
+      "sha256": "769d23c60b0253d8d7aacec383dfc86b2e923b2bb979dd3152bd70b544d01545",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/guides/custom-selections.mdx",
+      "bytes": 9922,
+      "sha256": "c243291bf934e6238a9b228720d26d69170dab35fb4bf4d0ce75817356bc6900",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/guides/input-fields.mdx",
+      "bytes": 7336,
+      "sha256": "a3b7ba686d7aac4da2933f67267a3109267a6e52488ce9cf69af2087638966a4",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/guides/timepicker.mdx",
+      "bytes": 5193,
+      "sha256": "f1a2be9cb8d343df3be08c1aecc0137fcf985809bae2a8f67a965607b1c8f8a7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/guides/translation.mdx",
+      "bytes": 5674,
+      "sha256": "fc219e4816b84464cf46f78df7cad793a8e92212491668067e86fab3a9d6ffe0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/img/anatomy-dark.png",
+      "bytes": 144451,
+      "sha256": "9b4bedc847c18ad7100e80c0f0cc963f28ba75b56e3c74bb3aa6f6011bf3b578",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/img/anatomy-light.png",
+      "bytes": 147551,
+      "sha256": "d79ac87f8a126770381f80a1caf27f3ef00dccf64ad57edc53394c6e76f1772a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/intro.mdx",
+      "bytes": 6185,
+      "sha256": "005e07767891fb43b6ca14c8fe100caaf7e9857ef6f9f89165d516bd7432dd3c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/license.mdx",
+      "bytes": 1274,
+      "sha256": "6f3c6ef0667d904a9d84cb7e0e840b95851623f56845e757c88625fa8c5f7d87",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/localization/buddhist.mdx",
+      "bytes": 967,
+      "sha256": "db2946aabded8f068705a300ee93b680ec6677ff96e21161c36abbcc75bc1486",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/localization/changing-locale.mdx",
+      "bytes": 3371,
+      "sha256": "a7cb8f054652696ea983987e57eeb99ec05d0cb6a5d3ce176c6ae7df37820af5",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/localization/ethiopic.mdx",
+      "bytes": 963,
+      "sha256": "2ac7318c4efc809d2e83602d8f54cf9ffbfc19a70deb3fdf826f5b456ae3334a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/localization/hebrew.mdx",
+      "bytes": 941,
+      "sha256": "64f3c75d04562c54ee07f140b1ba048334da75d26673abdde0dc430e9f21cf63",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/localization/hijri.mdx",
+      "bytes": 1119,
+      "sha256": "a66083631bc56254db2f8071c039ab3ff901c9c3de9b4cfe1d4a50c5356b1ec9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/localization/iso-and-broadcast.mdx",
+      "bytes": 2031,
+      "sha256": "b5c2587100890f06877a3c6c3315c83259ec4a91c8e07526ac1f5aafbedb0d76",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/localization/persian.mdx",
+      "bytes": 1040,
+      "sha256": "032a20a6a8956f04f90c98d64d427eac7285a48486eaac01e8dab9882e136e17",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/localization/setting-time-zone.mdx",
+      "bytes": 3616,
+      "sha256": "a4376c8574e9d6e888475e4d50b7c246949e5d18cd50d9c07db0d3dbc53221dc",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/selections/disabling-dates.mdx",
+      "bytes": 3910,
+      "sha256": "1c53c50372928d9ec5f2d7750579d10b4a169d03676c492ae30bfcc56c6b382d",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/selections/multiple-mode.mdx",
+      "bytes": 2334,
+      "sha256": "c3662a590d8afb1bef52b71d2ee3b64a1283c28b1f4bb50e4e5f3e25fe83c0ab",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/selections/range-mode.mdx",
+      "bytes": 3801,
+      "sha256": "f6824cadbae161d05b57ebd0efb4bc487509a7f65cd55a67eeca5b4357dcd8e0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/selections/selection-modes.mdx",
+      "bytes": 2228,
+      "sha256": "dd67004f047755a99a18556f4e355b1e6455a6f5a2ea24870900d3370f39c8e2",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/selections/single-mode.mdx",
+      "bytes": 1792,
+      "sha256": "11bc8ddcab10b4bfdba18ceaebfdc9329433d3954e67527a46488b131297847c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/start.mdx",
+      "bytes": 4169,
+      "sha256": "d440b5f1a942a1cc4a264579cd51266318d517299d126bad74c1bdbafa2a6f8b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_docs/version-9.14.0/upgrading.mdx",
+      "bytes": 17238,
+      "sha256": "7b81e503173cdcb4cc1a7003616f77a76df850b68f90cdcd8cd69f9faa1fbc7e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_sidebars/version-8.10.2-sidebars.json",
+      "bytes": 19918,
+      "sha256": "cfff82c68319922577dfbde5c26cf8049fa6afe7b7059acd913c2bd54fc2bd21",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versioned_sidebars/version-9.14.0-sidebars.json",
+      "bytes": 21500,
+      "sha256": "6a8b9c81668bcd740964d7e3b4b2396d1c0d6adf8523a82c6331e1c13c3ea94f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "versions.json",
+      "bytes": 21,
+      "sha256": "98e8398f9383b175b9dfacf4fcdcb75657bc158850989626c80e426366dcc9ae",
+      "category": "asset-or-notice"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution"
+}

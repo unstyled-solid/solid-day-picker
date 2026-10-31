@@ -1,0 +1,47 @@
+---
+title: Hijri Calendar
+---
+
+DayPicker supports the [Hijri (Umm al-Qura) calendar](https://en.wikipedia.org/wiki/Islamic_calendar) via a dedicated build.
+
+The Hijri calendar is included in DayPicker. Install the package and its Solid peers:
+
+```bash npm2yarn
+npm install @solid-unstyled/daypicker solid-js@2.0.0-rc.13 @solidjs/web@2.0.0-rc.13
+```
+
+Import `DayPicker` from `@solid-unstyled/daypicker/hijri` to render Hijri months and weekdays while keeping the usual DayPicker API.
+
+```tsx
+import { DayPicker } from "@solid-unstyled/daypicker/hijri";
+```
+
+### Basic usage (Arabic labels, RTL, Arabic-Indic digits)
+
+```tsx
+import { DayPicker } from "@solid-unstyled/daypicker/hijri";
+
+<DayPicker />;
+```
+
+<BrowserWindow sourceUrl="https://github.com/unstyled-solid/daypicker/blob/main/docs/examples/Hijri.tsx">
+  <Examples.Hijri />
+</BrowserWindow>
+
+### English labels, LTR, Latin digits
+
+```tsx
+import { DayPicker, enUS } from "@solid-unstyled/daypicker/hijri";
+
+<DayPicker locale={enUS} dir="ltr" numerals="latn" />;
+```
+
+<BrowserWindow sourceUrl="https://github.com/unstyled-solid/daypicker/blob/main/docs/examples/HijriEn.tsx">
+  <Examples.HijriEn />
+</BrowserWindow>
+
+:::note
+
+The Hijri build uses Umm al-Qura conversion tables with a supported Gregorian range of `1924-08-01` to `2077-11-16`. Out-of-range date props are clamped to this interval.
+
+:::

@@ -1,0 +1,14 @@
+import { render, screen } from "@/test/render";
+import { setTestTime } from "@/test/setTestTime";
+import { FixedWeeks } from "./Fixedweeks";
+
+const today = new Date(2021, 10, 25);
+
+setTestTime(today);
+beforeEach(() => {
+  render(() => (<FixedWeeks />));
+});
+
+test("should render 7 rows", () => {
+  expect(screen.getAllByRole("row", { hidden: true })).toHaveLength(7);
+});

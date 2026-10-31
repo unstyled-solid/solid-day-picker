@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.cocoindex_code/
+test-results/
+.DS_Store
+docs/generated/
+.netlify/
+.env
+.env.*
+!.env.example

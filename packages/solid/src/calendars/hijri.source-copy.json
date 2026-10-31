@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/daypicker/upstream/react-day-picker/packages/hijri/src",
+  "target": "/Users/avi/avir-oss/daypicker/packages/solid/src/calendars/hijri",
+  "sourceSha": "1bfd4f0776d66f2242b6b32a1f084ab94e2702da",
+  "files": [
+    {
+      "path": "classes/DateLib.ts",
+      "bytes": 100,
+      "sha256": "3950779541424b664bfaab4e5a6c202bc6cb73ae89204511d74539df9945ccab",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/index.test.tsx",
+      "bytes": 3675,
+      "sha256": "5393dbba5a436a353e4f6b51ad881309452360d9ca86e608b9f52a0d64d46bc1",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/index.tsx",
+      "bytes": 2157,
+      "sha256": "b647628285f3ee635abfba95705dff0f9142da44347d04f304a4724af4052067",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/addMonths.test.ts",
+      "bytes": 1827,
+      "sha256": "63a9edf703d633ffc193b7d019f3516315aa6412f200931b6e137c80d6a8932b",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/addMonths.ts",
+      "bytes": 248,
+      "sha256": "04114d1d4bab3e5827778f42de57715cd66e3106ef116e92ddd6e2919ed3a074",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/addYears.test.ts",
+      "bytes": 1690,
+      "sha256": "2d5fbed035207c091cf0068a29ee7c048c6c8117561cdc8077f6d12485a25201",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/addYears.ts",
+      "bytes": 238,
+      "sha256": "68a30316a6df88debf0376ccc155bd02505823b70d35ee8a0643f06e1a703f5c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/differenceInCalendarMonths.test.ts",
+      "bytes": 461,
+      "sha256": "c2535d79091b920a4bc5229fafbe59b14d9c46a8e6d687b16016131f3360d8a5",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/differenceInCalendarMonths.ts",
+      "bytes": 352,
+      "sha256": "c92c8f43f62146ebfb16544839c2ac9e34a48d2a7527a27b5fa88c39f97177bb",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/eachMonthOfInterval.test.ts",
+      "bytes": 1928,
+      "sha256": "4379d94fe51eeafd24746efc76d9e973504e6b8d39cd88813c3b48a70ac1e877",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/eachMonthOfInterval.ts",
+      "bytes": 988,
+      "sha256": "aae7d9826c2a0bb0cb9a299964a0d64dfc2406e565155a3ce77644b1f32ab26d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/eachYearOfInterval.test.ts",
+      "bytes": 1703,
+      "sha256": "3c054384061e6a46d3e9811dd0ec74467124bfd801a70e06c3c02cc2e8dea2d9",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/eachYearOfInterval.ts",
+      "bytes": 621,
+      "sha256": "271a5ba6430a4a40098de773212ae42c6fe8132bc043e64a65e38eb22aeed0e1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/endOfMonth.test.ts",
+      "bytes": 330,
+      "sha256": "ab1a4923290e4aa1376a4bf32e4b7cb5261238bd055b0a15de349efd6553f298",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/endOfMonth.ts",
+      "bytes": 372,
+      "sha256": "bae6e47eca60f9ddce97ea63686b938ce0d607a354cf726b182336a43b16c93e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/endOfYear.test.ts",
+      "bytes": 326,
+      "sha256": "44c3b2f022439ada16c8d09f08195dd7996373aeff181e1a7442f812bba2906f",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/endOfYear.ts",
+      "bytes": 343,
+      "sha256": "bebf3bdc51e145a62125a79fc5580d77b246bf78bba1c02ce4d7adb76d0c6d88",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/fallbackLocaleData.ts",
+      "bytes": 2789,
+      "sha256": "fcf4fb0c798ab47756f813a65f3169e24ff766e52f540c51fab6612556dad235",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/format.test.ts",
+      "bytes": 2502,
+      "sha256": "221923cffe5f5ff164ca60cc0385a04aa90497333835fdb4d83ec3638bdfa42e",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/format.ts",
+      "bytes": 5517,
+      "sha256": "e30d667c1260802bb77aff46366d2fd0923ad8bef3d2ba845d9694cb6e14c32f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/getMonth.test.ts",
+      "bytes": 182,
+      "sha256": "8b394c597379a192101a4229a4cc80250d225d087b0a44187edfa38002596f81",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/getMonth.ts",
+      "bytes": 143,
+      "sha256": "84defb4b3833f048d9e23b009c34c610e3282a62b8377ebef0d0ee6f8b81e69d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/getYear.test.ts",
+      "bytes": 174,
+      "sha256": "7493d1d6fc9b05ddb2568e6d955ac6a13240d30263bf469a773d8953041253ff",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/getYear.ts",
+      "bytes": 136,
+      "sha256": "cd0ebcac6bd5a75e441c70d47f4a35617ef7c9139a57251b6fa751c6b1ec5044",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/index.ts",
+      "bytes": 577,
+      "sha256": "6a340fd219bbfcd1d06b298905dbcabf37ca3479648ce290c193df80cf47730b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/isSameMonth.test.ts",
+      "bytes": 407,
+      "sha256": "56153d4c4469224f8a5fb4e3262131e99d7d8e9af11f4fc077df633709f99298",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/isSameMonth.ts",
+      "bytes": 326,
+      "sha256": "03f5d2965a970e54285813a9f8680bcbbb37605020718a16f1df71c09a307f62",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/isSameYear.test.ts",
+      "bytes": 386,
+      "sha256": "bf0cd4e7b3c8fecef4a8802b2bada57439a09359b3e8ff27ffed6dd1db337b49",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/isSameYear.ts",
+      "bytes": 261,
+      "sha256": "a5194f7bf2b4ee28321747fe2540b6af06978c495c0de744fedb15972490bf59",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/newDate.test.ts",
+      "bytes": 454,
+      "sha256": "e70fdca6819f3c55cf1adb1dacee083cb157b684cd10c19c680947180670de2f",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/newDate.ts",
+      "bytes": 193,
+      "sha256": "0def86c56b817e42194b66ba3165c8a43fe72cfec2f4a7604246bbd3b518aa0a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/setMonth.test.ts",
+      "bytes": 1840,
+      "sha256": "7145d12888756a3696c8f3021514f23471ef590b7228ba2cf68bc9ac9d6d8dd8",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/setMonth.ts",
+      "bytes": 874,
+      "sha256": "ff3ab7cfc994f2a84c20b7e455ae7da00beaf3b1bfcd7ff52a874030c78f1f33",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/setYear.test.ts",
+      "bytes": 1699,
+      "sha256": "e7ca1f15995d77d7382dfadbfe60c04de71e95ca3082d38e8109456ae5da39be",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/setYear.ts",
+      "bytes": 434,
+      "sha256": "c62ed27f047cc0dc05bd536a0ed49955e6dd175be3e39d7f8466a26f0380918f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/startOfMonth.test.ts",
+      "bytes": 231,
+      "sha256": "fa946e8e112c0d1c060bbe78a73a34095253b2a9893f9c3f5f1d5783e7ad4136",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/startOfMonth.ts",
+      "bytes": 259,
+      "sha256": "8e3fc9e17baaebbf2cf160fbf1aeb17eb7338e2e7cdc4caac9ecf814510e6499",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/lib/startOfYear.test.ts",
+      "bytes": 226,
+      "sha256": "9181eede4d928d0847fd32bb938555d30afb09fe0b80c26edfe2b47428ad968e",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/lib/startOfYear.ts",
+      "bytes": 243,
+      "sha256": "2b6fdcf8f7e5cd770441bfbe6575892a2f6542654a21d3301d623e71cbf6c8b7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/utils/conversion.test.ts",
+      "bytes": 1564,
+      "sha256": "c58b14f0e588018dbeb97b6bf75ef4e1725a74fe4dfa7b89f702e020b85157e0",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/utils/conversion.ts",
+      "bytes": 1520,
+      "sha256": "ec918c487dbba823c0670ac871ef9d1dcdaeaee1b0475225a8fe7b42ded53c6c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/utils/daysInMonth.test.ts",
+      "bytes": 962,
+      "sha256": "f9889670ad65f58b8f345e7e5d37e020fa73d5c0dffe0e1b97c25b7557ff0bd6",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/utils/daysInMonth.ts",
+      "bytes": 801,
+      "sha256": "5555b7e2aaf9d553f894895140c5e075de7e2f322a0042553502ec02d49bb2da",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/utils/range.test.ts",
+      "bytes": 3155,
+      "sha256": "58c3b060ca0f2012de9e57696010f43c3d360701a79147448a941dc2e062f6f4",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "hijri/utils/range.ts",
+      "bytes": 3955,
+      "sha256": "8fea82fb7d66ea4662b7d1c940fc57f61ee6978177947d677f41428ddc0bc071",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "hijri/utils/types.ts",
+      "bytes": 82,
+      "sha256": "e74ef3e34de8f82078418c23bdcc26213dee3a08ccab0e50a21daf91792874ad",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "index.tsx",
+      "bytes": 34,
+      "sha256": "14c916145c96b31765ab0216507778d483f0e260507d325d3409262b45dc9533",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ar-SA.ts",
+      "bytes": 54,
+      "sha256": "d76f85a4d95556f957c8c9a074f9b89b97d551192773d8b7c71c2eb716928909",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/en-US.ts",
+      "bytes": 54,
+      "sha256": "a06d5ad47d9bfc6cb6f859f65065b9595bc1286394e62374539f18fa4c8a78b0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "types/props.ts",
+      "bytes": 56,
+      "sha256": "fd4ab34a15003a4cdb95fe97e85e9e308a31d1bdfea60a8067552bc081d68390",
+      "category": "source-or-helper"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution"
+}

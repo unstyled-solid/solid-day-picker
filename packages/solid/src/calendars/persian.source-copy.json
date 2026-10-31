@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/daypicker/upstream/react-day-picker/packages/persian/src",
+  "target": "/Users/avi/avir-oss/daypicker/packages/solid/src/calendars/persian",
+  "sourceSha": "1bfd4f0776d66f2242b6b32a1f084ab94e2702da",
+  "files": [
+    {
+      "path": "classes/DateLib.ts",
+      "bytes": 175,
+      "sha256": "639bd0c73c57fe330f97b8f3bc121119d7a9a84930559c8a020e480e6bc39186",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "index.test.tsx",
+      "bytes": 2376,
+      "sha256": "13b54a2dd8aaf993c2e878d56ebefade02d5f809042153682f0058cbc7a5bed6",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "index.tsx",
+      "bytes": 4087,
+      "sha256": "f78412f8ff04657c42c518233e3c684424cf938ab0967b1c180003e648b4cda5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/en-US-jalali.ts",
+      "bytes": 1857,
+      "sha256": "ed85a44452c70530e6fb4336ab92d53adf93a5e72f8a72cd08bc21fb3621614f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/fa-IR-jalali.ts",
+      "bytes": 1936,
+      "sha256": "678d46a42c54f87fe8f2b8e68c70d29ed353c4760a836298cb287347eed6124d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale-jalali.test.ts",
+      "bytes": 584,
+      "sha256": "d8a450247209d53febc835194f23a6f465f7bd6d9458cf280c464366f6666121",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "noonDateLib.ts",
+      "bytes": 195,
+      "sha256": "0d2e462a98f3863641864717baa0b3f5fb2cb05502e70fe022342e9e1c65cfee",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "noonJalaliDateLib.ts",
+      "bytes": 5819,
+      "sha256": "7f606b1d4c42187004990d30ebdf6b0f426b1b23f796c5accfb457955e0b87ae",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "types/index.ts",
+      "bytes": 51,
+      "sha256": "7b7d6dc78f11a30abea6eb724515619d60b046a02cdfd7238cab2de5f68894db",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "types/props.ts",
+      "bytes": 56,
+      "sha256": "fd4ab34a15003a4cdb95fe97e85e9e308a31d1bdfea60a8067552bc081d68390",
+      "category": "source-or-helper"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution"
+}

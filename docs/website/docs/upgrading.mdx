@@ -1,0 +1,282 @@
+---
+sidebar_position: 5
+---
+
+> **Upstream React history:** This page describes React DayPicker releases, not Solid package releases. For the Solid package and native APIs, see [Getting Started](/start).
+
+
+# Upgrading to v10
+
+DayPicker v10 is mostly a cleanup release. If your app is already on v9 and
+does not use deprecated v9 APIs, props, `classNames`, or `styles` keys, most of
+the upgrade is package and import changes.
+
+The main changes are:
+
+- Deprecated v9 compatibility APIs were removed, including old prop names,
+  aliases, and component slots.
+- Deprecated `classNames` and `styles` compatibility keys were removed.
+  - shadcn/ui users with a copied `Calendar` component should also update their
+    local class name mappings. See
+    [Update `classNames` and `styles` keys](#3-update-classnames-and-styles-keys).
+- `@daypicker/react` is the new preferred package name. The
+  `react-day-picker` package name remains available for compatibility.
+  - The scoped package name gives us room to support multiple calendars and
+    future Temporal API integrations under dedicated namespaces.
+- Non-Gregorian calendars moved to separate add-on packages. If you use imports
+  such as `react-day-picker/hebrew`, `react-day-picker/hijri`, or
+  `react-day-picker/persian`, install the matching add-on package.
+
+If you are upgrading directly from v8, use the
+[v8 to v10 upgrade guide](./upgrading-v8-to-v10.mdx) instead.
+
+## Upgrade checklist
+
+1. [Upgrade the package](#1-upgrade-the-package): replace `react-day-picker`
+   with `@daypicker/react` and update imports.
+2. [Replace deprecated API](#2-replace-deprecated-api): if you use deprecated
+   v9 props or APIs, replace them with the current names.
+3. [Update `classNames` and `styles` keys](#3-update-classnames-and-styles-keys):
+   if you customize class names or inline styles, replace deprecated v9 keys.
+4. [Update non-Gregorian package imports](#4-update-non-gregorian-package-imports):
+   if you use a non-Gregorian calendar, install the matching add-on package and
+   update the calendar imports.
+
+If your app has a local `Calendar` or `DatePicker` wrapper, update its
+DayPicker imports, props, and styles before checking the screens that use it.
+
+## 1. Upgrade the package
+
+The recommended v10 package name is `@daypicker/react`. Remove the previous
+`react-day-picker` dependency, then install the package under its preferred
+name:
+
+```bash npm2yarn
+npm remove react-day-picker
+npm install @daypicker/react
+```
+
+The `react-day-picker` package name remains available in v10 for compatibility,
+so existing imports can still work. Use `@daypicker/react` for new projects and
+upgraded imports.
+
+```diff
+- import { DayPicker } from "react-day-picker";
+- import "react-day-picker/style.css";
++ import { DayPicker } from "@daypicker/react";
++ import "@daypicker/react/style.css";
+```
+
+Locale imports move the same way:
+
+```diff
+- import { es } from "react-day-picker/locale";
++ import { es } from "@daypicker/react/locale";
+```
+
+## 2. Replace deprecated API
+
+If your app still uses APIs or props deprecated in v9, replace them with the
+current names below. The deprecated names were removed in v10.
+
+### Replace removed navigation props
+
+| Removed prop | Use instead |
+| --- | --- |
+| `fromMonth` | [`startMonth`](./api/react/interfaces/PropsBase.md#startmonth) |
+| `fromYear` | [`startMonth`](./api/react/interfaces/PropsBase.md#startmonth) with the first month of that year |
+| `toMonth` | [`endMonth`](./api/react/interfaces/PropsBase.md#endmonth) |
+| `toYear` | [`endMonth`](./api/react/interfaces/PropsBase.md#endmonth) with the last month of that year |
+| `fromDate` | [`hidden`](./api/react/interfaces/PropsBase.md#hidden) with a `before` matcher, and optionally [`startMonth`](./api/react/interfaces/PropsBase.md#startmonth) |
+| `toDate` | [`hidden`](./api/react/interfaces/PropsBase.md#hidden) with an `after` matcher, and optionally [`endMonth`](./api/react/interfaces/PropsBase.md#endmonth) |
+
+```diff
+<DayPicker
+- fromYear={2010}
+- toYear={2021}
++ startMonth={new Date(2010, 0)}
++ endMonth={new Date(2021, 11)}
+/>
+```
+
+```diff
+<DayPicker
+- fromDate={new Date(2010, 11, 3)}
++ startMonth={new Date(2010, 11)}
++ hidden={{ before: new Date(2010, 11, 3) }}
+/>
+```
+
+```diff
+<DayPicker
+- toDate={new Date(2010, 11, 3)}
++ endMonth={new Date(2010, 11)}
++ hidden={{ after: new Date(2010, 11, 3) }}
+/>
+```
+
+### Replace removed focus and event props
+
+| Removed prop | Use instead |
+| --- | --- |
+| `initialFocus` | [`autoFocus`](./api/react/interfaces/PropsBase.md#autofocus) |
+| `onWeekNumberClick` | A custom [`WeekNumber`](./api/react/functions/WeekNumber.md) component |
+| `onDayKeyUp` | A custom [`DayButton`](./api/react/functions/DayButton.md) component |
+| `onDayKeyPress` | A custom [`DayButton`](./api/react/functions/DayButton.md) component |
+| `onDayPointerEnter` | A custom [`DayButton`](./api/react/functions/DayButton.md) component |
+| `onDayPointerLeave` | A custom [`DayButton`](./api/react/functions/DayButton.md) component |
+| `onDayTouchCancel` | A custom [`DayButton`](./api/react/functions/DayButton.md) component |
+| `onDayTouchEnd` | A custom [`DayButton`](./api/react/functions/DayButton.md) component |
+| `onDayTouchMove` | A custom [`DayButton`](./api/react/functions/DayButton.md) component |
+| `onDayTouchStart` | A custom [`DayButton`](./api/react/functions/DayButton.md) component |
+
+For week-based selections, follow the
+[week selection example](./guides/custom-selections.mdx#week-numbers-and-starts).
+
+For extra DOM event handlers on each day, compose around the default
+[`DayButton`](./api/react/functions/DayButton.md) in the
+[Custom Components guide](./guides/custom-components.mdx).
+
+### Replace removed aliases
+
+| Removed API | Use instead |
+| --- | --- |
+| `formatMonthCaption` | [`formatCaption`](./api/react/functions/formatCaption.md) |
+| `formatYearCaption` | [`formatYearDropdown`](./api/react/functions/formatYearDropdown.md) |
+| `labelDay` | [`labelDayButton`](./api/react/functions/labelDayButton.md) |
+| `labelCaption` | [`labelGrid`](./api/react/functions/labelGrid.md) |
+| `isMatch` | [`dateMatchModifiers`](./api/react/functions/dateMatchModifiers.md) |
+| `isDateInRange` | [`rangeIncludesDate`](./api/react/functions/rangeIncludesDate.md) |
+
+If you already migrated to the v9 names, there is nothing to change here.
+
+### Replace `components.Button`
+
+The deprecated `components.Button` entry was removed in v10.
+
+Use
+[`PreviousMonthButton`](./api/react/functions/PreviousMonthButton.md) and
+[`NextMonthButton`](./api/react/functions/NextMonthButton.md) instead.
+
+```diff
+<DayPicker
+  components={{
+-   Button: MyButton
++   PreviousMonthButton: MyPreviousButton,
++   NextMonthButton: MyNextButton
+  }}
+/>
+```
+
+## 3. Update `classNames` and `styles` keys
+
+The deprecated compatibility keys were removed from `classNames` and `styles`.
+Use only the current keys from
+[`UI`](./api/react/enumerations/UI.md),
+[`DayFlag`](./api/react/enumerations/DayFlag.md),
+[`SelectionState`](./api/react/enumerations/SelectionState.md), and
+[`Animation`](./api/react/enumerations/Animation.md).
+
+Common migrations:
+
+| Removed key | Use instead |
+| --- | --- |
+| `table` | `month_grid` |
+| `nav_button` | `button_previous` and `button_next` |
+| `day_selected` | `selected` |
+| `day_disabled` | `disabled` |
+
+```diff
+<DayPicker
+  classNames={{
+-   table: "my-table",
+-   nav_button: "my-nav-button",
+-   day_selected: "my-selected",
++   month_grid: "my-table",
++   button_previous: "my-nav-button",
++   button_next: "my-nav-button",
++   selected: "my-selected"
+  }}
+  styles={{
+-   table: { borderCollapse: "collapse" },
++   month_grid: { borderCollapse: "collapse" }
+  }}
+/>
+```
+
+:::note shadcn/ui Calendar components
+
+If your app uses a copied `Calendar` component from shadcn/ui, update the
+`classNames` mapping in that component too. Older generated Calendar components
+may still use deprecated DayPicker v9 keys such as `table`, `nav_button`, and
+`day_selected`.
+
+Use the v10 keys shown above, and check whether your local component needs the
+latest shadcn/ui Calendar changes for dropdown captions. See
+[shadcn-ui/ui#10441](https://github.com/shadcn-ui/ui/pull/10441) for the
+related shadcn/ui Calendar template update.
+
+:::
+
+## 4. Update non-Gregorian package imports
+
+The calendar packages are now published separately from the main React package.
+Install the add-on package you use alongside `@daypicker/react`.
+
+### Persian calendar
+
+The old `jalali` import path now uses the Persian calendar package.
+
+```bash npm2yarn
+npm install @daypicker/react @daypicker/persian
+```
+
+| Removed import | Use instead |
+| --- | --- |
+| `react-day-picker/jalali` | `@daypicker/persian` |
+| `react-day-picker/persian` | `@daypicker/persian` |
+| `enUSJalali` from `react-day-picker/locale` | `enUSJalali` from `@daypicker/persian` |
+| `faIRJalali` from `react-day-picker/locale` | `faIRJalali` from `@daypicker/persian` |
+
+### Buddhist calendar
+
+```bash npm2yarn
+npm install @daypicker/react @daypicker/buddhist
+```
+
+| Removed import | Use instead |
+| --- | --- |
+| `react-day-picker/buddhist` | `@daypicker/buddhist` |
+
+### Ethiopic calendar
+
+```bash npm2yarn
+npm install @daypicker/react @daypicker/ethiopic
+```
+
+| Removed import | Use instead |
+| --- | --- |
+| `react-day-picker/ethiopic` | `@daypicker/ethiopic` |
+| `amET` from `react-day-picker/locale` | `amET` from `@daypicker/ethiopic` |
+
+### Hebrew calendar
+
+```bash npm2yarn
+npm install @daypicker/react @daypicker/hebrew
+```
+
+| Removed import | Use instead |
+| --- | --- |
+| `react-day-picker/hebrew` | `@daypicker/hebrew` |
+
+### Hijri calendar
+
+```bash npm2yarn
+npm install @daypicker/react @daypicker/hijri
+```
+
+| Removed import | Use instead |
+| --- | --- |
+| `react-day-picker/hijri` | `@daypicker/hijri` |
+
+Deprecated aliases from `types/deprecated` were also removed.

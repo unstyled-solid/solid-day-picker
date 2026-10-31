@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/daypicker/upstream/react-day-picker/packages/buddhist/src",
+  "target": "/Users/avi/avir-oss/daypicker/packages/solid/src/calendars/buddhist",
+  "sourceSha": "1bfd4f0776d66f2242b6b32a1f084ab94e2702da",
+  "files": [
+    {
+      "path": "buddhist/format.test.ts",
+      "bytes": 520,
+      "sha256": "9197b6f9490cac4cb9a62c8095776d27e43805aef2583a5adad9aaf061d05cba",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "buddhist/index.test.tsx",
+      "bytes": 1259,
+      "sha256": "bc4d259b33a80de3bed6026a91a2631b7cd2dd7ff659714fbd7bc9c2c7470ff8",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "buddhist/index.tsx",
+      "bytes": 2197,
+      "sha256": "8b6a033c55ac5225400213afb8cb3b72282a692559eab15334925d78b9f58bd4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "buddhist/lib/format.ts",
+      "bytes": 1067,
+      "sha256": "3c6ad28a767e1ae87c009071f92fb88d7b2110db07dfeede30cca1eea13f46e8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "classes/DateLib.ts",
+      "bytes": 100,
+      "sha256": "3950779541424b664bfaab4e5a6c202bc6cb73ae89204511d74539df9945ccab",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "index.tsx",
+      "bytes": 37,
+      "sha256": "604082980748991b55735d49933f9f0e695011348673e7770e253e4491ff7dc2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/en-US.ts",
+      "bytes": 54,
+      "sha256": "a06d5ad47d9bfc6cb6f859f65065b9595bc1286394e62374539f18fa4c8a78b0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/th.ts",
+      "bytes": 49,
+      "sha256": "a5372cf414d2804897585f92b7dc3287517af6b18360ed061acb09f84405b8fc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "types/props.ts",
+      "bytes": 56,
+      "sha256": "fd4ab34a15003a4cdb95fe97e85e9e308a31d1bdfea60a8067552bc081d68390",
+      "category": "source-or-helper"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution"
+}

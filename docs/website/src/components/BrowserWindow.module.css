@@ -1,0 +1,125 @@
+.browserWindow {
+  min-height: 320px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-pre-border-radius);
+  margin-bottom: var(--ifm-leading);
+  background: var(--ifm-color-emphasis-200);
+}
+
+[data-theme="dark"] .browserWindow {
+  border: 1px solid var(--ifm-color-emphasis-100);
+  background: var(--ifm-color-emphasis-100);
+}
+
+.browserWindowHeader {
+  align-items: center;
+  display: flex;
+  padding: 0.5rem 1rem;
+  border-radius: var(--ifm-pre-border-radius);
+  background: var(--ifm-color-emphasis-200);
+}
+
+[data-theme="dark"] .browserWindowHeader {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.buttons {
+  white-space: nowrap;
+}
+
+.right {
+  align-self: center;
+  width: 10%;
+}
+
+.browserWindowAddressBar {
+  flex: 1 0;
+  margin: 0 1rem 0 0.5rem;
+  border-radius: var(--ifm-pre-border-radius);
+  background-color: var(--ifm-pre-background);
+  color: var(--ifm-color-gray-800);
+  padding: 5px 15px;
+  font:
+    400 13px Arial,
+    sans-serif;
+  user-select: none;
+}
+
+.sourceLink {
+  margin-left: auto;
+  border-radius: var(--ifm-pre-border-radius);
+  background-color: var(--ifm-pre-background);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  color: var(--ifm-link-color);
+  display: inline-flex;
+  align-items: center;
+  font:
+    600 12px var(--ifm-font-family-base);
+  padding: 4px 10px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+[data-theme="dark"] .sourceLink {
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+.sourceLink:hover,
+.sourceLink:focus-visible {
+  text-decoration: underline;
+}
+
+.sourceLink::after {
+  content: none;
+}
+
+.sourceLink svg {
+  display: none;
+}
+
+
+.dot {
+  margin-right: 6px;
+  margin-top: 4px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.browserWindowMenuIcon {
+  margin-left: auto;
+}
+
+.bar {
+  width: 17px;
+  height: 3px;
+  margin: 3px 0;
+  display: block;
+}
+
+.browserWindowBody {
+  background-color: var(--ifm-color-emphasis-0);
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .browserWindowBody {
+    justify-content: flex-start;
+  }
+}
+
+.overflow {
+  width: 100%;
+  overflow: auto;
+}

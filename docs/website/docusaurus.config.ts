@@ -1,0 +1,376 @@
+import { createRequire } from "node:module";
+import { fileURLToPath } from "node:url";
+import type * as Preset from "@docusaurus/preset-classic";
+import type { Config } from "@docusaurus/types";
+import { themes as prismThemes } from "prism-react-renderer";
+
+const nodeRequire = createRequire(import.meta.url);
+const currentDocsVersion = nodeRequire(
+  "../../packages/react-day-picker/package.json",
+).version;
+const currentExamplesPath = nodeRequire.resolve("../../examples/index.ts");
+const reactDayPickerSrcPath = nodeRequire.resolve(
+  "../../packages/react-day-picker/src/index.ts",
+);
+const reactDayPickerSrcDir = fileURLToPath(
+  new URL("../../packages/react-day-picker/src", import.meta.url),
+);
+const reactDayPickerLocalePath = nodeRequire.resolve(
+  "../../packages/react-day-picker/src/locale.ts",
+);
+const reactDayPickerLocaleDir = fileURLToPath(
+  new URL("../../packages/react-day-picker/src/locale", import.meta.url),
+);
+const reactDayPickerStylePath = nodeRequire.resolve(
+  "../../packages/react-day-picker/src/style.css",
+);
+const reactDayPickerStyleModulePath = nodeRequire.resolve(
+  "../../packages/react-day-picker/src/style.module.css",
+);
+const buddhistPath = nodeRequire.resolve(
+  "../../packages/buddhist/src/index.tsx",
+);
+const ethiopicPath = nodeRequire.resolve(
+  "../../packages/ethiopic/src/index.tsx",
+);
+const hebrewPath = nodeRequire.resolve("../../packages/hebrew/src/index.tsx");
+const hijriPath = nodeRequire.resolve("../../packages/hijri/src/index.tsx");
+const persianPath = nodeRequire.resolve("../../packages/persian/src/index.tsx");
+
+const googleFontFamilies = [
+  "Inter:wght@400;500;600;700",
+  "Vazirmatn:wght@400;500;600;700",
+  "Noto Sans:wght@400;500;600;700",
+  "Noto Sans Armenian:wght@400;500;600;700",
+  "Noto Sans Bengali:wght@400;500;600;700",
+  "Noto Sans Devanagari:wght@400;500;600;700",
+  "Noto Sans Ethiopic:wght@400;500;600;700",
+  "Noto Sans Georgian:wght@400;500;600;700",
+  "Noto Sans Gujarati:wght@400;500;600;700",
+  "Noto Sans Hebrew:wght@400;500;600;700",
+  "Noto Sans JP:wght@400;500;600;700",
+  "Noto Sans KR:wght@400;500;600;700",
+  "Noto Sans Kannada:wght@400;500;600;700",
+  "Noto Sans Khmer:wght@400;500;600;700",
+  "Noto Sans HK:wght@400;500;600;700",
+  "Noto Sans SC:wght@400;500;600;700",
+  "Noto Sans TC:wght@400;500;600;700",
+  "Noto Sans Tamil:wght@400;500;600;700",
+  "Noto Sans Telugu:wght@400;500;600;700",
+  "Noto Sans Thai:wght@400;500;600;700",
+];
+const googleFontsStylesheet = `https://fonts.googleapis.com/css2?${googleFontFamilies
+  .map((family) => `family=${family.replace(/ /g, "+")}`)
+  .join("&")}&display=swap`;
+
+function createApiReferenceRedirects(path: string): string[] {
+  if (path.startsWith("/api/react/")) {
+    return [path.replace("/api/react/", "/api/")];
+  }
+  return [];
+}
+
+function createNextVersionRedirects(path: string): string[] {
+  if (path === "/") {
+    return ["/next"];
+  }
+  if (
+    path === "/404.html" ||
+    path === "/v8" ||
+    path === "/v9" ||
+    path.startsWith("/v8/") ||
+    path.startsWith("/v9/")
+  ) {
+    return [];
+  }
+  return [`/next${path}`];
+}
+
+function createClientRedirects(path: string): string[] {
+  return [
+    ...createApiReferenceRedirects(path),
+    ...createNextVersionRedirects(path),
+  ];
+}
+
+const config: Config = {
+  title: "React DayPicker",
+  tagline:
+    "Date picker component for React. Add date pickers, calendars, and date inputs to your web applications.",
+  favicon: "img/favicon.ico",
+  url: "https://daypicker.dev",
+  baseUrl: "/",
+  organizationName: "gpbl",
+  projectName: "react-day-picker",
+  trailingSlash: false,
+
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
+  },
+
+  markdown: {
+    mdx1Compat: {
+      comments: true,
+      admonitions: true,
+      headingIds: true,
+    },
+  },
+
+  presets: [
+    [
+      "classic",
+      {
+        docs: {
+          breadcrumbs: false,
+          routeBasePath: "/",
+          sidebarPath: "./sidebars.ts",
+          editUrl:
+            "https://github.com/gpbl/react-day-picker/tree/main/apps/website",
+          remarkPlugins: [
+            require("@docusaurus/remark-plugin-npm2yarn"),
+            [require("remark-github"), { repository: "gpbl/react-day-picker" }],
+          ],
+          lastVersion: "current",
+          versions: {
+            "9.14.0": {
+              label: "9.14.0",
+              badge: true,
+              path: "/v9",
+            },
+            "8.10.2": {
+              label: "8.10.2",
+              badge: true,
+              path: "/v8",
+            },
+            current: {
+              label: currentDocsVersion,
+              path: "/",
+              badge: false,
+            },
+          },
+        },
+        blog: false,
+        theme: {
+          customCss: [
+            "../../packages/react-day-picker/src/style.css",
+            "./src/css/site.css",
+            "./src/css/daypicker-locale-fonts.css",
+          ],
+        },
+        sitemap: {
+          lastmod: "date",
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+          createSitemapItems: async (params) => {
+            const { defaultCreateSitemapItems, ...rest } = params;
+            const items = await defaultCreateSitemapItems(rest);
+            return items.filter((item) => !item.url.includes("/page/"));
+          },
+        },
+      } satisfies Preset.Options,
+    ],
+  ],
+
+  // Modern font
+  stylesheets: [googleFontsStylesheet],
+
+  plugins: [
+    function currentExamplesAliasPlugin() {
+      return {
+        name: "current-examples-alias",
+        configureWebpack() {
+          return {
+            resolve: {
+              extensionAlias: {
+                ".js": [".ts", ".tsx", ".js"],
+                ".jsx": [".tsx", ".jsx"],
+              },
+              alias: {
+                "react-day-picker/examples": currentExamplesPath,
+                "react-day-picker/style.css$": reactDayPickerStylePath,
+                "react-day-picker/style.module.css$":
+                  reactDayPickerStyleModulePath,
+                "react-day-picker/src": reactDayPickerSrcDir,
+                "react-day-picker/locale$": reactDayPickerLocalePath,
+                "react-day-picker/locale": reactDayPickerLocaleDir,
+                "react-day-picker$": reactDayPickerSrcPath,
+                "@daypicker/react/style.css$": reactDayPickerStylePath,
+                "@daypicker/react/style.module.css$":
+                  reactDayPickerStyleModulePath,
+                "@daypicker/react/src": reactDayPickerSrcDir,
+                "@daypicker/react/locale$": reactDayPickerLocalePath,
+                "@daypicker/react/locale": reactDayPickerLocaleDir,
+                "@daypicker/react$": reactDayPickerSrcPath,
+                "@daypicker/buddhist$": buddhistPath,
+                "@daypicker/ethiopic$": ethiopicPath,
+                "@daypicker/hebrew$": hebrewPath,
+                "@daypicker/hijri$": hijriPath,
+                "@daypicker/persian$": persianPath,
+              },
+            },
+          };
+        },
+      };
+    },
+    [
+      "@docusaurus/plugin-client-redirects",
+      {
+        createRedirects: createClientRedirects,
+        redirects: [
+          {
+            to: "/guides/accessibility",
+            from: ["/docs/accessibility"],
+          },
+          {
+            to: "/guides/translation",
+            from: ["/docs/translation", "/localization/translating-daypicker"],
+          },
+          {
+            to: "/localization/changing-locale",
+            from: ["/docs/localization"],
+          },
+          {
+            to: "/localization/setting-time-zone",
+            from: ["/docs/time-zone"],
+          },
+          {
+            to: "/localization/persian",
+            from: ["/calendars/persian"],
+          },
+          {
+            to: "/localization/buddhist",
+            from: ["/calendars/buddhist"],
+          },
+          {
+            to: "/localization/ethiopic",
+            from: ["/calendars/ethiopic"],
+          },
+          {
+            to: "/localization/hebrew",
+            from: ["/calendars/hebrew"],
+          },
+          {
+            to: "/docs/appearance",
+            from: ["/docs/customization", "/customization"],
+          },
+          {
+            to: "/selections/selection-modes",
+            from: ["/docs/selection-modes"],
+          },
+        ],
+      },
+    ],
+  ],
+
+  scripts: [
+    {
+      src: "/q/p/script.js",
+      defer: true,
+      "data-domain": "daypicker.dev",
+      "data-api": "/q/a/event",
+    },
+  ],
+  themeConfig: {
+    image: "img/social-card.png",
+    metadata: [
+      {
+        name: "og:description",
+        content:
+          "Date picker component for React. Add date pickers, calendars, and date inputs to your web applications.",
+      },
+      {
+        name: "description",
+        content:
+          "Date picker component for React. Add date pickers, calendars, and date inputs to your web applications.",
+      },
+      {
+        name: "keywords",
+        content:
+          "date picker, react component, calendar component, react datepicker, daypicker, react day picker, date-fns date picker, typescript date picker",
+      },
+    ],
+    navbar: {
+      title: "React DayPicker",
+      logo: {
+        alt: "DayPicker Logo",
+        src: "img/logo.png",
+      },
+      items: [
+        {
+          type: "docsVersionDropdown",
+          position: "left",
+          versions: ["current", "9.14.0", "8.10.2"],
+          dropdownActiveClassDisabled: true,
+          dropdownItemsBefore: [],
+          dropdownItemsAfter: [
+            {
+              href: "https://react-day-picker-v7.netlify.app",
+              label: "7.4.10",
+            },
+            {
+              type: "html",
+              value: '<hr style="margin: 8px 0" class="dropdown-separator">',
+            },
+            {
+              href: "/changelog",
+              label: "Changelog",
+            },
+          ],
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "docs",
+          position: "left",
+          label: "Documentation",
+        },
+        {
+          type: "custom-versionedPlayground",
+          position: "left",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "api",
+          position: "left",
+          label: "API Reference",
+        },
+
+        {
+          href: "https://github.com/gpbl/react-day-picker/discussions",
+          label: "Support",
+          position: "right",
+        },
+        {
+          href: "https://github.com/gpbl/react-day-picker",
+          label: "GitHub",
+          position: "right",
+        },
+      ],
+    },
+    footer: undefined,
+    prism: {
+      additionalLanguages: ["bash", "diff", "json", "css"],
+      theme: prismThemes.vsLight,
+      darkTheme: prismThemes.vsDark,
+    },
+    algolia: {
+      appId: "N44150BS2A",
+      apiKey: "263c558c76fc0b83a5def5fb818391d7",
+      indexName: "react-day-picker-js",
+      contextualSearch: true,
+      searchPagePath: "search",
+    },
+    colorMode: {
+      defaultMode: "light",
+      respectPrefersColorScheme: true,
+    },
+  },
+  future: {
+    v4: true,
+    faster: true,
+  } satisfies Preset.ThemeConfig,
+};
+
+export default config;

@@ -1,0 +1,6 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {"types": ["vite/client", "vitest/globals", "@testing-library/jest-dom", "node"], "noEmit": true},
+  "include": ["examples", "site", "website/src/components", "website/src/examples", "styles.d.ts"],
+  "exclude": ["website/src/components/PlaygroundV9"]
+}

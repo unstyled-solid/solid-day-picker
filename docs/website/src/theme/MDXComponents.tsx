@@ -1,0 +1,85 @@
+import v8Style from "!raw-loader!react-day-picker-v8/dist/style.css";
+import { useDocsVersion } from "@docusaurus/plugin-content-docs/client";
+import MDXComponents from "@theme-original/MDXComponents";
+import type { ComponentProps, ComponentType } from "react";
+import * as ExamplesV8 from "../../examples-v8";
+import * as ExamplesV9 from "../../examples-v9";
+import { AnatomyDiagram } from "../components/AnatomyDiagram";
+import { BrowserWindow as BaseBrowserWindow } from "../components/BrowserWindow";
+import * as CurrentExamples from "../examples";
+
+type TableComponent = ComponentType<ComponentProps<"table">>;
+type ExampleProps = Record<string, unknown>;
+type ExampleComponent = ComponentType<ExampleProps>;
+type ExampleModule = Record<string, ExampleComponent>;
+
+const Table: TableComponent =
+  (MDXComponents as { table?: TableComponent }).table ??
+  ((props) => <table {...props} />);
+
+const exampleModulesByVersion: Record<string, ExampleModule> = {
+  current: CurrentExamples as unknown as ExampleModule,
+  "9.14.0": ExamplesV9 as unknown as ExampleModule,
+};
+const exampleComponentCache = new Map<string, ExampleComponent>();
+
+function getVersionedExampleComponent(name: string): ExampleComponent {
+  const cached = exampleComponentCache.get(name);
+  if (cached) {
+    return cached;
+  }
+
+  const VersionedExample: ExampleComponent = (props) => {
+    const version = useDocsVersion();
+    const examples =
+      exampleModulesByVersion[version.version] ??
+      (CurrentExamples as unknown as ExampleModule);
+    const Example =
+      examples[name] ?? (CurrentExamples as unknown as ExampleModule)[name];
+
+    if (!Example) {
+      return null;
+    }
+
+    return <Example {...props} />;
+  };
+
+  VersionedExample.displayName = `Examples.${name}`;
+  exampleComponentCache.set(name, VersionedExample);
+  return VersionedExample;
+}
+
+const Examples = new Proxy({} as ExampleModule, {
+  get: (_, prop) => {
+    if (typeof prop !== "string") {
+      return undefined;
+    }
+    return getVersionedExampleComponent(prop);
+  },
+});
+
+function ResponsiveTable(props: ComponentProps<typeof Table>) {
+  return (
+    <div className="table-scroll" role="presentation">
+      <Table {...props} />
+    </div>
+  );
+}
+
+function BrowserWindow(props: ComponentProps<typeof BaseBrowserWindow>) {
+  const version = useDocsVersion();
+  const baseStyleCss =
+    props.baseStyleCss ??
+    (version.version === "8.10.2" ? v8Style.toString() : undefined);
+
+  return <BaseBrowserWindow {...props} baseStyleCss={baseStyleCss} />;
+}
+
+export default {
+  ...MDXComponents,
+  table: ResponsiveTable,
+  BrowserWindow,
+  AnatomyDiagram,
+  Examples,
+  ExamplesV8,
+};

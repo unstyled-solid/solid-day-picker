@@ -1,0 +1,1630 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/daypicker/upstream/react-day-picker/packages/react-day-picker/src",
+  "target": "/Users/avi/avir-oss/daypicker/packages/solid/src",
+  "sourceSha": "1bfd4f0776d66f2242b6b32a1f084ab94e2702da",
+  "files": [
+    {
+      "path": "classes/CalendarDay.test.ts",
+      "bytes": 729,
+      "sha256": "22d60d556501c239fd9cbdd0b9c72658d05dc688439f807713444a25abc9b0cc",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "classes/CalendarDay.ts",
+      "bytes": 2291,
+      "sha256": "defdc5f33c56268bede681ec3404717ace120611a796c3919d6194c1485ab932",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "classes/CalendarMonth.test.ts",
+      "bytes": 836,
+      "sha256": "125e122b00cf94034ac527370f2e11f418bb749218188b1ce4defb03e336ef4b",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "classes/CalendarMonth.ts",
+      "bytes": 476,
+      "sha256": "ea8068f4e41f9a647ea8e77ee8dbfa8fad0bd9d9b2db7039e6357bef1f1e7209",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "classes/CalendarWeek.test.ts",
+      "bytes": 543,
+      "sha256": "a0bed83e42b50c964f995a7a9ff8778860df4d589dedd294bf9e3f5c94ae2bf4",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "classes/CalendarWeek.ts",
+      "bytes": 469,
+      "sha256": "bc839e51baa0fe0b9efbcfd6b2f6026417208adffda8f7f1b4f9a01b30b1a41b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "classes/DateLib.test.ts",
+      "bytes": 1712,
+      "sha256": "cbce8b3ebb8f57b8bfaa3800161988f109327d747eb55bfa7cb6ffc20b80b8a5",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "classes/DateLib.ts",
+      "bytes": 21287,
+      "sha256": "30e1a6d80b7f3db76e1de0d063ccace3a69b65d4c44b5f8814a068ec75151170",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "classes/index.ts",
+      "bytes": 135,
+      "sha256": "0c06897f7ab3830cef0701e0e083b2c684ed783ae820b306aedd501f32e9562d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/CaptionLabel.tsx",
+      "bytes": 415,
+      "sha256": "e979bc2d95a9ba266784c322a9e6ef1ec2fdcbc4091a7fc982a97b52f798cbee",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Chevron.tsx",
+      "bytes": 1482,
+      "sha256": "a48d7bd9eae7b9e7c027e47be8a93ed859dde95cdc4d235c70c6c6bb3d8bb759",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/custom-components.tsx",
+      "bytes": 793,
+      "sha256": "4671d0d245fbc00acc0a9f5dcbc06f2b7167e72d9de3b2f22732b66828f13b0c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Day.tsx",
+      "bytes": 852,
+      "sha256": "12ecedf7464db400c0beba28b1e47214479c01a42749f78cd2f03e7d9095c94a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/DayButton.tsx",
+      "bytes": 902,
+      "sha256": "2bb34ba428b080c36a35fa58a2f991bc960ee1b9fd5b374dba974c9a89dbb1f1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Dropdown.tsx",
+      "bytes": 2030,
+      "sha256": "5e32c1ce081777d5b8f0ee0c18eb62704a61ced2e36d6b96f29052f4ac826dd1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/DropdownNav.tsx",
+      "bytes": 420,
+      "sha256": "e212dfb79e9e1977065add59d0f831dac29b57306bd15f91e7ab14be3c7e2fd2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Footer.tsx",
+      "bytes": 385,
+      "sha256": "12fd4f161b439371fea2607af7b17b0cbca76d60693953cda79784d5caefd56a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Month.tsx",
+      "bytes": 750,
+      "sha256": "73602a56f5579d83ac8355477d7f26f6988bfd0a34bc45330bd9e460e9725dd4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/MonthCaption.tsx",
+      "bytes": 718,
+      "sha256": "c1eff21b64d16482977b7a2415a2be52a9c6e43c0ec260f3c65bfe92294159d0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/MonthGrid.tsx",
+      "bytes": 422,
+      "sha256": "480f2cd5888af1a924c55581b998a964270b15767b0cf9c6d2143f3ee3c140b8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Months.tsx",
+      "bytes": 395,
+      "sha256": "a644b15f570d9f2179cf5e80541fea871e1649475f78aa224c597684c44b9cf7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/MonthsDropdown.tsx",
+      "bytes": 428,
+      "sha256": "e2e9dd14ec5e37aa90fd253f98b06638ea2aa8a43af94ecb7c717c0f45c1257f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Nav.tsx",
+      "bytes": 2790,
+      "sha256": "dd27481403744fed7df4c6af7a344594541bd8c75525d98649fec4e8760cbdd9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/NextMonthButton.tsx",
+      "bytes": 474,
+      "sha256": "9f0e26f0a8cd9439885063a729bdb4f0fb38cf7f8ae7d349a2898cea86f68084",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Option.tsx",
+      "bytes": 396,
+      "sha256": "8d5389ca73cbb5c6554d8a750ddbdbbaf9391969aa96e0f3f91ca563c55b9fbd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/PreviousMonthButton.tsx",
+      "bytes": 498,
+      "sha256": "98b3e02c76ed45eeda73e8e26a1bac866069ee6a68a52d9a2d543eaf44733fe4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Root.tsx",
+      "bytes": 560,
+      "sha256": "4fdc9eac12cf85709d9d550d5dbe30f1bf6c65a252616945995fbd2bd1feafc8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Select.tsx",
+      "bytes": 395,
+      "sha256": "752979638e8dd52bc0d139fb3bbc09f8aa90abdeac8cb95e8f9e961af09ed7ca",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Week.tsx",
+      "bytes": 568,
+      "sha256": "1166c16baf3d523de33fc9ec1e365b880cb397b4c980b3b53228269455cf55c2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Weekday.tsx",
+      "bytes": 437,
+      "sha256": "7241eed4eca36ce073ddf45424a2a3e24bc8e1e8ed1dac8f4c2998920108079d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Weekdays.tsx",
+      "bytes": 462,
+      "sha256": "606cbede83d53264e479d23cf092b19cf0177aa3cb35dfe836ba277d46678f36",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/WeekNumber.tsx",
+      "bytes": 597,
+      "sha256": "d6ec5a809cd5d8d6add2a4bd6caec621e7602587b7f9aa647c97749226285008",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/WeekNumberHeader.tsx",
+      "bytes": 456,
+      "sha256": "bb049750dc1720dc14d2b52957779f6c7c1d74066e5b1e6974bda90831e3c61d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/Weeks.tsx",
+      "bytes": 411,
+      "sha256": "75c7edd033a73c6d05cc0cc0cf93e3f7e23074a2b1c3dbba561b2951ae0bc1f1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "components/YearsDropdown.tsx",
+      "bytes": 426,
+      "sha256": "39f7eb907ef08f179e8067203393f93e6f77efda1e6a3f3bdb8be2b0a1ef646b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "DayPicker.test.tsx",
+      "bytes": 25208,
+      "sha256": "7846455b1534d0d6216922e5fb9a0d7272996a1a2e993e5e368a956265d4250b",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "DayPicker.tsx",
+      "bytes": 31296,
+      "sha256": "77444c27e82b273a8208a90f9a0f2ecdf61d44e7e81b72c4132ccd2ebe8effb3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "formatters/formatCaption.test.ts",
+      "bytes": 965,
+      "sha256": "68547ac19131e9fc7d01f6b2e393937f5c4cd80d49fce44a8dd8c050a4616338",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "formatters/formatCaption.ts",
+      "bytes": 730,
+      "sha256": "519d60d5c2adea8ecf683b9ad8723f8a1e18e3361f38708c64f4cfa8284acc1b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "formatters/formatDay.test.ts",
+      "bytes": 173,
+      "sha256": "d2d94c831299204775e7668ba5cfe989e638220ca3867fee5677457a3938bcaf",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "formatters/formatDay.ts",
+      "bytes": 654,
+      "sha256": "3bf884be8e27f749352504bb77fc41b2050e0c3a08c67b2f65772dffc0e3032c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "formatters/formatMonthDropdown.test.ts",
+      "bytes": 520,
+      "sha256": "f7b47b959e99e939ae9ed2539a2d84678ab61c8a0d5d7e326310f4856c53280c",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "formatters/formatMonthDropdown.ts",
+      "bytes": 603,
+      "sha256": "da9cb09f37d6e541de210fff6d4cd04f8154b9e9c2ad1c5bd8710d9d27743bea",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "formatters/formatWeekdayName.test.ts",
+      "bytes": 419,
+      "sha256": "6cf18defc5939b1805fd23b84f1d439f1d3d8be29942e1e37c7966ee46268294",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "formatters/formatWeekdayName.ts",
+      "bytes": 743,
+      "sha256": "0011cf7d00995007946e5132584d46412b9d84012d985d6cb8f5db77ca13cfae",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "formatters/formatWeekNumber.test.ts",
+      "bytes": 502,
+      "sha256": "cc796789f315668e20eaac9b1f385be0a5eb392b5e9c6a8f6dec22ee439ce31f",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "formatters/formatWeekNumber.ts",
+      "bytes": 711,
+      "sha256": "09a21c805b38f891b691d25518c4b4d2dd4184c3ac5bb82bbc04392e1b3f4393",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "formatters/formatWeekNumberHeader.ts",
+      "bytes": 302,
+      "sha256": "5766176193e1802daca738921aea04a94abfe240809a004bbd14983c95bdbf67",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "formatters/formatYearDropdown.test.ts",
+      "bytes": 248,
+      "sha256": "7a0da63e9baaa1649482cc5b770a47ca9504fcfe97d10ba6c425f97962e15c67",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "formatters/formatYearDropdown.ts",
+      "bytes": 531,
+      "sha256": "7c872ec7c2f953788c04cc3feaff8145de36e350a5e0c789ee007551d0a116ec",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "formatters/index.ts",
+      "bytes": 275,
+      "sha256": "12bcf6af851be8dd5f3e66c152bb77a83829a6a8ba8c5acc267e7b15e11aa9ab",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/broadcastCalendar.test.ts",
+      "bytes": 1515,
+      "sha256": "ed879a4370e2b960032a1d45e7046c22bae0cbfc836687de1a34d58e5221da94",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/calculateFocusTarget.test.ts",
+      "bytes": 4405,
+      "sha256": "dddf4568d5d24c9a5f4009eb87d4d74f1b9c4939808848364fa990fc65510550",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/calculateFocusTarget.ts",
+      "bytes": 2811,
+      "sha256": "0f066a1238e0027846d4d00fe785bfe7a4e20a07e2142f886b4ccd63b889d773",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/createGetModifiers.test.ts",
+      "bytes": 5444,
+      "sha256": "6aab0f367bd96949e49f1c18d6eb3feb2a413002958d69657cd6fb6744ffcd84",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/createGetModifiers.ts",
+      "bytes": 3948,
+      "sha256": "dfe2ee538a2801fcbe3b768cb75f23f5ff8b8c937850c3e8067feae77cb23616",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/endOfBroadcastWeek.test.ts",
+      "bytes": 1060,
+      "sha256": "d3a2c3659637f78746b351438c8112377f4234764388bca2d2eff73f6436be7b",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/endOfBroadcastWeek.ts",
+      "bytes": 855,
+      "sha256": "81399a62fc3a3ec2b4289dc7947bceb98b314e8408c629bf21a6e089f7828b3d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getBroadcastWeeksInMonth.test.ts",
+      "bytes": 832,
+      "sha256": "366b79e78efa075582fe85727de4963d4a034604b71d3691fc1eaea1c068389d",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getBroadcastWeeksInMonth.ts",
+      "bytes": 1234,
+      "sha256": "3212e22b22b99d057a2d9a68a2ce7984abd3c9f182d9626c34a39658b454cc23",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getClassNamesForModifiers.ts",
+      "bytes": 1410,
+      "sha256": "c4bb8b993e0bb22e3bc554733347e3527ae5ab0ecb8225f22cdfcc6a960e137d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getComponents.ts",
+      "bytes": 646,
+      "sha256": "4da83e9898d0cfe97626a86056c34edcaa2a5df18355545d10c7c236590c395f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getDataAttributes.test.tsx",
+      "bytes": 1098,
+      "sha256": "678dd744c8b7659ca8b9b01274455db548f307560f933b55a1b068e4f63fb747",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getDataAttributes.tsx",
+      "bytes": 1056,
+      "sha256": "48a282bf99998385ab393e2aa570b389510bdfa59dae4405c500b273b9abdbf6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getDates.test.ts",
+      "bytes": 7584,
+      "sha256": "ac67459ac31c4d675fe8f6c88e7605f4b6c0e2c2b6e6c6968575b4d99f1aae89",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getDates.ts",
+      "bytes": 2824,
+      "sha256": "715a4b864949779338ef16c12e3d286c202ed1629b5fddd5992980531ff59dd5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getDays.test.ts",
+      "bytes": 1151,
+      "sha256": "a30d15fe44df1cdf9f6c734f1c0e94173e3a1e8051d06fe30190632a1b1abd70",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getDays.ts",
+      "bytes": 710,
+      "sha256": "856fc6c10317f2c5b2195a3c2e4be6da4acb13f04e967e21ae8c4c2cbdcd81bd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getDefaultClassNames.test.ts",
+      "bytes": 1620,
+      "sha256": "d6e30f147b58c09fc5a96e18dfaf6a9d8aec0dde120b139f6c90ef827ee94034",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getDefaultClassNames.ts",
+      "bytes": 1155,
+      "sha256": "d704132c6f8ba41f4d4ce169f8c5ff827be9aaddf38a618c37e4313edae42528",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getDisplayMonths.test.ts",
+      "bytes": 1315,
+      "sha256": "b8d3b8d62aaa6de0cb14eb852df21eb07a71091da9c973705f68b728395dc741",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getDisplayMonths.ts",
+      "bytes": 1006,
+      "sha256": "740ed4f91a9f1a2e0a5f9744b88fd096604b7b6c9640086d1ea6bbca18475025",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getFocusableDate.test.ts",
+      "bytes": 3819,
+      "sha256": "b1f3eaa4c5db942f6b850bb5aafb6fce33d0103a0e7aa7a6128f292aef47a05b",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getFocusableDate.ts",
+      "bytes": 2154,
+      "sha256": "867296544813d55b0f1c9852ae555e67b48a7af11d4f674394d4e01df9aa7ebf",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getFormatters.test.ts",
+      "bytes": 628,
+      "sha256": "841d5b4cbc573c46c4e1ecc2bb531c08c13906957878a7c10532d0b6437289d8",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getFormatters.ts",
+      "bytes": 480,
+      "sha256": "99e9138815d04f8b3c921840a7b71d845cbd00141fb62bb3e28521d56aa27cac",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getInitialMonth.test.ts",
+      "bytes": 3207,
+      "sha256": "1872d320bf4342fea263d0ee9e87e3efaeaeb85e9f931a6bcc90573504469322",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getInitialMonth.ts",
+      "bytes": 1363,
+      "sha256": "099628aeaad915e1663df209f467c80bc2f08140988121f6514db1cb71920268",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getLabels.test.ts",
+      "bytes": 2388,
+      "sha256": "eaf489fed4e38aefb5c7c13418fdee8871bb20dcdc0548f849c1caae6e4cd4dc",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getLabels.ts",
+      "bytes": 3165,
+      "sha256": "d133da2ea829c7e0fae655396beb97a6981a638328330ea05d157e4fc04dc782",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getMonthOptions.test.ts",
+      "bytes": 8241,
+      "sha256": "9740fc8f6be499eca9d6ca13fc18cef390f0ec45311d92a9e14738f829962134",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getMonthOptions.ts",
+      "bytes": 1637,
+      "sha256": "9bd4c97f484ad32db12116f6f9c99f305e94e103c4ea0c95af84d3ce30dd4359",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getMonths.test.ts",
+      "bytes": 2773,
+      "sha256": "6b9540ae59e19974f3ef0540cecfb43e2e8e457d3ac14689e8fa71285523935e",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getMonths.ts",
+      "bytes": 3102,
+      "sha256": "c114dded6a283c2fffb6158faac3de4dc83853610d549076691f26d777030d19",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getNavMonth.test.ts",
+      "bytes": 3178,
+      "sha256": "c0808fd45f0ef642e2c59ebec1bc217d9d23f9f6d48cdfe74202bb6678c16db4",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getNavMonth.ts",
+      "bytes": 1360,
+      "sha256": "c7400af71b37c1483c3e7cdc3157e8d7cac47b6a93aa802c1ff614491aecd8c1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getNextFocus.test.tsx",
+      "bytes": 2232,
+      "sha256": "769e15cb15e1a15e883b5922625335aeaf26e2721a61f3a268035e986c629461",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getNextFocus.tsx",
+      "bytes": 2387,
+      "sha256": "cc3a6d3b63146c126e8c3b2590896cce81f742b8b231f70fa9f07713f0c1b10f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getNextMonth.test.ts",
+      "bytes": 3049,
+      "sha256": "e68e3ef0114b70d8f64b47088771e19b02793d4089a4942eb9389e571673298e",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getNextMonth.ts",
+      "bytes": 1636,
+      "sha256": "21f8f1bcd08fe6d0d4b8bf4394787380491840158193fc89b0435bcba6aa9d03",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getPreviousMonth.test.ts",
+      "bytes": 2044,
+      "sha256": "7baf090b3931b8f65941fcbd6cfacb4ed3446c17611b8ded4cf2014ad6fb5622",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getPreviousMonth.ts",
+      "bytes": 1633,
+      "sha256": "e9b09ba8160424feded47466a8bb3fd89c0a8eaef239953c34e1f8f285fe1c5f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getStyleForModifiers.test.ts",
+      "bytes": 2568,
+      "sha256": "4833de5b8fd6fbcaa960cf9f492bc556465098340078fb87bf9e5bf0097f1b0f",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getStyleForModifiers.ts",
+      "bytes": 1006,
+      "sha256": "eeb932c83a4d47a5e2c359b60cede728b367ecadc100da99d8d795eb007e948d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getWeekdays.test.ts",
+      "bytes": 1075,
+      "sha256": "68d1a4fee1921b7b4f74915fe6c82de645141cc9ba65a244523b46b24e4b9c29",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getWeekdays.ts",
+      "bytes": 1114,
+      "sha256": "2a6a0f2c889b4f82f109b620dbda0049d6a2a6eadf451cc3d1dd137dc3303b9c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getWeeks.test.ts",
+      "bytes": 1136,
+      "sha256": "c76e850a8f5409ee886f4e7fd0dcdbf0e57fa53fdaec0c8ab16462cb9fe2b715",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getWeeks.ts",
+      "bytes": 457,
+      "sha256": "3f51c6f5c8fbf9f8aea06f4113c6c30d677f72d61df4621b0d656fb40cf7758d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/getYearOptions.test.ts",
+      "bytes": 1827,
+      "sha256": "21ac92bd3dda29518206807c10f9968be1d9a83ba8444d99e6bbd81fb5c70205",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/getYearOptions.ts",
+      "bytes": 1559,
+      "sha256": "9ec7b4c58289049c876b54e23f8edc7910d415de5471060ef6c705e89d46d84a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/index.ts",
+      "bytes": 106,
+      "sha256": "7ed56dda3749d64dfcbe87f786badab57c2f2928eed7cd8f921c445d3af20698",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/startOfBroadcastWeek.test.ts",
+      "bytes": 1201,
+      "sha256": "be5a1d824d216bd3060d2b8bb7a5c890c89127e7ac3cb65d8e6a6bc67d7a9f12",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/startOfBroadcastWeek.ts",
+      "bytes": 900,
+      "sha256": "b1581bbb3be47a6e087fcc58cf38e742dd7c2af81f3ab15a3431d1656a5f4c9e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "helpers/useControlledValue.test.ts",
+      "bytes": 1593,
+      "sha256": "3b9c34a9a370e01d918c401bf8fbde1b7027bfa3c97f57f045864277e452a540",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "helpers/useControlledValue.ts",
+      "bytes": 1381,
+      "sha256": "962e58cccd19863f79f51ca3f6e3faea3b928f9824b7471df53e4019ab5b71be",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "index.ts",
+      "bytes": 398,
+      "sha256": "ce31321c1913bdfe36f4fcafa575a2da0f4978243444caafa7597d9435008a57",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "labels/index.ts",
+      "bytes": 434,
+      "sha256": "bc43af2a5fa30a36be4a3ed195ff29ffb8067bf4925aa350ace9d9f18f380cc2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "labels/labelDayButton.test.ts",
+      "bytes": 1004,
+      "sha256": "9f1c6d4be6db010012926949c5e4e4f384ced2814f126183b492c23f22152a67",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "labels/labelDayButton.ts",
+      "bytes": 1049,
+      "sha256": "36d0e91b8d61a74bf1fd669b599022ec4b8d94ebe374464a35cbf84d34c8c6de",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "labels/labelGrid.test.ts",
+      "bytes": 333,
+      "sha256": "0f781585e38a434e6b5fba315bd3ff2422c33a990270bf5eac368bd4a6089fbb",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "labels/labelGrid.ts",
+      "bytes": 752,
+      "sha256": "589f54ebd639b97536494dd2c1513df333fc8ca0cf8c75ae3b16f5e7b0f73ef6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "labels/labelGridcell.test.ts",
+      "bytes": 193,
+      "sha256": "02f7929cc92780917a79c7e725ce87a26924b62d1cff67ecebddfa7d84c4021c",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "labels/labelGridcell.ts",
+      "bytes": 866,
+      "sha256": "e1895c8993de8cd4c971ed0a0fd3d86b77add911f49d125a50bfc76391243c89",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "labels/labelMonthDropdown.test.ts",
+      "bytes": 166,
+      "sha256": "aa85862ed8538f0ef0310eb53336553aa3be64dd109391be8b52b7be59f8dbfb",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "labels/labelMonthDropdown.ts",
+      "bytes": 463,
+      "sha256": "a6a74e2f6fc3774f9b08df68d4a12d567b0eeaade514d5b5b4bab8b37db819ff",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "labels/labelNav.test.ts",
+      "bytes": 118,
+      "sha256": "0846b4bbe98c07ece837eccb31927913e961a236e19a1fea1783d58c05ed6202",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "labels/labelNav.ts",
+      "bytes": 272,
+      "sha256": "d39488b2b69bb08ef2672b453f025c8277f7721db667c4f5417ec720eb5690c3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "labels/labelNext.test.ts",
+      "bytes": 1056,
+      "sha256": "c8ffcded69ada76923aa915b48dc8cc9f630a0a14c028172daabba96fc921b83",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "labels/labelNext.ts",
+      "bytes": 559,
+      "sha256": "55718948a01e5ec8028be78b0de44ce87dab63cdf29fc454fdb2cd61b7af05ef",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "labels/labelPrevious.test.ts",
+      "bytes": 167,
+      "sha256": "6f1e80f211fde9079015a473ecbfb9a2197d175d7c9ca10f0920477360140577",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "labels/labelPrevious.ts",
+      "bytes": 462,
+      "sha256": "e8de127cbc12fea883238a30446264debbea81c31309e05dcb9e55c5ee4f5368",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "labels/labelWeekday.test.ts",
+      "bytes": 415,
+      "sha256": "ffa09c2db7ae74d794619c7544f43126ff2c68fef06c8e9007d3761942c96b3d",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "labels/labelWeekday.ts",
+      "bytes": 742,
+      "sha256": "5ebb84efe04c3c3788543267a8004cf5f8c488984d64a2e7d8a1f9f4a3daf902",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "labels/labelWeekNumber.test.ts",
+      "bytes": 146,
+      "sha256": "83c842f413cba784129ee5bef40728dfb5ab011e3f61158257d8fdec94d2238c",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "labels/labelWeekNumber.ts",
+      "bytes": 572,
+      "sha256": "e6a5e6b61acea0cdf1f4cce6bcf4cd92a228b38819e7175c0cb74e29800e6933",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "labels/labelWeekNumberHeader.test.ts",
+      "bytes": 168,
+      "sha256": "a1daa240f3671df258829008a14ba90664705a4024808e8e4aa916a37d06c9b6",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "labels/labelWeekNumberHeader.ts",
+      "bytes": 478,
+      "sha256": "5670d866ef03e00f146da1a442379769adecf8852ecf7973a7cf846f22ad7f33",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "labels/labelYearDropdown.test.ts",
+      "bytes": 160,
+      "sha256": "e95157fbf5d4fd0633d3c59d7d7434f354ec2241e8b623195e5c90d1b667ad54",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "labels/labelYearDropdown.ts",
+      "bytes": 458,
+      "sha256": "31ee0d14dc99070622cdd9f4429c6d404928c8c1483310339ac1c3a513ad6308",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/af.ts",
+      "bytes": 1667,
+      "sha256": "10af90a656bf2f6f3aaaf09f50c15dd289b83e1a07064cea7e18d0f5ba93b14a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ar-DZ.ts",
+      "bytes": 1774,
+      "sha256": "47abacadae26332c9cd6e32825a1e3379276db1cbfd447992f29ac45fb3a4193",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ar-EG.ts",
+      "bytes": 1772,
+      "sha256": "d588894a7a9fffef20ae258e8ada931b37972287b81960022f9a0eaec149c008",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ar-MA.ts",
+      "bytes": 1774,
+      "sha256": "83a9dd4726c4ece6efb9bb547145e23cc259ac42c12002c630d1548b7886705f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ar-SA.ts",
+      "bytes": 1779,
+      "sha256": "8dc6cb1a22c78fe0006856275e67151497f8107f43f0bfcb0ee4fed13509832d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ar-TN.ts",
+      "bytes": 1774,
+      "sha256": "52afc9c908eeb7c9f14836f88e9abc1bcae476945d1fdc6feb47fb0e88f51553",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ar.ts",
+      "bytes": 1753,
+      "sha256": "79888e6e0f8e76ffd5a1b1cbc49bb90b87c4110a60a2116b7a06cccd503366e1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/az.ts",
+      "bytes": 1678,
+      "sha256": "e30ab17c736ba1aa4958825cb95f555d225968bd9ccc05bc07914ea99e2ff701",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/be-tarask.ts",
+      "bytes": 1875,
+      "sha256": "10d1571f1d0ba6aa708774adea363e406a5a6ff34856f307e21b3ba64af82da6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/be.ts",
+      "bytes": 1810,
+      "sha256": "c204ff4f803243b7067a02725a504e3837eb3a020dbe9bae991b9586eb52c24f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/bg.ts",
+      "bytes": 1789,
+      "sha256": "698ef5c231f47f24dd299646f6a95b3b7282b3b540b49fec3a5517cec3914814",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/bn.ts",
+      "bytes": 1867,
+      "sha256": "8d7e75b7337d5abd55b59b33cee32450eb609a2dd7d8ab0827972f063cbb86d8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/bs.ts",
+      "bytes": 1684,
+      "sha256": "140febaa25c58e0912e2d508b2edd3a812222773395374bf5ff686503910dfb5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ca.ts",
+      "bytes": 1673,
+      "sha256": "87a38a9a504fbbd35599c841893c93373e9180c346c8e65602ff6f24244b8492",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ckb.ts",
+      "bytes": 1795,
+      "sha256": "3b764f3dc216c9e3488424e9fd00a76da67a8d306cd22aae8317c3923c8dbbb1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/cs.ts",
+      "bytes": 1686,
+      "sha256": "6c0f2386c035c188b15b0335ec9662f5f1d5f4ad1103afe49f26772a9effee90",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/cy.ts",
+      "bytes": 1679,
+      "sha256": "98f21bc1b36b656f644307d36329c5c3e32885e15dec519d26936ac4a5c0f683",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/da.ts",
+      "bytes": 1657,
+      "sha256": "9d6921639d92aec9c43d19b21c0de4215f0ff553e820bc79b94b2e4b45aaa1b6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/de-AT.ts",
+      "bytes": 1696,
+      "sha256": "368cb69cafb27a39c91ccb1f508a2aed2e0b06aebee0e7f6248284673fee2f6d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/de.ts",
+      "bytes": 1675,
+      "sha256": "da998587c6336b49c1e6d210c7d3f2b4ab3dfa39845911bab741f7e69528daa6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/el.ts",
+      "bytes": 1829,
+      "sha256": "a306ae5399b5c3aa310ee3220069d892d3f01e0a95cf14991ba894a111d8940b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/en-AU.ts",
+      "bytes": 1696,
+      "sha256": "9e3be9e85c4ebcf4080abe1111d80b783b74f5ab3c01673af7a6f7fb54f08c81",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/en-CA.ts",
+      "bytes": 1693,
+      "sha256": "14903db75de1e8026936a4602f8a94e7397ddf2e8a4141d1c0877d1b50a80e3b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/en-GB.ts",
+      "bytes": 1708,
+      "sha256": "a8a980cc80fe1f8a9e2d58599c96e851929886b60cfa028bd2af24319bb3c015",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/en-IE.ts",
+      "bytes": 1694,
+      "sha256": "31f7890fcbf9e397c25fc78c3cce027d3a1ce47baf3ca1f805dcfa54c10b6c55",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/en-IN.ts",
+      "bytes": 1692,
+      "sha256": "a8a8c2e8fe506a95d8602ff8bb82b3f61f9ee0c341404fb1df0f46d827c481a7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/en-NZ.ts",
+      "bytes": 1698,
+      "sha256": "ed83e43c8e355f9f7350d99b77567b78640e8a1c9d32c345ced0ffba2a6cdcef",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/en-US.ts",
+      "bytes": 2779,
+      "sha256": "6e3a58790e04cc555d9cf01da65847798ba2b8c42e363696a00721d45c488c7c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/en-ZA.ts",
+      "bytes": 1699,
+      "sha256": "79c472c728e97edde22cded33f7c68407b973f612e3e13aee55c96842d2fa913",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/eo.ts",
+      "bytes": 1686,
+      "sha256": "59ad2b995c8b2167f916aff868fc1621b102535c2a65e115c982a3fe62f3c406",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/es.ts",
+      "bytes": 1676,
+      "sha256": "5a8e2bde3cc0320fa9e488b7a75d9c5f43b0813465db89c5d1e2f627678f3e95",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/et.ts",
+      "bytes": 1665,
+      "sha256": "9598c31fe704fd8d2b191d218d3e02ecf047b0bdbc05e78a87c28db7fc3cd953",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/eu.ts",
+      "bytes": 1676,
+      "sha256": "5c6fb6b0d910e1d4ecc2a2d29402254772fb2580e07801ff543e54c3bf1828a3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/fa-IR.ts",
+      "bytes": 1779,
+      "sha256": "c296f0820dd040837aaf6c05046a2896773357673d722cb6dcdaf6e3a8697427",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/fi.ts",
+      "bytes": 1695,
+      "sha256": "9f4f4da66e4adb8fb17e68441806f8f0a73e3c32ca3696d5d2cb72dc610e112a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/fr-CA.ts",
+      "bytes": 1726,
+      "sha256": "3be599ecf9e474c5a7a8cfdf9899ab8db05a2017cb2d31295b6006558234e382",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/fr-CH.ts",
+      "bytes": 1731,
+      "sha256": "ff1004680ee69d69d2ea6a1f7372ecf64a8a8bfca7008becb143c92e8ea631ed",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/fr.ts",
+      "bytes": 1706,
+      "sha256": "78fa2c154e3689d1cfe7533d049c750257bf4b5df23d4bc49c93bf1b042800ba",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/fy.ts",
+      "bytes": 1665,
+      "sha256": "a6daf10e439fcf1f741ba57ad01c8466c89a0a17b56693493d7493e5f3751033",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/gd.ts",
+      "bytes": 1706,
+      "sha256": "005a8a8b41027345663a591d2975d51705020e1545308c3944e4194f3bdc8028",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/gl.ts",
+      "bytes": 1679,
+      "sha256": "c83df4d73e497c20909f287e82c2d802854170c6f0bf3b7d671f8f3ac411be5b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/gu.ts",
+      "bytes": 1857,
+      "sha256": "24e2e6cc75bdf04ea0aaeb8837535cb94a961edf072f99046bb085f5fae161ac",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/he.ts",
+      "bytes": 1716,
+      "sha256": "6fd10e444a2a71445f095fab31cf56f6eaa22e5f861350b09a971aa441398b06",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/hi.ts",
+      "bytes": 1823,
+      "sha256": "5e4a46e7c69ec9838a13aabd78fb53992ea72aec3e1ba01d486a66ddaa6debb5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/hr.ts",
+      "bytes": 1693,
+      "sha256": "2071671499d5db8d96a903687144bb87b23f9836d4977b0810e7b8da0dd77880",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ht.ts",
+      "bytes": 1668,
+      "sha256": "f6bab9c251abaf1a44bb7c5dcea3b7fc14c075b702f6879d9ea08b737f304f04",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/hu.ts",
+      "bytes": 1700,
+      "sha256": "84d1deab94ee5e1b022ad9054547ac79ab375061544a1f5f08a7809a4f42b591",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/hy.ts",
+      "bytes": 1778,
+      "sha256": "cb75dd60cb5a1d3dfb9c73aa2d5328d1b2236d4808f3fcd1ea231cfad86561c7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/id.ts",
+      "bytes": 1669,
+      "sha256": "c0d893181de71c122783ce8f56b6913eeeb89d7632453fd6f206ae02f7410c11",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/is.ts",
+      "bytes": 1669,
+      "sha256": "e986a534cfd6b63217b73377fcfed10259671d85a8850c824d8a968a62aa0251",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/it-CH.ts",
+      "bytes": 1711,
+      "sha256": "a1f9c3583c3622b20bd277601574164841569cf0286b88d291fe50888e005b4d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/it.ts",
+      "bytes": 1688,
+      "sha256": "2f6c13dd074d10270beea09ba8b8688e48ac3b23524088deb3e49651e957539f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ja-Hira.ts",
+      "bytes": 1752,
+      "sha256": "05da88fd8792f1ecf3bf537c0617844a9fcf6106d05c373920d53fc434b46706",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ja.ts",
+      "bytes": 1668,
+      "sha256": "9acbc26b99a0fd94ab987ac00da122867fa7f3a9df2dc8357ca1cf2ea9a9ed5f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ka.ts",
+      "bytes": 1875,
+      "sha256": "b7906789826bdc406608a45e5593d12566e2d8123cb3384493c15251de82cafd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/kk.ts",
+      "bytes": 1758,
+      "sha256": "07e51d6d4a6242e2f7b4aa93bdf671abe8944211fe78bcf3ced624c5b7ea57be",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/km.ts",
+      "bytes": 1801,
+      "sha256": "1f451d19e1657257ee761c054d4e02addac6557d50b67bd9b6274d17821c21ea",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/kn.ts",
+      "bytes": 1866,
+      "sha256": "2a49965ad9ac4d0094595662e6c4ae91e724a2a459649a218aa316442a6dd4c6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ko.ts",
+      "bytes": 1660,
+      "sha256": "c1e2d1040b067e6a34d51c680a6b208705f85cf4990ab130446e43f3be5b5882",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/lb.ts",
+      "bytes": 1674,
+      "sha256": "853c45b18f4dc84639261a807c0ad6c1b850c4e350faf11ebe8782ce5ebeb9b6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/lt.ts",
+      "bytes": 1714,
+      "sha256": "0c81d8c7e1617b56b95f44115eee3f71dde8c2c2f5145944bab76c6e925898b8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/lv.ts",
+      "bytes": 1696,
+      "sha256": "feac06bd52f06e1881cbc8677b652042fda8c9d2b5a2436e3777d0ac746aaa72",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/mk.ts",
+      "bytes": 1802,
+      "sha256": "24855c888dff583df48d76b799f4056922db51e58a0c06c8c53ac5e5eaad10b0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/mn.ts",
+      "bytes": 1827,
+      "sha256": "abd205dd1ceec0b3414cd3f09b5a7e8317ccb0b75895d614f5204a76b4cf14cb",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ms.ts",
+      "bytes": 1675,
+      "sha256": "b3b651c66c1d475bf9682fdee76665439f59d883a2b239bcf877097a8204f37f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/mt.ts",
+      "bytes": 1698,
+      "sha256": "fd41d369f4886473d1a7e20c981e634c0351b0d15c64bd2f766e74ce0ef62b7f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/nb.ts",
+      "bytes": 1665,
+      "sha256": "3202995b3ea6549dc58f39a3301c4dcff73ce90978797d5daad6cc8bae408557",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/nl-BE.ts",
+      "bytes": 1691,
+      "sha256": "dc5dbd6f945b3b22f454c4f286ee91efb5713afbde18107974cfff3cb6383e07",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/nl.ts",
+      "bytes": 1670,
+      "sha256": "fa391ae13a4fe6d5caef497efb034acd07d93d1a32f10b258c8609363b34405f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/nn.ts",
+      "bytes": 1663,
+      "sha256": "3a679828e991b209048bc968d19f2affa24195303885a35ff5b9bcaea6e773a4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/oc.ts",
+      "bytes": 1692,
+      "sha256": "c964fcbc597b31f9c5a5df77a5d57ea0b8250fc627ba52ecdf0ef7c9af77dc29",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/pl.ts",
+      "bytes": 1703,
+      "sha256": "7f5d60c9c3359e78d67bc16b94c6b8fbb9edb4c11f095d3ecaa8de0da71154d6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/pt-BR.ts",
+      "bytes": 1709,
+      "sha256": "b55d6c4033e34c60d2f2aef8a5ce0bc5063c58c04606438e70624fa47f32cc28",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/pt.ts",
+      "bytes": 1689,
+      "sha256": "ab178eb2e8d5bf579d85c9dc9b80dcb734be75e770901cce5a48af5bf591f335",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ro.ts",
+      "bytes": 1694,
+      "sha256": "c30dc7168fd55ef3039426a87366393df829d370bad0e6321cd45e75e690e278",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ru.ts",
+      "bytes": 1813,
+      "sha256": "9d69271bc0b5d1a9e687678374e4314168130377b7f608e7103f313161d5d5e5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/se.ts",
+      "bytes": 1674,
+      "sha256": "2a4a7ec3df5da78677b263537510cc6bdee68c7538f5dc5c2a203463bd8ab73e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/sk.ts",
+      "bytes": 1694,
+      "sha256": "9a4072d2b729f8e62df3326ad80532ec3258c3c2b0ba21c8edebc72728b719cd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/sl.ts",
+      "bytes": 1683,
+      "sha256": "07c10adb97312a032052f373a843ebd2fb1936c91ae79a805830298f691873aa",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/sq.ts",
+      "bytes": 1680,
+      "sha256": "29be9178f3893002d7418cb13b93f9863e03f11f4f0e9bbc17bc876a00be30e5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/sr-Latn.ts",
+      "bytes": 1712,
+      "sha256": "85809b9bc44c72b7ab108a3cc657267697c06866a8b49872270ed1013d57458f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/sr.ts",
+      "bytes": 1810,
+      "sha256": "f7c2793e84fb9016347546fce5795335c3539f4fb656d6ca3eb60e9c306caab7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/sv.ts",
+      "bytes": 1666,
+      "sha256": "bbb1b80e16b688452c61a9f6265f6dcf3ba1625887172baf9d90b0d01ec33ffb",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ta.ts",
+      "bytes": 2021,
+      "sha256": "cd1127b846e5938d0c6222a7e25e61bbc6e6332a58d4f537b4c3c7b40ce3df1d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/te.ts",
+      "bytes": 1929,
+      "sha256": "43786084138f99db4c5a03164dc455b77152987ea4c07ef233cfc006da6bcf50",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/th.ts",
+      "bytes": 1830,
+      "sha256": "66ec30fa7c9303c9338f7b45e5ce39e3b8afd3f367dd2fa9d67867651c668127",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/tr.ts",
+      "bytes": 1660,
+      "sha256": "afcd6863e85ec1219725ba8fb84b2b34672b612b3b56ec95f07822cdede19bd1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/ug.ts",
+      "bytes": 1769,
+      "sha256": "4f139c3bb140408179b0b87db929ce482c16f57335579dc86c9d8e74323691fc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/uk.ts",
+      "bytes": 1827,
+      "sha256": "10d83a5471f3abb1b72ee1f472bac6b70ab05687468d86a6f7a5c5d865648df7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/uz-Cyrl.ts",
+      "bytes": 1799,
+      "sha256": "91dc854f14fa8348c55c3ebe5aa1be3c9544b26a06adccb2fe659ffe98dc7907",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/uz.ts",
+      "bytes": 1674,
+      "sha256": "930dcf79c16d1fb60b6f75eb31b35dffaa071db19623bab363d80cbb9dd5ec6e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/vi.ts",
+      "bytes": 1691,
+      "sha256": "6c58b24f114b1248b0539dae10ec3bacdf534ce93a3a974be1c5f7149ef32464",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/zh-CN.ts",
+      "bytes": 1675,
+      "sha256": "328f008592080026d65704de853db9b9f3801920b2332d6e5d60554836426837",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/zh-HK.ts",
+      "bytes": 1694,
+      "sha256": "33165117e077a60b59ee6ee365fc011c4d0f84f5ace01253ed34d651b32f89ca",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale/zh-TW.ts",
+      "bytes": 1691,
+      "sha256": "5a16053dfb50ac1f903704920daa75068bda67c55afcbfbf47f8e72841217b72",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "locale.test.ts",
+      "bytes": 680,
+      "sha256": "47de2c6e81164194493d3a2d1419f2814c53ccf544bf5a98ce7d56eaacdad47d",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "locale.ts",
+      "bytes": 3972,
+      "sha256": "12a24714b2fed3f51ca5369e89c204250bd5c7e7296fd9d7113769264279dc13",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "noonDateLib.ts",
+      "bytes": 6861,
+      "sha256": "4050a397486823d4bf065ebfc3044be9e4f200823a63282a8fc86339835720d3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "selection/useMulti.test.tsx",
+      "bytes": 1248,
+      "sha256": "280f922cdb0d3938390d482d59f025734eb5205a5cd934cffc6ed787663f9863",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "selection/useMulti.tsx",
+      "bytes": 2204,
+      "sha256": "f189b5b68bd599cfd7c3bb24d8a474d73c2b2ab71adb800066e2cb2e389f7d2e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "selection/useRange.test.tsx",
+      "bytes": 6635,
+      "sha256": "8e45d99a87b294d0f70efb8ab54fb0aa49759c1f7623db71a0d7331372e48d1c",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "selection/useRange.tsx",
+      "bytes": 2909,
+      "sha256": "1f6dc4edd839dd8b0715eb0088bada36ccc0596c670140dd491a9449ce1ef7a5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "selection/useSingle.test.tsx",
+      "bytes": 1150,
+      "sha256": "c9e1a6bee10d43543df4f5a2ef1aef0cacc94079f555152298dd684405616e0a",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "selection/useSingle.tsx",
+      "bytes": 2030,
+      "sha256": "53df5db8993e9a53d29fc048e6ff9e0f2cfce164e558dabb98f91f67cd3eec81",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "style.css",
+      "bytes": 11314,
+      "sha256": "996ebdae962c70f68f1f8dfec7651485f4a5b0faff0814f344da5036a5837a98",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "style.css.d.ts",
+      "bytes": 54,
+      "sha256": "03b5130fd610046446b78316ed9f18272ada2d3a6447d3fc1a79dabebcbf5949",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "style.module.css",
+      "bytes": 10998,
+      "sha256": "94228290a07992dd7fe341ffab4a2ca3dd17bd63815e2c7ded631bfc743d67df",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "style.module.css.d.ts",
+      "bytes": 569,
+      "sha256": "dc5028fb83144b1d4ba79e6121eb185b7e90a1879605ffa8e2023fb6117afec6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "types/index.ts",
+      "bytes": 89,
+      "sha256": "39b0100e0364156b2afe416027646d7b1d93292996f4e6348fd8adaaf6cffed0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "types/props.test.tsx",
+      "bytes": 7564,
+      "sha256": "85bef15a918e3a431304a9367150715829481554ab01b5b3d52b99640bbcde07",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "types/props.ts",
+      "bytes": 20647,
+      "sha256": "566bc074dcf49de375b566b671b2496edf23c6f513be8bf3329d87c5a2b80dd9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "types/selection.ts",
+      "bytes": 3266,
+      "sha256": "6a0c8858acbc76ac45fa60c8bfa84e1f82578155a56047f2ccbffe3d585f718e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "types/shared.ts",
+      "bytes": 10661,
+      "sha256": "a53132434d3128760b0aa40909c2b11091a3c663559bbff57920aed06832843d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "UI.ts",
+      "bytes": 4278,
+      "sha256": "27d87eaab0ff784c4403234da9eeedbbb835b66884ff8d63cfa9d504b9922df0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "useAnimation.test.tsx",
+      "bytes": 11849,
+      "sha256": "4f927f3336fcff1158e8272433b717e8118d7306bad3ba99a4ecc0c30c47541d",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "useAnimation.ts",
+      "bytes": 8431,
+      "sha256": "d897909f91ed1809e3ec720b35ded34654f2cd4980e6736cbe9d634026720847",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "useCalendar.ts",
+      "bytes": 6100,
+      "sha256": "c78e44e999ad0cf85bd504c23c49a58ee5d71a32aaf2a561e84d692879ff4ad9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "useDayPicker.test.tsx",
+      "bytes": 6301,
+      "sha256": "f346e6ae3da537697feebd0f101721ccfaa7584fff5219345f43c35f5eb4641f",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "useDayPicker.ts",
+      "bytes": 3048,
+      "sha256": "f07d847aa0ccf1885837200f3c19a7de75f496f876e164a6594dfeef7b0d804f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "useFocus.ts",
+      "bytes": 3266,
+      "sha256": "ec4d105f255dd775d30c49a09f231f461a098d5c0439d38763550945722a8a66",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "useSelection.ts",
+      "bytes": 1134,
+      "sha256": "dba5b2261f5af3f6545a3000f3e9d73efc1a18ffb95b4489cfa32d7d94b63b82",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "utc.tsx",
+      "bytes": 519,
+      "sha256": "c2a50c88f4e1a2216cbfeb22e3acd2c08e47535eab42ea5a79ede01f0fea9462",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "utils/addToRange.test.ts",
+      "bytes": 5146,
+      "sha256": "a4ad3a040783f39ad30a37977e79ebe8361e08bd8da75f473552de9c5e044193",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "utils/addToRange.ts",
+      "bytes": 3083,
+      "sha256": "e296a0fec3649a2bb3894c463b51437772c18d754ca2cc1a3a646eec55c51fe3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "utils/convertMatchersToTimeZone.test.ts",
+      "bytes": 4739,
+      "sha256": "861a7bdc0a260c374de574675288fd87350b6b6ccdbfa4316e4428906231ba56",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "utils/convertMatchersToTimeZone.ts",
+      "bytes": 2355,
+      "sha256": "7013b99488324d9d842923e7a2c5116ddef55f66f410f84cc1472eca5b6813d6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "utils/dateMatchModifiers.test.ts",
+      "bytes": 3470,
+      "sha256": "67095a0ccca9e09cffe4ca49b75338df191e17ee7b29a6c64824fec8a72c0dee",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "utils/dateMatchModifiers.ts",
+      "bytes": 2347,
+      "sha256": "4ca07496404c7f8c7fe44f89273ec8bcf71b4fbdd990428e08e525e1f77c50e0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "utils/index.ts",
+      "bytes": 273,
+      "sha256": "7270a757071e3bc7b5e7a6175f1ac9a4ddf4de09f3664d80cb8805138f7d365b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "utils/rangeContainsDayOfWeek.test.ts",
+      "bytes": 1754,
+      "sha256": "23d89026afd8fc5640efc1afedbf88c9ee1265a6cb3ea76d420de1ac8a0ae17f",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "utils/rangeContainsDayOfWeek.ts",
+      "bytes": 1125,
+      "sha256": "ce2259c9a7390425a7d2d311caf9750bf6bc7338f8a5863dad4d1883b290637a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "utils/rangeContainsModifiers.test.ts",
+      "bytes": 9413,
+      "sha256": "435a976248060824dcdd7c3617860f3a231926ef6f7f133458c1d4937da62f15",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "utils/rangeContainsModifiers.ts",
+      "bytes": 3237,
+      "sha256": "eb80ee311470cbbc99337777692c0aa9c8f44ca6e3370dc94b7c3b55e56347e2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "utils/rangeIncludesDate.test.ts",
+      "bytes": 1364,
+      "sha256": "7c0842b9bec8cc50e7c00161408e944e80b05c7c5bf067b3fa5785b6a710f35f",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "utils/rangeIncludesDate.ts",
+      "bytes": 1216,
+      "sha256": "c283ec1735f53178a7d2c7ebcf86ff1f428fe26e7f898525cff70e27626300da",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "utils/rangeOverlaps.test.ts",
+      "bytes": 2283,
+      "sha256": "7e1f3919e11b339003bb8ab126d23c01a37be25fbc8be557c5a8df52d2648636",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "utils/rangeOverlaps.ts",
+      "bytes": 849,
+      "sha256": "9787add4902136aabb951f3a9fc1c9a37ba2a649a0804ba0f3e0916e21cdce12",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "utils/toTimeZone.test.ts",
+      "bytes": 1708,
+      "sha256": "593d6c520c5d952ebcdf16fb2ca610e1cd30714f7481b48ed30da97f50e292d4",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "utils/toTimeZone.ts",
+      "bytes": 436,
+      "sha256": "92153e17fe571d9e4db47417f85764b44160bd3513b00571bb09d88437fe4efc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "utils/typeguards.test.ts",
+      "bytes": 2707,
+      "sha256": "d5cb681fab06589d043d182a1468a45fc923122cd0082b5fd37b83d20187a3ea",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "utils/typeguards.ts",
+      "bytes": 2395,
+      "sha256": "11774a9b41c04d2d545d911e41e69bcbc1bb56d9805fdef2a663b3b0632f8317",
+      "category": "source-or-helper"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution"
+}

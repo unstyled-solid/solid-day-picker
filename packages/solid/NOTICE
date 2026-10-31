@@ -1,0 +1,5 @@
+This package contains a Solid 2 adaptation of React DayPicker 10.0.2 by
+Giampaolo Bellavite and contributors, licensed under the MIT License.
+Source commit: 1bfd4f0776d66f2242b6b32a1f084ab94e2702da.
+The original LICENSE is included. Framework-neutral date algorithms and CSS
+are retained; the React component/hook mechanics have been adapted to Solid.

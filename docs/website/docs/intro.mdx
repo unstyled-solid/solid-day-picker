@@ -1,0 +1,65 @@
+---
+title: Date Picker Component for Solid 2
+sidebar_label: Introduction
+sidebar_position: 1
+slug: /
+---
+
+# Solid DayPicker
+
+DayPicker creates date pickers, calendars, and date inputs for Solid 2 apps.
+It is based on [React DayPicker](https://github.com/gpbl/react-day-picker) 10.0.2
+by Giampaolo Bellavite and its contributors.
+
+This experimental port targets **Solid 2.0.0-rc.13**. Pin both `solid-js` and
+`@solidjs/web` to that version. Solid 1 is not supported.
+
+## Features
+
+- [Single, multiple, and range selections](./selections/selection-modes.mdx), plus [custom selections](./guides/custom-selections.mdx).
+- [CSS styling](./docs/styling.mdx), [custom components](./guides/custom-components.mdx), and configurable [layouts](./docs/appearance.mdx).
+- [Localization](./localization/changing-locale.mdx), [time zones](./localization/setting-time-zone.mdx), and alternative calendar systems.
+- Keyboard navigation and [screen-reader labels](./guides/accessibility.mdx).
+- Integration with [input fields](./guides/input-fields.mdx).
+
+Written in TypeScript, with separate browser and server ESM builds. Date
+manipulation and formatting use [date-fns](https://date-fns.org).
+
+## Example
+
+```tsx
+import { createSignal } from "solid-js";
+import { DayPicker } from "@solid-unstyled/daypicker";
+import "@solid-unstyled/daypicker/style.css";
+
+export function Calendar() {
+  const [selected, setSelected] = createSignal<Date | undefined>(undefined);
+  return (
+    <DayPicker
+      mode="single"
+      selected={selected()}
+      onSelect={setSelected}
+      footer={selected()?.toLocaleDateString() ?? "Pick a day."}
+    />
+  );
+}
+```
+
+<BrowserWindow sourceUrl="https://github.com/unstyled-solid/daypicker/blob/main/docs/examples/Start.tsx">
+  <Examples.Start />
+</BrowserWindow>
+
+[Get started](./start.mdx), explore the [examples](/examples), or try the
+[playground](/playground).
+
+## Support and contributions
+
+Use [project issues](https://github.com/unstyled-solid/daypicker/issues) for
+questions, bugs, and feature requests. [Contributions](./development/contributing.md)
+are welcome.
+
+## License and attribution
+
+[MIT](./license.mdx). Source, examples, styles, and documentation are adapted
+from React DayPicker; original notices are retained. The site theme includes
+MIT-licensed Docusaurus adaptations.
