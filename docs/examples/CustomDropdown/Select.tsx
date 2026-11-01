@@ -1,23 +1,20 @@
 import { Chevron } from "@solid-unstyled/daypicker";
 import * as SelectPrimitive from "./SelectPrimitive";
-import type { Component } from 'solid-js';
+import {omit,type Component} from 'solid-js';
 const Select = SelectPrimitive.Root;
 
 const SelectGroup = SelectPrimitive.Group;
 
 const SelectValue = SelectPrimitive.Value;
 
-const SelectTrigger = ({
-  children,
-  ...props
-}: SelectPrimitive.SelectTriggerProps) => (
+const SelectTrigger = (props: SelectPrimitive.SelectTriggerProps) => (
   <SelectPrimitive.Trigger
     class={
       "flex h-7 w-full items-center justify-between whitespace-nowrap rounded-md border border-current bg-transparent px-3 py-2 text-sm color-current"
     }
-    {...props}
+    {...omit(props,'children')}
   >
-    {children}
+    {props.children}
     <SelectPrimitive.Icon asChild>
       <Chevron class="h-4 w-4 fill-current" orientation="down" />
     </SelectPrimitive.Icon>
@@ -48,42 +45,34 @@ type SelectContentProps = SelectPrimitive.SelectContentProps & {
   container?: SelectPrimitive.SelectPortalProps["container"];
 };
 
-const SelectContent: Component<SelectContentProps> = ({
-  children,
-  position = "popper",
-  container,
-  ...props
-}) => (
-  <SelectPrimitive.Portal container={container}>
+const SelectContent: Component<SelectContentProps> = (props) => (
+  <SelectPrimitive.Portal container={props.container}>
     <SelectPrimitive.Content
       class={
-        position === "popper"
+        (props.position??'popper') === "popper"
           ? "relative z-50 max-h-96 min-w-[8rem] overflow-hidden rounded-md border bg-popover shadow-md translate-y-1"
           : "relative z-50 max-h-96 min-w-[8rem] overflow-hidden rounded-md border bg-popover shadow-md translate-y-1"
       }
-      position={position}
-      {...props}
+      position={props.position??'popper'}
+      {...omit(props,'children','position','container')}
     >
       <SelectScrollUpButton />
       <SelectPrimitive.Viewport
-        class={position === "popper" ? "p-1 " : "p-1"}
+        class={(props.position??'popper') === "popper" ? "p-1 " : "p-1"}
       >
-        {children}
+        {props.children}
       </SelectPrimitive.Viewport>
       <SelectScrollDownButton />
     </SelectPrimitive.Content>
   </SelectPrimitive.Portal>
 );
 
-const SelectItem = ({
-  children,
-  ...props
-}: SelectPrimitive.SelectItemProps) => (
+const SelectItem = (props: SelectPrimitive.SelectItemProps) => (
   <SelectPrimitive.Item
     class="relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-2 pr-8 text-sm outline-none focus:bg-accent focus:text-accent-foreground color-current"
-    {...props}
+    {...omit(props,'children')}
   >
-    <SelectPrimitive.ItemText>{children}</SelectPrimitive.ItemText>
+    <SelectPrimitive.ItemText>{props.children}</SelectPrimitive.ItemText>
   </SelectPrimitive.Item>
 );
 

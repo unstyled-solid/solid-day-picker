@@ -10,13 +10,13 @@ composition. Maintained independently by [Unstyled Solid](https://github.com/uns
 
 ---
 
-This is an experimental port targeting **Solid 2.0.0-rc.13**. Both `solid-js` and
+This is an experimental port targeting **Solid 2.0.0-rc.20**. Both `solid-js` and
 `@solidjs/web` must use that version; Solid 1 is not supported.
 
 ## Installation
 
 ```sh
-npm install @solid-unstyled/daypicker solid-js@2.0.0-rc.13 @solidjs/web@2.0.0-rc.13
+npm install @solid-unstyled/daypicker solid-js@2.0.0-rc.20 @solidjs/web@2.0.0-rc.20
 ```
 
 Use a Solid 2 application with JSX configured for `@solidjs/web`.

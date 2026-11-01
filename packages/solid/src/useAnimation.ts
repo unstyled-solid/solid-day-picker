@@ -1,4 +1,4 @@
-import { createEffect, onCleanup, type Accessor } from "solid-js";
+import { createEffect, onCleanup, untrack, type Accessor } from "solid-js";
 import type { CalendarDay } from "./classes/CalendarDay.js";
 import type { CalendarMonth } from "./classes/CalendarMonth.js";
 import type { DateLib } from "./classes/DateLib.js";
@@ -46,7 +46,7 @@ export function useAnimation(
   },
 ): void {
   const previousRootElSnapshotRef: { current: HTMLElement | null } = { current: null };
-  const previousMonthsRef = { current: options.months };
+  const previousMonthsRef = { current: untrack(() => options.months) };
   const animatingRef = { current: false };
   const cleanUpFunctions = new Set<() => void>();
   onCleanup(() => cleanUpFunctions.forEach(cleanUp => cleanUp()));

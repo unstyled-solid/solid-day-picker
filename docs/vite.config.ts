@@ -32,7 +32,7 @@ export default defineConfig({
     if(id.endsWith('.md'))return {code:`import {HTMLContent} from '/docs/site/mdx';export default props=>HTMLContent({html:${JSON.stringify(await markdownHtml(code,id))}});`,map:null};
   }},mdx({include:/\.mdx$/,jsx:true,jsxImportSource:'@solidjs/web',providerImportSource:'/docs/site/mdx',remarkPlugins:[remarkGfm,remarkDirective,remarkNativeDocs]}),
   {name:'native-mdx-jsx',enforce:'post',transform(code,id,options){if(id.endsWith('.mdx'))return compileJSX(code,id+'.tsx',options?.ssr?'ssr':'dom');}},
-  solid({compiler:'babel',ssr:true,hot:false})],
+  solid({compiler:'babel',ssr:true,refresh:false})],
   resolve:{alias:{'@/test':fileURLToPath(new URL('../test',import.meta.url))}},
   // Copied site CSS targets prefixes such as div[class^="admonitionHeading"].
   css:{modules:{generateScopedName:'[local]_[hash:base64:5]'}},

@@ -43,10 +43,10 @@ describe("hijri format", () => {
     const originalDateTimeFormat = Intl.DateTimeFormat;
 
     beforeEach(() => {
-      vi.spyOn(Intl, "DateTimeFormat").mockImplementation(((
+      vi.spyOn(Intl, "DateTimeFormat").mockImplementation((function (
         locales,
         options,
-      ) => {
+      ) {
         if (options?.calendar === "islamic-umalqura") {
           throw new RangeError("Unsupported calendar");
         }
