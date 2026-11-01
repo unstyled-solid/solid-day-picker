@@ -1,5 +1,5 @@
 
-import { createMemo, createSignal } from "solid-js";
+import { createMemo, createSignal, untrack } from "solid-js";
 import type { CalendarDay, DateLib } from "./classes/index.js";
 import { calculateFocusTarget } from "./helpers/calculateFocusTarget.js";
 import { getNextFocus } from "./helpers/getNextFocus.js";
@@ -60,7 +60,8 @@ export function useFocus<T extends DayPickerProps>(
     lastFocused(),
   ));
   const [requestedFocus, setFocused] = createSignal<CalendarDay | undefined>(
-    localProps.autoFocus ? focusTarget() : undefined,
+    // autoFocus requests focus once at mount; subsequent focus is event-owned.
+    untrack(() => localProps.autoFocus ? focusTarget() : undefined),
   );
 
   const focusedDay = () => {

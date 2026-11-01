@@ -10,6 +10,7 @@ import type {
   Selection,
 } from "../types/index.js";
 import { live } from "../live.js";
+import { untrack } from "solid-js";
 
 export type UseSingle<T extends DayPickerProps> = {
   select: SelectHandler<T>;
@@ -33,7 +34,7 @@ export function useSingle<T extends DayPickerProps>(
   const localProps = props as PropsSingle;
 
   const [internallySelected, setSelected] = useControlledValue(
-    localProps.selected,
+    untrack(() => localProps.selected),
     () => localProps.onSelect ? localProps.selected : undefined,
   );
 

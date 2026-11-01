@@ -10,6 +10,7 @@ import type {
 import { addToRange, rangeContainsModifiers } from "../utils/index.js";
 import { rangeIncludesDate } from "../utils/rangeIncludesDate.js";
 import { live } from "../live.js";
+import { untrack } from "solid-js";
 
 /**
  * Hook to manage range selection in the DayPicker component.
@@ -27,7 +28,7 @@ export function useRange<T extends DayPickerProps>(
   const localProps = props as PropsRange;
 
   const [internallySelected, setSelected] = useControlledValue(
-    localProps.selected,
+    untrack(() => localProps.selected),
     () => localProps.onSelect ? localProps.selected : undefined,
   );
 

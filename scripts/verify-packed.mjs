@@ -21,9 +21,9 @@ const tarball = path.join(work, `solid-unstyled-daypicker-${sha256}.tgz`);
 await fs.rename(packedFile, tarball);
 await fs.writeFile(path.join(work, 'package.json'), JSON.stringify({
   name: 'daypicker-independent-consumer', private: true, type: 'module',
-  dependencies: { '@solid-unstyled/daypicker': `file:${tarball}`, 'solid-js': '2.0.0-rc.13', '@solidjs/web': '2.0.0-rc.13' },
-  devDependencies: { vite: '8.3.2', '@solidjs/vite-plugin': '3.0.0-next.47', '@babel/core': '7.29.7', typescript: '5.9.3' },
-  overrides: { 'solid-js': '2.0.0-rc.13', '@solidjs/web': '2.0.0-rc.13', '@solidjs/signals': '2.0.0-rc.13', '@solidjs/compiler': '2.0.0-rc.13' },
+  dependencies: { '@solid-unstyled/daypicker': `file:${tarball}`, 'solid-js': '2.0.0-rc.20', '@solidjs/web': '2.0.0-rc.20' },
+  devDependencies: { vite: '8.3.2', '@solidjs/vite-plugin': '3.0.0-next.54', '@babel/core': '7.29.7', typescript: '5.9.3' },
+  overrides: { 'solid-js': '2.0.0-rc.20', '@solidjs/web': '2.0.0-rc.20', '@solidjs/signals': '2.0.0-rc.20', '@solidjs/compiler': '2.0.0-rc.20' },
 }, null, 2));
 console.log(`Installing exact tarball into independent stock-peer consumer: ${work}`);
   command('npm', ['install', '--no-audit', '--no-fund']);
@@ -66,7 +66,7 @@ command('npm',['exec','--','vite','build','--config','vite-unused.config.mjs']);
 const shakeModules=JSON.parse(await fs.readFile(path.join(work,'shake-modules.json'),'utf8'));
 assert.equal(shakeModules.filter(name=>name.includes('/node_modules/@solid-unstyled/daypicker/')).length,0,'Unused import retained library runtime');
 await fs.writeFile(path.join(work, 'vite.config.mjs'), `import {defineConfig} from 'vite'; import solid from '@solidjs/vite-plugin';
-export default defineConfig({plugins:[solid({compiler:'babel',ssr:true,hot:false})]});`);
+export default defineConfig({plugins:[solid({compiler:'babel',ssr:true,refresh:false})]});`);
 await fs.writeFile(path.join(work, 'index.html'), `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DayPicker stock consumer</title></head><body>
 <!--BOOTSTRAP--><div id="one"><!--ONE--></div><div id="two"><!--TWO--></div>
 <script>window.before={roots:[...document.querySelectorAll('.rdp-root')],buttons:[...document.querySelectorAll('.rdp-day_button')]};</script>

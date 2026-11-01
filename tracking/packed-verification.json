@@ -1,8 +1,8 @@
 {
-  "work": "/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/daypicker-packed-juqlgl",
-  "tarball": "/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/daypicker-packed-juqlgl/solid-unstyled-daypicker-b16e6fe1a968e0bb899d3377796498760c182f5ff15240bcd82a85c5db79e027.tgz",
-  "sha256": "b16e6fe1a968e0bb899d3377796498760c182f5ff15240bcd82a85c5db79e027",
-  "integrity": "sha512-5EMgwO0nSf4Rz7yqlvdCPXWR9avNTTS4Dyu2SYaPeRsB/MA1oCaa1wrH4QdCPHbxMY/ixoUgYbyKjficKiEQLA==",
+  "work": "/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/daypicker-packed-e0e9eV",
+  "tarball": "/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/daypicker-packed-e0e9eV/solid-unstyled-daypicker-69b670e445b91f1eb1e885924267282f9648d9fe5390c138c7359ceb1d7a68c9.tgz",
+  "sha256": "69b670e445b91f1eb1e885924267282f9648d9fe5390c138c7359ceb1d7a68c9",
+  "integrity": "sha512-fMfezXc6dpXGMvbBhWXbRyt4TzNxs/0EuKWarEANFxg/C4a2anUjf9mAYpIbkSIuh78GuH3C0ff0FGUbYg61Jg==",
   "identity": {
     "roots": true,
     "buttons": true

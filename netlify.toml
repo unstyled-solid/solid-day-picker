@@ -1,9 +1,12 @@
 [build]
-  command = "pnpm docs:build"
+  base = "."
+  command = "pnpm docs:build && pnpm docs:check"
   publish = "docs/generated/site"
 
 [build.environment]
-  NODE_VERSION = "22"
+  NODE_VERSION = "24.22.2"
+  PNPM_VERSION = "11.8.0"
+  PNPM_FLAGS = "--frozen-lockfile"
 
 # Keep extensionless documentation routes backed by their generated HTML files.
 # No SPA fallback: missing routes should remain 404s.

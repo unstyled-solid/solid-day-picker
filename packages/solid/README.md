@@ -1,12 +1,12 @@
 # Solid DayPicker
 
 Date pickers and calendars for Solid 2, based on React DayPicker 10.0.2.
-An experimental port targeting **Solid 2.0.0-rc.13**; Solid 1 is not supported.
+An experimental port targeting **Solid 2.0.0-rc.20**; Solid 1 is not supported.
 
 ## Installation
 
 ```sh
-npm install @solid-unstyled/daypicker solid-js@2.0.0-rc.13 @solidjs/web@2.0.0-rc.13
+npm install @solid-unstyled/daypicker solid-js@2.0.0-rc.20 @solidjs/web@2.0.0-rc.20
 ```
 
 Configure your Solid 2 app's JSX for `@solidjs/web`. State comes from `solid-js`;

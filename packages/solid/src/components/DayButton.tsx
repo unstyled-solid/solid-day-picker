@@ -1,6 +1,6 @@
 import { htmlProps } from '../helpers/htmlProps.js';
 import type { JSX } from "@solidjs/web";
-import { createEffect } from "solid-js";
+import { createEffect, untrack } from "solid-js";
 
 import type { CalendarDay } from "../classes/index.js";
 import type { Modifiers } from "../types/index.js";
@@ -31,7 +31,8 @@ export function DayButton(
   });
   return <button {...htmlProps(buttonProps)} ref={(node) => {
     element = node;
-    deliverRef(props.ref, node);
+    // Deliver the ref present when this native host mounts, exactly once.
+    deliverRef(untrack(() => props.ref), node);
   }} />;
 }
 

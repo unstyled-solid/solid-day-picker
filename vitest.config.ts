@@ -3,7 +3,7 @@ import solid from "@solidjs/vite-plugin";
 import { fileURLToPath } from "node:url";
 
 export default defineConfig({
-  plugins: [solid({ compiler: "babel", hot: false })],
+  plugins: [solid({ compiler: "babel", refresh: false })],
   resolve: { conditions: ["browser", "development"], alias: { "@/test": fileURLToPath(new URL("./test", import.meta.url)) } },
   test: {
     environment: "jsdom",

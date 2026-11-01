@@ -8,6 +8,7 @@ import type {
   Selection,
 } from "../types/index.js";
 import { live } from "../live.js";
+import { untrack } from "solid-js";
 
 /**
  * Hook to manage multiple-date selection in the DayPicker component.
@@ -25,7 +26,7 @@ export function useMulti<T extends DayPickerProps>(
   const localProps = props as PropsMulti;
 
   const [internallySelected, setSelected] = useControlledValue(
-    localProps.selected,
+    untrack(() => localProps.selected),
     () => localProps.onSelect ? localProps.selected : undefined,
   );
 

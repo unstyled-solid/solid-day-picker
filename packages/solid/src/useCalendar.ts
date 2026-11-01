@@ -16,7 +16,7 @@ import { getPreviousMonth } from "./helpers/getPreviousMonth.js";
 import { getWeeks } from "./helpers/getWeeks.js";
 import { useControlledValue } from "./helpers/useControlledValue.js";
 import type { DayPickerProps } from "./types/props.js";
-import { createMemo, createEffect } from "solid-js";
+import { createMemo, createEffect, untrack } from "solid-js";
 import { live } from "./live.js";
 
 /**
@@ -96,7 +96,8 @@ export function useCalendar(
   const navBounds = createMemo(() => getNavMonths(props, dateLib));
 
   const dateMethods = dateLib;
-  const initialMonth = getInitialMonth(props, navBounds()[0], navBounds()[1], dateLib);
+  // Uncontrolled month is a mount-time default, not a live derivation.
+  const initialMonth = untrack(() => getInitialMonth(props, navBounds()[0], navBounds()[1], dateLib));
   const [firstMonth, setFirstMonth] = useControlledValue(
     initialMonth,
     // initialMonth is always computed from props.month if provided
@@ -105,7 +106,9 @@ export function useCalendar(
 
   // biome-ignore lint/correctness/useExhaustiveDependencies: change the initial month when the time zone changes.
   createEffect(() => props.timeZone, () => {
-    setFirstMonth(getInitialMonth(props, navBounds()[0], navBounds()[1], dateLib));
+    // Only a time-zone change resets the month; sample other inputs at that event.
+    const month = untrack(() => getInitialMonth(props, navBounds()[0], navBounds()[1], dateLib));
+    setFirstMonth(month);
   });
 
   const display = live(createMemo(() => {

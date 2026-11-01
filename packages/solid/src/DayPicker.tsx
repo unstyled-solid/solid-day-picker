@@ -563,10 +563,10 @@ export function DayPicker(initialProps: DayPickerProps) {
                         </Components.WeekNumberHeader>
                       )}
                       {<For each={weekdays()} keyed={(date) => date.getTime()}>{(item) => {
-                        const weekday = item(); return (
+                        const weekday = item; return (
                           <Components.Weekday
                             aria-label={derived1.labelWeekday(
-                              weekday,
+                              weekday(),
                               config.dateLib.options,
                               config.dateLib,
                             )}
@@ -574,7 +574,7 @@ export function DayPicker(initialProps: DayPickerProps) {
                             style={localProps.styles?.[UI.Weekday]}
                             scope="col"
                           >
-                            {derived3.formatWeekdayName(weekday, config.dateLib.options, config.dateLib)}
+                            {derived3.formatWeekdayName(weekday(), config.dateLib.options, config.dateLib)}
                           </Components.Weekday>
                         );
                       }}</For>}
